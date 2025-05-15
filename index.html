@@ -13,14 +13,15 @@
     <p class="text-sm">Prompts prontos para copiar e usar com IA</p>
   </header>
 
-  <nav class="flex justify-center gap-4 bg-white py-2 shadow">
+  <nav class="flex flex-wrap justify-center gap-2 sm:gap-4 bg-white py-2 shadow text-sm sm:text-base">
     <button class="categoria text-blue-600 font-semibold" onclick="filtrarCategoria('negocios')">Negócios</button>
     <button class="categoria text-blue-600 font-semibold" onclick="filtrarCategoria('marketing')">Marketing</button>
     <button class="categoria text-blue-600 font-semibold" onclick="filtrarCategoria('escrita')">Escrita</button>
     <button class="categoria text-blue-600 font-semibold" onclick="filtrarCategoria('roteiros')">Roteiros</button>
+    <button class="categoria text-blue-600 font-semibold" onclick="filtrarCategoria('design')">Design</button>
   </nav>
 
-  <main id="conteudo" class="p-4 max-w-3xl mx-auto">
+  <main id="conteudo" class="px-4 sm:px-6 md:px-8 py-4 max-w-3xl mx-auto">
     <!-- Cards de prompts aparecerão aqui -->
   </main>
 
@@ -45,8 +46,32 @@
           prompt: "Gere 3 e-mails para promover um curso de marketing digital."
         }
       ],
-      escrita: [],
-      roteiros: []
+      escrita: [
+        {
+          titulo: "Narrativa de fantasia",
+          descricao: "Crie o início de uma história épica de fantasia.",
+          prompt: "Escreva a introdução de uma história onde dragões protegem os últimos humanos da Terra."
+        }
+      ],
+      roteiros: [
+        {
+          titulo: "Cena de suspense",
+          descricao: "Construa uma cena tensa de suspense psicológico.",
+          prompt: "Escreva uma cena onde alguém percebe que está sendo observado, mas não consegue provar."
+        }
+      ],
+      design: [
+        {
+          titulo: "Criação de Logo",
+          descricao: "Ideias visuais para logotipo de marca.",
+          prompt: "Sugira ideias criativas de logotipo para uma empresa de educação online."
+        },
+        {
+          titulo: "Paleta de Cores",
+          descricao: "Sugestão de esquema de cores para identidade visual.",
+          prompt: "Gere uma paleta de cores para uma marca moderna de skincare."
+        }
+      ]
     };
 
     function copiarPrompt(texto) {
@@ -59,12 +84,12 @@
 
       prompts[categoria].forEach(item => {
         const card = document.createElement('div');
-        card.className = "bg-white p-4 rounded-xl shadow mb-4";
+        card.className = "bg-white p-4 rounded-xl shadow mb-4 text-sm sm:text-base";
 
         card.innerHTML = `
           <h3 class="text-lg font-bold">${item.titulo}</h3>
           <p class="text-sm text-gray-600 mb-2">${item.descricao}</p>
-          <pre class="bg-gray-100 p-2 text-sm rounded">${item.prompt}</pre>
+          <pre class="bg-gray-100 p-2 text-sm rounded overflow-x-auto">${item.prompt}</pre>
           <button class="mt-2 bg-blue-500 text-white px-4 py-1 rounded hover:bg-blue-600" onclick="copiarPrompt(\`${item.prompt}\`)">Copiar</button>
         `;
 
@@ -72,8 +97,9 @@
       });
     }
 
-    // Carrega categoria padrão
+    // Categoria padrão ao carregar
     filtrarCategoria('negocios');
   </script>
+
 </body>
 </html>
