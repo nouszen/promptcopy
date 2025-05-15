@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prompt Hub</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <header class="bg-blue-600 text-white p-4 text-center">
+    <h1 class="text-2xl font-bold">Prompt Hub</h1>
+    <p class="text-sm">Prompts prontos para copiar e usar com IA</p>
+  </header>
+
+  <nav class="flex justify-center gap-4 bg-white py-2 shadow">
+    <button class="categoria text-blue-600 font-semibold" onclick="filtrarCategoria('negocios')">Negócios</button>
+    <button class="categoria text-blue-600 font-semibold" onclick="filtrarCategoria('marketing')">Marketing</button>
+    <button class="categoria text-blue-600 font-semibold" onclick="filtrarCategoria('escrita')">Escrita</button>
+    <button class="categoria text-blue-600 font-semibold" onclick="filtrarCategoria('roteiros')">Roteiros</button>
+  </nav>
+
+  <main id="conteudo" class="p-4 max-w-3xl mx-auto">
+    <!-- Cards de prompts aparecerão aqui -->
+  </main>
+
+  <script>
+    const prompts = {
+      negocios: [
+        {
+          titulo: "Análise SWOT",
+          descricao: "Obtenha um resumo SWOT com base em informações da sua empresa.",
+          prompt: "Crie uma análise SWOT para uma empresa no setor de tecnologia focada em soluções SaaS."
+        },
+        {
+          titulo: "Plano de Negócios",
+          descricao: "Estruturação de um plano de negócios inicial.",
+          prompt: "Me ajude a criar um plano de negócios para um app de produtividade com IA."
+        }
+      ],
+      marketing: [
+        {
+          titulo: "Campanha de e-mail",
+          descricao: "Crie uma sequência de e-mails persuasivos para vendas.",
+          prompt: "Gere 3 e-mails para promover um curso de marketing digital."
+        }
+      ],
+      escrita: [],
+      roteiros: []
+    };
+
+    function copiarPrompt(texto) {
+      navigator.clipboard.writeText(texto).then(() => alert('Prompt copiado!'));
+    }
+
+    function filtrarCategoria(categoria) {
+      const conteudo = document.getElementById('conteudo');
+      conteudo.innerHTML = '';
+
+      prompts[categoria].forEach(item => {
+        const card = document.createElement('div');
+        card.className = "bg-white p-4 rounded-xl shadow mb-4";
+
+        card.innerHTML = `
+          <h3 class="text-lg font-bold">${item.titulo}</h3>
+          <p class="text-sm text-gray-600 mb-2">${item.descricao}</p>
+          <pre class="bg-gray-100 p-2 text-sm rounded">${item.prompt}</pre>
+          <button class="mt-2 bg-blue-500 text-white px-4 py-1 rounded hover:bg-blue-600" onclick="copiarPrompt(\`${item.prompt}\`)">Copiar</button>
+        `;
+
+        conteudo.appendChild(card);
+      });
+    }
+
+    // Carrega categoria padrão
+    filtrarCategoria('negocios');
+  </script>
+</body>
+</html>
