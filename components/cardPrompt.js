@@ -1,16 +1,87 @@
-export function criarCard(item, copiarPrompt) {
+export function criarCard(prompt, copiarCallback) {
   const card = document.createElement('div');
-  card.className = "bg-white p-4 rounded-xl shadow mb-4 text-sm sm:text-base";
-
+  card.className = 'bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition duration-300';
+  
   card.innerHTML = `
-    <h3 class="text-lg font-bold">${item.titulo}</h3>
-    <p class="text-sm text-gray-600 mb-2">${item.descricao}</p>
-    <pre class="bg-gray-100 p-2 text-sm rounded overflow-x-auto">${item.prompt}</pre>
-    <button class="mt-2 bg-blue-500 text-white px-4 py-1 rounded hover:bg-blue-600">Copiar</button>
+    <div class="p-5">
+      <div class="flex justify-between items-start">
+        <div>
+          <span class="inline-block px-2 py-1 text-xs font-semibold rounded-full 
+                      ${getCategoryColor(prompt.categoria)} mb-2">
+            ${formatCategory(prompt.categoria)}
+          </span>
+          <h3 class="text-xl font-bold text-gray-800 mb-2">${prompt.titulo}</h3>
+        </div>
+        <button class="favorite-btn p-2 text-gray-400 hover:text-yellow-500 transition"
+                data-id="${prompt.id}">
+          <i class="${prompt.favorito ? 'fas' : 'far'} fa-star"></i>
+        </button>
+      </div>
+      
+      <p class="text-gray-600 mb-4">${prompt.descricao}</p>
+      
+      <div class="bg-gray-50 p-4 rounded mb-4">
+        <pre class="text-sm text-gray-700 whitespace-pre-wrap">${prompt.texto}</pre>
+      </div>
+      
+      <div class="flex justify-between items-center">
+        <button class="copy-btn bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded transition">
+          <i class="fas fa-copy mr-2"></i>Copiar Prompt
+        </button>
+        <span class="text-xs text-gray-500">ID: ${prompt.id}</span>
+      </div>
+    </div>
   `;
 
-  const botao = card.querySelector('button');
-  botao.addEventListener('click', () => copiarPrompt(item.prompt, botao));
+  // Configura funcionalidade de cópia
+  configurarBotaoCopiar(card, prompt, copiarCallback);
+  
+  // Configura funcionalidade de favorito
+  configurarBotaoFavorito(card, prompt);
 
   return card;
+}
+
+function configurarBotaoCopiar(card, prompt, callback) {
+  const copyBtn = card.querySelector('.copy-btn');
+  copyBtn.addEventListener('click', () => {
+    callback(prompt.texto, copyBtn);
+  });
+}
+
+function configurarBotaoFavorito(card, prompt) {
+  const favBtn = card.querySelector('.favorite-btn');
+  favBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    const icon = favBtn.querySelector('i');
+    prompt.favorito = !prompt.favorito;
+    icon.classList.toggle('far');
+    icon.classList.toggle('fas');
+    favBtn.classList.toggle('text-yellow-500');
+    
+    // Em uma aplicação real, você salvaria isso no localStorage ou backend
+    console.log(`Prompt ${prompt.id} favorited: ${prompt.favorito}`);
+  });
+}
+
+function formatCategory(category) {
+  const categories = {
+    'negócios': 'Negócios',
+    'marketing': 'Marketing',
+    'escrita': 'Escrita Criativa',
+    'roteiros': 'Roteiros',
+    'design': 'Design'
+  };
+  return categories[category] || category;
+}
+
+function getCategoryColor(category) {
+  const colors = {
+    'negócios': 'bg-blue-100 text-blue-800',
+    'marketing': 'bg-purple-100 text-purple-800',
+    'escrita': 'bg-green-100 text-green-800',
+    'roteiros': 'bg-red-100 text-red-800',
+    'design': 'bg-yellow-100 text-yellow-800'
+  };
+  return colors[category] || 'bg-gray-100 text-gray-800';
 }
