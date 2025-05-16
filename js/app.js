@@ -152,7 +152,7 @@ const UIController = {
   
   init() {
     // Initialize with default category
-    this.filterCategoria('negocios');
+    this.filterCategoria('todos');
     
     // Add click event to all category buttons
     DOM.categoryButtons.forEach(button => {
