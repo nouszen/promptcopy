@@ -70,7 +70,11 @@ function formatCategory(category) {
     'marketing': 'Marketing',
     'escrita': 'Escrita Criativa',
     'roteiros': 'Roteiros',
-    'design': 'Design'
+    'design': 'Design',
+    'programação': 'Programação',
+    'educação': 'Educação',
+    'saúde': 'Saúde',
+    'tecnologia': 'Tecnologia'
   };
   return categories[category] || category;
 }
@@ -81,7 +85,11 @@ function getCategoryColor(category) {
     'marketing': 'bg-purple-100 text-purple-800',
     'escrita': 'bg-green-100 text-green-800',
     'roteiros': 'bg-red-100 text-red-800',
-    'design': 'bg-yellow-100 text-yellow-800'
+    'design': 'bg-yellow-100 text-yellow-800',
+    'programação': 'bg-indigo-100 text-indigo-800',
+    'educação': 'bg-teal-100 text-teal-800',
+    'saúde': 'bg-pink-100 text-pink-800',
+    'tecnologia': 'bg-gray-100 text-gray-800'
   };
   return colors[category] || 'bg-gray-100 text-gray-800';
 }
