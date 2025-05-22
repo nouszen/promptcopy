@@ -22,7 +22,7 @@ export const prompts = {
       descricao: "Crie um discurso de vendas convincente",
       texto: "Desenvolva um pitch de vendas de 30 segundos para [produto/serviço] que: 1) Identifique claramente a dor do cliente, 2) Apresente a solução de forma impactante, 3) Destaque os 3 principais benefícios, 4) Inclua uma chamada para ação urgente. Adapte para o público [descreva o público-alvo].",
       categoria: "negócios",
-      favorito: true
+      favorito: false
     },
     {
       id: 16,
@@ -48,7 +48,7 @@ export const prompts = {
       descricao: "Planejamento completo para redes sociais",
       texto: "Elabore uma estratégia de mídia social para [marca/empresa] incluindo: 1) Plataformas prioritárias (justifique), 2) Tom de voz recomendado, 3) Frequência de postagem ideal, 4) Tipos de conteúdo (ex: educacional, entretenimento), 5) Métricas de sucesso. Considere o público [descreva o público-alvo].",
       categoria: "marketing",
-      favorito: true
+      favorito: false
     },
     {
       id: 17,
@@ -66,7 +66,7 @@ export const prompts = {
       descricao: "Melhore a clareza e coesão de qualquer texto",
       texto: "Atue como editor profissional. Revise o seguinte texto para melhorar sua clareza, fluidez e correção gramatical, mantendo o tom e estilo original. Faça alterações diretas no texto e explique brevemente cada mudança importante:\n\n[cole o texto aqui]",
       categoria: "escrita",
-      favorito: true
+      favorito: false
     },
     {
       id: 9,
@@ -82,7 +82,7 @@ export const prompts = {
       descricao: "Traduza preservando tom e estilo",
       texto: "Traduza o seguinte texto para [idioma] mantendo: 1) O tom original [formal/informal], 2) Jogos de palavras e expressões idiomáticas (adaptando quando necessário), 3) Contexto cultural. Explique suas escolhas de tradução para termos complexos:\n\n[cole o texto aqui]",
       categoria: "escrita",
-      favorito: true
+      favorito: false
     }
   ],
   roteiros: [
@@ -108,7 +108,7 @@ export const prompts = {
       descricao: "Visualize cenas para comerciais",
       texto: "Crie um storyboard para um comercial de 30s sobre [produto/serviço]. Inclua: 1) 6-8 cenas principais, 2) Descrição visual de cada cena, 3) Diálogo/narração, 4) Transições, 5) Emoções a serem transmitidas. Formato: [Cena 1: Visual | Áudio | Duração].",
       categoria: "roteiros",
-      favorito: true
+      favorito: false
     }
   ],
   design: [
@@ -126,7 +126,7 @@ export const prompts = {
       descricao: "Avaliação de experiência do usuário",
       texto: "Atue como especialista em UX. Analise a [página/aplicação] [descreva ou cole link] identificando: 1) 3 pontos fortes na experiência do usuário, 2) 3 problemas principais, 3) Sugestões de melhoria com exemplos concretos, 4) Recomendações para testes A/B. Foque na jornada do usuário [descreva persona se aplicável].",
       categoria: "design",
-      favorito: true
+      favorito: false
     },
     {
       id: 20,
@@ -152,7 +152,7 @@ export const prompts = {
       descricao: "Melhore o desempenho de consultas SQL",
       texto: "Analise a seguinte consulta SQL identificando: 1) Possíveis gargalos de performance, 2) Sugestões de otimização (indexação, reestruturação), 3) Versão otimizada da consulta, 4) Estimativa de ganho de performance. Considere um banco de dados com [descreva volume de dados e estrutura se conhecido].\n\n[cole a consulta SQL aqui]",
       categoria: "programação",
-      favorito: true
+      favorito: false
     },
     {
       id: 21,
@@ -178,7 +178,7 @@ export const prompts = {
       descricao: "Gere perguntas de múltipla escolha",
       texto: "Crie um quiz de 10 perguntas sobre [tema] com: 1) 4 alternativas cada (uma correta), 2) Nível de dificuldade [básico/intermediário/avançado], 3) Explicação breve para cada resposta correta. Formate em JSON com campos para pergunta, opções, resposta_correta e explicação.",
       categoria: "educação",
-      favorito: true
+      favorito: false
     },
     {
       id: 22,
@@ -196,7 +196,7 @@ export const prompts = {
       descricao: "Rotina de exercícios sob medida",
       texto: "Crie um plano de treino de [4 semanas] para um [perfil: iniciante/intermediário/avançado] com objetivos de [emagrecimento/hipertrofia/condicionamento]. Inclua: 1) Frequência semanal, 2) Divisão de grupos musculares, 3) Descrição dos exercícios, 4) Progressão de carga, 5) Recomendações de descanso.",
       categoria: "saúde",
-      favorito: true
+      favorito: false
     },
     {
       id: 24,
@@ -222,7 +222,7 @@ export const prompts = {
       descricao: "Guia detalhado para tarefas técnicas",
       texto: "Crie um tutorial completo para [tarefa técnica] em [ferramenta/linguagem]. Inclua: 1) Pré-requisitos, 2) Configuração inicial, 3) Passos numerados com comandos/códigos, 4) Screenshots/exemplos (descreva o que mostrar), 5) Solução de problemas comuns. Adapte para usuários [iniciantes/avançados].",
       categoria: "tecnologia",
-      favorito: true
+      favorito: false
     }
   ]
 };
