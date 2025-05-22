@@ -2290,6 +2290,679 @@ export const prompts = {
   ],
 
   roteiros: [
+    
+    {
+      id: 21,
+      titulo: "Roteiro de Documentário",
+      descricao: "Estrutura para documentário curto",
+      texto: "Desenvolva um roteiro para um documentário de 15 minutos sobre [tema histórico/ambiental]. Inclua: 1) Abertura impactante, 2) Contexto histórico, 3) Entrevistas com especialistas (3 perguntas cada), 4) Sequências de arquivo/reconstituição, 5) Conclusão reflexiva.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 22,
+      titulo: "Roteiro de Animação",
+      descricao: "Para curta-metragem animado",
+      texto: "Crie um roteiro de 5 minutos para uma animação sobre [tema]. Detalhe: 1) Personagens principais e suas características, 2) Diálogos-chave, 3) Transições de cena, 4) Efeitos sonoros essenciais, 5) Clímax emocional.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 23,
+      titulo: "Roteiro Educacional",
+      descricao: "Para vídeo-aulas",
+      texto: "Elabore um roteiro para uma vídeo-aula de 10 minutos sobre [matéria/tópico]. Inclua: 1) Objetivos de aprendizagem, 2) Exemplo prático, 3) 3 pontos-chave, 4) Resumo visual, 5) Exercício para o espectador.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 24,
+      titulo: "Roteiro de Reality Show",
+      descricao: "Estrutura para episódio",
+      texto: "Desenvolva o roteiro de um episódio de reality show sobre [tema]. Detalhe: 1) Introdução do conflito, 2) Desafio principal, 3) Momentos de tensão, 4) Reações dos participantes, 5) Eliminação/premiação.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 25,
+      titulo: "Roteiro de Videoclipe",
+      descricao: "Narrativa visual para música",
+      texto: "Crie um roteiro de videoclipe para a música [gênero/tema]. Inclua: 1) Conceito visual central, 2) 5 cenas sincronizadas com letras específicas, 3) Transições criativas, 4) Figurinos e paleta de cores, 5) Simbologia a ser destacada.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 26,
+      titulo: "Roteiro de Gameplay",
+      descricao: "Para canais de gaming",
+      texto: "Elabore um roteiro para vídeo de gameplay de [jogo]. Inclua: 1) Introdução energética, 2) 3 momentos estratégicos para comentar, 3) Reações planejadas, 4) Interação com viewers, 5) Encerramento com desafio.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 27,
+      titulo: "Roteiro de Unboxing",
+      descricao: "Para vídeos de produtos",
+      texto: "Crie um roteiro detalhado para vídeo de unboxing de [produto]. Detalhe: 1) Expectativas antes de abrir, 2) Reação ao primeiro contato, 3) 3 características para destacar, 4) Demonstração prática, 5) Opinião final.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 28,
+      titulo: "Roteiro de Tutorial",
+      descricao: "Passo a passo detalhado",
+      texto: "Desenvolva um roteiro para tutorial de [habilidade/tarefa]. Inclua: 1) Lista de materiais necessários, 2) 5 passos principais com demonstração, 3) Erros comuns a evitar, 4) Dicas extras, 5) Encerramento motivacional.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 29,
+      titulo: "Roteiro de Vlog",
+      descricao: "Estrutura para dia a dia",
+      texto: "Elabore um roteiro para vlog sobre [atividade/dia temático]. Detalhe: 1) Introdução do dia, 2) 3 momentos-chave a registrar, 3) Transições criativas, 4) Reflexão pessoal, 5) Pergunta para os espectadores.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 30,
+      titulo: "Roteiro de Live",
+      descricao: "Estrutura para transmissão ao vivo",
+      texto: "Crie um roteiro para live sobre [tema]. Inclua: 1) Saudação inicial, 2) 3 tópicos principais, 3) Momentos para interação, 4) Chamadas para like/compartilhamento, 5) Encerramento com preview da próxima.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 31,
+      titulo: "Roteiro de Testemunhal",
+      descricao: "Para depoimentos de clientes",
+      texto: "Desenvolva um roteiro para vídeo testemunhal sobre [produto/serviço]. Detalhe: 1) Contexto antes de usar, 2) Processo de descoberta, 3) 3 benefícios experimentados, 4) Comparação antes/depois, 5) Recomendação final.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 32,
+      titulo: "Roteiro de VT",
+      descricao: "Para reportagens televisivas",
+      texto: "Elabore um roteiro de VT de 2 minutos sobre [evento/tema]. Inclua: 1) Lead informativo, 2) 3 fontes de entrevista (perguntas), 3) Imagens B-roll necessárias, 4) Dados estatísticos, 5) Closing com perspectiva.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 33,
+      titulo: "Roteiro de Esquetes",
+      descricao: "Para cenas cômicas",
+      texto: "Crie um roteiro de esquetes cômico de 3 minutos sobre [situação]. Detalhe: 1) Contexto inicial, 2) 3 reviravoltas engraçadas, 3) Diálogos ágeis, 4) Expressões exageradas, 5) Final surpreendente.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 34,
+      titulo: "Roteiro de Telejornal",
+      descricao: "Estrutura de noticiário",
+      texto: "Desenvolva um roteiro de 5 minutos para telejornal sobre [editoria]. Inclua: 1) Manchete principal, 2) 3 notícias com imagens correspondentes, 3) Transição meteorológica, 4) Nota leve para fechar, 5) Despedida.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 35,
+      titulo: "Roteiro de ASMR",
+      descricao: "Para vídeos sensoriais",
+      texto: "Elabore um roteiro para vídeo ASMR com tema [som/atividade]. Detalhe: 1) Introdução sussurrada, 2) Sequência de 5 sons/gestos, 3) Duração de cada estímulo, 4) Variações de intensidade, 5) Fechamento relaxante.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 36,
+      titulo: "Roteiro de Audioguia",
+      descricao: "Para tours museus/cidades",
+      texto: "Crie um roteiro de audioguia de 10 minutos sobre [local]. Inclua: 1) Introdução histórica, 2) 5 pontos de interesse com descrições, 3) Curiosidades, 4) Transições geográficas, 5) Conclusão com direções.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 37,
+      titulo: "Roteiro de Reação",
+      descricao: "Para vídeos de reação",
+      texto: "Desenvolva um roteiro para vídeo de reação a [conteúdo]. Detalhe: 1) Expectativas pré-visualização, 2) 3 momentos-chave para pausar e comentar, 3) Escala de avaliação, 4) Comparações, 5) Convite para debates.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 38,
+      titulo: "Roteiro de Evento",
+      descricao: "Para cerimônias/ações",
+      texto: "Elabore um roteiro detalhado para evento de [tipo]. Inclua: 1) Abertura, 2) Ordem de falas, 3) Momentos interativos, 4) Logística de transições, 5) Encerramento com fotos.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 39,
+      titulo: "Roteiro de Treinamento",
+      descricao: "Para vídeos corporativos",
+      texto: "Crie um roteiro para vídeo de treinamento sobre [tema]. Detalhe: 1) Objetivos, 2) 3 cenários exemplos, 3) Perguntas para reflexão, 4) Checklist de ações, 5) Recapitulação visual.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 40,
+      titulo: "Roteiro de Debate",
+      descricao: "Estrutura para mesas redondas",
+      texto: "Desenvolva um roteiro para debate de 30min sobre [tema polêmico]. Inclua: 1) Regras básicas, 2) 5 perguntas mediadoras, 3) Tempo por participante, 4) Momentos para contra-argumentos, 5) Conclusão consensual.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 41,
+      titulo: "Roteiro de Lançamento",
+      descricao: "Para produtos/serviços",
+      texto: "Elabore um roteiro para vídeo de lançamento de [produto]. Detalhe: 1) História por trás da criação, 2) 3 inovações, 3) Demonstração, 4) Depoimentos, 5) Oferta especial.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 42,
+      titulo: "Roteiro de Paródia",
+      descricao: "Para vídeos humorísticos",
+      texto: "Crie um roteiro de paródia de 2 minutos baseado em [filme/série]. Inclua: 1) Cena icônica recriada, 2) 3 trocas cômicas, 3) Referências atuais, 4) Final inesperado, 5) Créditos engraçados.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 43,
+      titulo: "Roteiro de Mini-Doc",
+      descricao: "Para séries documentais",
+      texto: "Desenvolva um roteiro de mini-doc de 8min sobre [fenômeno]. Detalhe: 1) Tese central, 2) 3 evidências, 3) Entrevista breve, 4) Gráficos explicativos, 5) Perguntas não respondidas.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 44,
+      titulo: "Roteiro de Quiz",
+      descricao: "Para jogos interativos",
+      texto: "Elabore um roteiro para vídeo-quiz sobre [tema]. Inclua: 1) Introdução animada, 2) 5 perguntas com 3 opções, 3) Tempo para resposta, 4) Explicações curtas, 5) Níveis de premiação.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 45,
+      titulo: "Roteiro de Contação",
+      descricao: "Para histórias infantis",
+      texto: "Crie um roteiro para contação de história sobre [moral]. Detalhe: 1) Ambientação, 2) 3 personagens principais, 3) Conflito, 4) Solução, 5) Pergunta moral.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 46,
+      titulo: "Roteiro de Comparação",
+      descricao: "Para vídeos analíticos",
+      texto: "Desenvolva um roteiro comparando [produto A] e [produto B]. Inclua: 1) Critérios de avaliação, 2) 3 vantagens de cada, 3) Teste prático, 4) Público-alvo ideal, 5) Veredito final.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 47,
+      titulo: "Roteiro de Transição",
+      descricao: "Para vídeos de metamorfose",
+      texto: "Elabore um roteiro para vídeo de transformação de [antes/depois]. Detalhe: 1) Estado inicial, 2) Processo passo a passo, 3) Momentos chave, 4) Revelação final, 5) Dicas de manutenção.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 48,
+      titulo: "Roteiro de FAQ",
+      descricao: "Para vídeos de perguntas",
+      texto: "Crie um roteiro respondendo 5 FAQs sobre [tema]. Inclua: 1) Introdução, 2) Perguntas com exemplos, 3) Mitos desmentidos, 4) Recursos extras, 5) Convite para novas perguntas.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 49,
+      titulo: "Roteiro de Desafio",
+      descricao: "Para vídeos interativos",
+      texto: "Desenvolva um roteiro para desafio de 24h sobre [tema]. Detalhe: 1) Regras, 2) 3 etapas, 3) Reações esperadas, 4) Lições aprendidas, 5) Repasse do desafio.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 50,
+      titulo: "Roteiro de Retrospectiva",
+      descricao: "Para compilações anuais",
+      texto: "Elabore um roteiro para vídeo retrospectiva de [ano/tema]. Inclua: 1) Abertura nostálgica, 2) 5 momentos marcantes, 3) Lições, 4) Agradecimentos, 5) Expectativas futuras.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 51,
+      titulo: "Roteiro de Unboxing Misterioso",
+      descricao: "Para caixas surpresa",
+      texto: "Crie um roteiro para unboxing de caixa misteriosa sobre [tema]. Detalhe: 1) Hipóteses, 2) Reação a cada item, 3) 3 usos criativos, 4) Avaliação geral, 5) Desafio para viewers.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 52,
+      titulo: "Roteiro de Viagem",
+      descricao: "Para vlogs de turismo",
+      texto: "Desenvolva um roteiro para vlog de viagem a [local]. Inclua: 1) Preparativos, 2) 3 atrações principais, 3) Comidas típicas, 4) Dicas logísticas, 5) Momentos espontâneos.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 53,
+      titulo: "Roteiro de Resenha",
+      descricao: "Para críticas detalhadas",
+      texto: "Elabore um roteiro para resenha de [obra]. Detalhe: 1) Contexto, 2) 3 pontos fortes, 3) 2 pontos fracos, 4) Comparações, 5) Recomendação personalizada.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 54,
+      titulo: "Roteiro de Mesa Redonda",
+      descricao: "Para discussões em grupo",
+      texto: "Crie um roteiro para mesa redonda com 4 participantes sobre [tema]. Inclua: 1) Apresentações, 2) 5 tópicos guia, 3) Tempos de fala, 4) Mediação de conflitos, 5) Síntese final.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 55,
+      titulo: "Roteiro de Flip Through",
+      descricao: "Para vídeos de cadernos",
+      texto: "Desenvolva um roteiro para flip through de [tipo de caderno]. Detalhe: 1) Introdução do projeto, 2) 5 páginas destacadas, 3) Técnicas usadas, 4) Materiais preferidos, 5) Dicas para iniciantes.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 56,
+      titulo: "Roteiro de Speed Art",
+      descricao: "Para vídeos de criação",
+      texto: "Elabore um roteiro para speed art de [arte]. Inclua: 1) Conceito inicial, 2) 3 etapas de criação, 3) Ferramentas usadas, 4) Desafios, 5) Versão final em destaque.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 57,
+      titulo: "Roteiro de Haul",
+      descricao: "Para mostras de compras",
+      texto: "Crie um roteiro para haul de [tipo de produto]. Detalhe: 1) Origem dos itens, 2) 5 produtos com avaliações, 3) Surpresas, 4) Arrependimentos, 5) Favorito absoluto.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 58,
+      titulo: "Roteiro de Desenho",
+      descricao: "Para tutoriais artísticos",
+      texto: "Desenvolva um roteiro para tutorial de desenho de [objeto]. Inclua: 1) Materiais, 2) 5 passos fundamentais, 3) Proporções, 4) Sombreamento, 5) Toques finais.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 59,
+      titulo: "Roteiro de Unhaul",
+      descricao: "Para desapego de itens",
+      texto: "Elabore um roteiro para vídeo de unhaul de [categoria]. Detalhe: 1) Critérios de seleção, 2) 5 itens descartados, 3) Motivos, 4) Destino, 5) Lições sobre consumo.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 60,
+      titulo: "Roteiro de Experimentos",
+      descricao: "Para vídeos científicos",
+      texto: "Crie um roteiro para experimento de [área científica]. Inclua: 1) Hipótese, 2) Materiais, 3) 5 passos metodológicos, 4) Resultados esperados, 5) Aplicações práticas.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 61,
+      titulo: "Roteiro de Flipbook",
+      descricao: "Para animações manuais",
+      texto: "Desenvolva um roteiro para criação de flipbook sobre [cena]. Detalhe: 1) Conceito, 2) 5 quadros-chave, 3) Movimento principal, 4) Transições, 5) Revelação final.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 62,
+      titulo: "Roteiro de Restauração",
+      descricao: "Para renovação de itens",
+      texto: "Elabore um roteiro para vídeo de restauração de [objeto]. Inclua: 1) Estado inicial, 2) 3 processos principais, 3) Desafios, 4) Materiais especiais, 5) Comparação final.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 63,
+      titulo: "Roteiro de Coleção",
+      descricao: "Para mostras temáticas",
+      texto: "Crie um roteiro para vídeo mostrando coleção de [itens]. Detalhe: 1) História da coleção, 2) 5 peças especiais, 3) Organização, 4) Curiosidades, 5) Planos futuros.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 64,
+      titulo: "Roteiro de DIY",
+      descricao: "Para projetos manuais",
+      texto: "Desenvolva um roteiro para DIY de [projeto]. Inclua: 1) Inspiração, 2) Lista de materiais, 3) 5 passos essenciais, 4) Variações, 5) Dicas de personalização.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 65,
+      titulo: "Roteiro de Room Tour",
+      descricao: "Para tours de ambientação",
+      texto: "Elabore um roteiro para tour de [espaço]. Detalhe: 1) Conceito geral, 2) 5 zonas com função, 3) Itens favoritos, 4) Dicas de organização, 5) Planos de reforma.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 66,
+      titulo: "Roteiro de Desafio Culinário",
+      descricao: "Para provas gastronômicas",
+      texto: "Crie um roteiro para desafio culinário com [restrição]. Inclua: 1) Regras, 2) 3 pratos a preparar, 3) Critérios de avaliação, 4) Reações, 5) Dicas para replicar.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 67,
+      titulo: "Roteiro de Hack",
+      descricao: "Para dicas de otimização",
+      texto: "Desenvolva um roteiro com 5 hacks para [atividade]. Detalhe: 1) Problema comum, 2) Solução criativa, 3) Materiais alternativos, 4) Passo a passo visual, 5) Benefícios.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 68,
+      titulo: "Roteiro de Meta",
+      descricao: "Para planos futuros",
+      texto: "Elabore um roteiro para vídeo de metas [temporalidade]. Inclua: 1) Contexto atual, 2) 3 objetivos SMART, 3) Planos de ação, 4) Métricas, 5) Motivação final.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 69,
+      titulo: "Roteiro de Reflexão",
+      descricao: "Para vídeos filosóficos",
+      texto: "Crie um roteiro para vídeo reflexivo sobre [questão]. Detalhe: 1) Contextualização, 2) 3 perspectivas, 3) Experiência pessoal, 4) Paradoxos, 5) Perguntas abertas.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 70,
+      titulo: "Roteiro de Reconstituição",
+      descricao: "Para fatos históricos",
+      texto: "Desenvolva um roteiro para reconstituição de [evento histórico]. Inclua: 1) Contexto, 2) 3 momentos cruciais, 3) Falas emblemáticas, 4) Figurinos, 5) Legado atual.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 71,
+      titulo: "Roteiro de Descompactação",
+      descricao: "Para setups/unboxing",
+      texto: "Elabore um roteiro para vídeo de setup de [equipamento]. Detalhe: 1) Expectativas, 2) 5 componentes principais, 3) Processo de montagem, 4) Dicas de configuração, 5) Primeiros testes.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 72,
+      titulo: "Roteiro de Mistério",
+      descricao: "Para histórias intrigantes",
+      texto: "Crie um roteiro para vídeo de mistério sobre [caso]. Inclua: 1) Apresentação do enigma, 2) 3 teorias, 3) Evidências, 4) Contradições, 5) Possível solução.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 73,
+      titulo: "Roteiro de Transição de Carreira",
+      descricao: "Para relatos profissionais",
+      texto: "Desenvolva um roteiro para vídeo sobre transição de [área A] para [área B]. Detalhe: 1) Motivação, 2) 3 desafios, 3) Habilidades transferíveis, 4) Momentos decisivos, 5) Conselhos.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 74,
+      titulo: "Roteiro de Superação",
+      descricao: "Para jornadas pessoais",
+      texto: "Elabore um roteiro para vídeo de superação de [desafio]. Inclua: 1) Contexto difícil, 2) 3 etapas da jornada, 3) Apoios, 4) Lições, 5) Mensagem motivacional.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 75,
+      titulo: "Roteiro de Microdocumentário",
+      descricao: "Para histórias curtas",
+      texto: "Crie um roteiro de 5min sobre [personagem local]. Detalhe: 1) Contexto, 2) 3 contribuições, 3) Entrevista breve, 4) Impacto, 5) Chamada para conhecer.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 76,
+      titulo: "Roteiro de Revisão",
+      descricao: "Para análise de produtos",
+      texto: "Desenvolva um roteiro para revisão aprofundada de [produto]. Inclua: 1) Unboxing inicial, 2) 5 critérios de avaliação, 3) Testes realizados, 4) Prós/Contras, 5) Conclusão segmentada.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 77,
+      titulo: "Roteiro de Escrita Criativa",
+      descricao: "Para processos literários",
+      texto: "Elabore um roteiro sobre criação de [obra literária]. Detalhe: 1) Inspiração, 2) 3 técnicas usadas, 3) Desafios, 4) Personagens principais, 5) Conselhos para escritores.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 78,
+      titulo: "Roteiro de Rotina",
+      descricao: "Para day in the life",
+      texto: "Crie um roteiro para vídeo de rotina de [profissão]. Inclua: 1) Preparação, 2) 5 momentos típicos, 3) Surpresas, 4) Reflexão final, 5) Variações sazonais.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 79,
+      titulo: "Roteiro de Exploração",
+      descricao: "Para lugares abandonados",
+      texto: "Desenvolva um roteiro para exploração urbana em [local]. Detalhe: 1) Histórico, 2) 3 áreas de interesse, 3) Sensações, 4) Precauções, 5) Reflexão preservacionista.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 80,
+      titulo: "Roteiro de Debate Polêmico",
+      descricao: "Para temas divisivos",
+      texto: "Elabore um roteiro para debate sobre [tema polêmico]. Inclua: 1) Regras de convivência, 2) 3 argumentos por lado, 3) Dados estatísticos, 4) Mediação, 5) Conclusão respeitosa.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 81,
+      titulo: "Roteiro de Retorno",
+      descricao: "Para começar de novo",
+      texto: "Crie um roteiro para vídeo de retorno após [hiato]. Detalhe: 1) Motivos da pausa, 2) 3 aprendizados, 3) Novas direções, 4) Expectativas, 5) Agradecimentos.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 82,
+      titulo: "Roteiro de Homenagem",
+      descricao: "Para tributos emocionais",
+      texto: "Desenvolva um roteiro para homenagem a [pessoa/obra]. Inclua: 1) Contexto, 2) 3 contribuições memoráveis, 3) Impacto pessoal, 4) Legado, 5) Chamada para memórias.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 83,
+      titulo: "Roteiro de Desafio de 30 Dias",
+      descricao: "Para transformações",
+      texto: "Elabore um roteiro para desafio de 30 dias de [hábito]. Detalhe: 1) Metas, 2) 3 fases, 3) Métricas diárias, 4) Dificuldades, 5) Resultados finais.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 84,
+      titulo: "Roteiro de Investigação",
+      descricao: "Para reportagens especiais",
+      texto: "Crie um roteiro para investigação sobre [caso]. Inclua: 1) Pergunta central, 2) 3 fontes consultadas, 3) Evidências, 4) Contradições, 5) Conclusões parciais.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 85,
+      titulo: "Roteiro de Premiação",
+      descricao: "Para cerimônias",
+      texto: "Desenvolva um roteiro para premiação de [categoria]. Detalhe: 1) Abertura, 2) 3 categorias com finalistas, 3) Anúncio de vencedores, 4) Discursos, 5) Encerramento.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 86,
+      titulo: "Roteiro de Conserto",
+      descricao: "Para reparos técnicos",
+      texto: "Elabore um roteiro para vídeo de conserto de [equipamento]. Inclua: 1) Diagnóstico, 2) 5 passos do reparo, 3) Ferramentas necessárias, 4) Alternativas, 5) Teste final.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 87,
+      titulo: "Roteiro de Reenactment",
+      descricao: "Para recriações históricas",
+      texto: "Crie um roteiro para recriação de [evento]. Detalhe: 1) Contexto, 2) 3 cenas essenciais, 3) Figurinos, 4) Falas originais, 5) Licenças artísticas.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 88,
+      titulo: "Roteiro de Progresso",
+      descricao: "Para evolução de projetos",
+      texto: "Desenvolva um roteiro para vídeo de progresso de [projeto]. Inclua: 1) Estado inicial, 2) 3 melhorias, 3) Obstáculos, 4) Aprendizados, 5) Próximos passos.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 89,
+      titulo: "Roteiro de Unboxing Coletivo",
+      descricao: "Para vários produtos",
+      texto: "Elabore um roteiro para unboxing de 5 [itens similares]. Detalhe: 1) Critério de seleção, 2) Comparação lado a lado, 3) Surpresas, 4) Ranking, 5) Veredito final.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 90,
+      titulo: "Roteiro de Aula",
+      descricao: "Para conteúdo educacional",
+      texto: "Crie um roteiro para aula de [disciplina]. Inclua: 1) Objetivos, 2) 3 conceitos-chave, 3) Exemplos práticos, 4) Exercícios, 5) Material complementar.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 91,
+      titulo: "Roteiro de Revisão Mensal",
+      descricao: "Para balanços periódicos",
+      texto: "Desenvolva um roteiro para revisão mensal de [área]. Detalhe: 1) Metas iniciais, 2) 3 conquistas, 3) Lições, 4) Dificuldades, 5) Ajustes para próximo mês.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 92,
+      titulo: "Roteiro de Demonstração",
+      descricao: "Para funcionalidades",
+      texto: "Elabore um roteiro para demonstração de [software/ferramenta]. Inclua: 1) Propósito, 2) 5 funções principais, 3) Caso prático, 4) Integrações, 5) Comparativo.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 93,
+      titulo: "Roteiro de Maratona",
+      descricao: "Para desafios de consumo",
+      texto: "Crie um roteiro para maratona de [série/filmes]. Detalhe: 1) Critério de seleção, 2) 3 destaques, 3) Reações, 4) Rankings, 5) Lições da experiência.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 94,
+      titulo: "Roteiro de Transição Profissional",
+      descricao: "Para mudanças de carreira",
+      texto: "Desenvolva um roteiro sobre transição de [área] para [área]. Inclua: 1) Motivação, 2) 3 passos preparatórios, 3) Transferência de habilidades, 4) Desafios, 5) Conselhos.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 95,
+      titulo: "Roteiro de Análise de Tendências",
+      descricao: "Para relatórios setoriais",
+      texto: "Elabore um roteiro para análise de tendências em [mercado]. Detalhe: 1) Contexto atual, 2) 3 tendências emergentes, 3) Casos de estudo, 4) Projeções, 5) Recomendações.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 96,
+      titulo: "Roteiro de Workshop",
+      descricao: "Para eventos educativos",
+      texto: "Crie um roteiro para workshop de 2h sobre [tema]. Inclua: 1) Objetivos, 2) 4 atividades práticas, 3) Materiais necessários, 4) Dinâmicas, 5) Avaliação.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 97,
+      titulo: "Roteiro de Compilação",
+      descricao: "Para melhores momentos",
+      texto: "Desenvolva um roteiro para compilação de [evento/período]. Detalhe: 1) Contexto, 2) 5 momentos marcantes, 3) Transições criativas, 4) Narração, 5) Encerramento.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 98,
+      titulo: "Roteiro de Relato Pessoal",
+      descricao: "Para experiências íntimas",
+      texto: "Elabore um roteiro para relato sobre [experiência]. Inclua: 1) Contexto, 2) 3 fases emocionais, 3) Virada, 4) Impacto atual, 5) Mensagem final.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 99,
+      titulo: "Roteiro de Guia",
+      descricao: "Para tutoriais completos",
+      texto: "Crie um roteiro para guia definitivo sobre [tema]. Detalhe: 1) Introdução, 2) 5 seções essenciais, 3) Exemplos práticos, 4) Ferramentas recomendadas, 5) Recursos extras.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 100,
+      titulo: "Roteiro de Sessão de Perguntas",
+      descricao: "Para Q&A interativo",
+      texto: "Desenvolva um roteiro para sessão de perguntas sobre [tema]. Inclua: 1) Regras, 2) 5 perguntas frequentes, 3) Tempo para respostas, 4) Perguntas da audiência, 5) Encerramento.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 101,
+      titulo: "Roteiro de Análise de Dados",
+      descricao: "Para relatórios visuais",
+      texto: "Elabore um roteiro para análise de dados sobre [dataset]. Detalhe: 1) Origem dos dados, 2) 3 insights principais, 3) Visualizações, 4) Limitações, 5) Recomendações.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 102,
+      titulo: "Roteiro de Microficção",
+      descricao: "Para histórias ultra-curtas",
+      texto: "Crie um roteiro para microficção de 1min sobre [tema]. Inclua: 1) Ambientação sucinta, 2) Personagem principal, 3) Conflito mínimo, 4) Virada, 5) Final aberto.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 103,
+      titulo: "Roteiro de Reação a Notícias",
+      descricao: "Para comentários atualizados",
+      texto: "Desenvolva um roteiro para reação a [notícia recente]. Detalhe: 1) Contexto, 2) 3 pontos de análise, 3) Opinião fundamentada, 4) Implicações, 5) Fontes consultadas.",
+      categoria: "roteiros",
+      favorito: false
+    },
+    {
+      id: 104,
+      titulo: "Roteiro de Tour Virtual",
+      descricao: "Para passeios imersivos",
+      texto: "Elabore um roteiro para tour virtual em [local]. Inclua: 1) Introdução, 2) 5 pontos de interesse, 3) Curiosidades, 4) Navegação, 5) Encerramento convidativo.",
+      categoria: "roteiros",
+      favorito: false
+    },
     {
       id: 5,
       titulo: "Roteiro para Vídeos",
@@ -2342,6 +3015,825 @@ export const prompts = {
       favorito: false
     }
   ],
+  design: [
+
+  {
+    id: 1,
+    titulo: "Moodboard Digital",
+    descricao: "Criação de moodboards visuais",
+    texto: "Gere um moodboard digital para o projeto [nome] com base nas seguintes palavras-chave: [palavras]. Inclua: 1) Paleta de cores sugerida, 2) Referências de texturas, 3) Estilos tipográficos, 4) Elementos de composição, 5) Exemplos de peças existentes que inspirem a direção criativa.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 2,
+    titulo: "Wireframe Responsivo",
+    descricao: "Estrutura básica para interfaces",
+    texto: "Crie wireframes detalhados para um [tipo de site/app] com foco em [objetivo principal]. Inclua: 1) Versão desktop, 2) Versão mobile, 3) Fluxo de navegação principal, 4) Elementos UI essenciais, 5) Anotações sobre comportamento responsivo. Use padrões de design modernos.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 3,
+    titulo: "Microinterações",
+    descricao: "Design de pequenas animações",
+    texto: "Proponha 5 microinterações inovadoras para um [tipo de aplicativo] que melhorem a UX nas seguintes situações: 1) Carregamento de conteúdo, 2) Confirmação de ação, 3) Erros, 4) Transições entre telas, 5) Feedback de toque. Descreva a animação e seu propósito.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 4,
+    titulo: "Redesign de Logo",
+    descricao: "Modernização de identidade visual",
+    texto: "Sugira 3 direções criativas para redesenhar o logo da marca [nome] mantendo seu reconhecimento. Para cada versão: 1) Explique o conceito, 2) Mostre variações de cor, 3) Aplique em mockups, 4) Descreva como evolui a identidade atual, 5) Liste aplicações em diferentes mídias.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 5,
+    titulo: "Teste de Usabilidade",
+    descricao: "Roteiro para avaliação de UX",
+    texto: "Elabore um plano de teste de usabilidade para [produto digital] com: 1) Perfil dos participantes, 2) Tarefas a serem executadas, 3) Métricas a avaliar, 4) Perguntas pós-teste, 5) Formato do relatório final. Inclua cenários reais de uso.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 7,
+    titulo: "Design de Ícones",
+    descricao: "Criação de conjuntos iconográficos",
+    texto: "Desenvolva um conjunto de 10 ícones para [contexto de uso] com: 1) Estilo visual coerente, 2) Variações de tamanho, 3) Versões para estados diferentes (ativo/inativo), 4) Guia de exportação, 5) Princípios de acessibilidade aplicados. Use metáforas visuais claras.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 8,
+    titulo: "Landing Page High-Conversion",
+    descricao: "Design focado em conversões",
+    texto: "Projete a estrutura ideal para uma landing page que converte em [objetivo]. Inclua: 1) Hierarquia visual, 2) Elementos persuasivos, 3) Chamadas para ação estratégicas, 4) Testimonials integrados, 5) Formulário otimizado, 6) Indicadores de confiança. Justifique cada decisão.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 9,
+    titulo: "Sistema de Design Atomic",
+    descricao: "Metodologia para design systems",
+    texto: "Crie um framework de Atomic Design para [produto] contendo: 1) Átomos (cores, tipografia), 2) Moléculas (botões, inputs), 3) Organismos (headers, cards), 4) Templates, 5) Páginas. Especifique regras de combinação e documentação.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 10,
+    titulo: "Motion Branding",
+    descricao: "Identidade em movimento",
+    texto: "Desenvolva um conceito de motion branding para [marca] incluindo: 1) Animação do logo, 2) Transições características, 3) Estilo de movimento (suave/dinâmico), 4) Aplicações em vídeo, 5) Diretrizes de duração e easing. Mostre storyboards e referências.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 12,
+    titulo: "Design de Embalagem",
+    descricao: "Criação de packaging",
+    texto: "Proponha 3 conceitos de embalagem para [produto] considerando: 1) Sustentabilidade, 2) Experiência de desempacotar, 3) Informações regulatórias, 4) Diferenciação em prateleira, 5) Versões para diferentes tamanhos. Inclua mockups 3D.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 13,
+    titulo: "Dashboard Data-Viz",
+    descricao: "Visualização de dados complexos",
+    texto: "Projete um dashboard para [tipo de dados] com: 1) Layout informativo, 2) Tipos de gráficos adequados, 3) Hierarquia visual, 4) Filtros interativos, 5) Estados vazios/erro, 6) Versão mobile. Priorize clareza e insights acionáveis.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 14,
+    titulo: "Design de Persona",
+    descricao: "Representação visual de usuários",
+    texto: "Crie 3 personas visuais para [produto/serviço] incluindo: 1) Ilustração estilizada, 2) Atributos demográficos, 3) Necessidades principais, 4) Comportamentos online, 5) Frases típicas, 6) Objetivos e frustrações. Use cores e elementos que representem cada perfil.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 15,
+    titulo: "UI para Voice Apps",
+    descricao: "Interfaces para assistentes virtuais",
+    texto: "Desenvolva diretrizes de UI para um aplicativo de voz em [domínio] considerando: 1) Feedback auditivo, 2) Estados de escuta, 3) Mensagens de erro, 4) Personalização vocal, 5) Integração com interface visual quando aplicável. Mostre fluxos de conversação.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 16,
+    titulo: "Design de Newsletter",
+    descricao: "Layouts para email marketing",
+    texto: "Crie um template de newsletter para [segmento] com: 1) Estrutura responsiva, 2) Hierarquia de conteúdo, 3) Botões CTAs otimizados, 4) Versão dark mode, 5) Compatibilidade com clientes de email. Inclua versão HTML e imagens.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 17,
+    titulo: "Onboarding Digital",
+    descricao: "Fluxos de primeira experiência",
+    texto: "Projete um fluxo de onboarding para [app] que: 1) Reduza atrito inicial, 2) Demonstre valor rápido, 3) Personalize com base no tipo de usuário, 4) Inclua progresso visível, 5) Ofereça ajuda contextual. Mostre telas e transições.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 18,
+    titulo: "Design para Realidade Aumentada",
+    descricao: "Interfaces AR",
+    texto: "Desenvolva princípios de design para uma experiência AR em [contexto] considerando: 1) Integração com ambiente real, 2) Interações gestuais, 3) Posicionamento de UI 3D, 4) Feedback visual, 5) Acessibilidade em movimento. Inclua exemplos.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 19,
+    titulo: "Design de Infográfico",
+    descricao: "Visualização de informação",
+    texto: "Transforme os dados sobre [tópico] em um infográfico atraente com: 1) Narrativa visual clara, 2) Hierarquia de informação, 3) Elementos gráficos explicativos, 4) Balanço entre texto e visual, 5) Versões para web e impresso.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 21,
+    titulo: "Redesign de Formulários",
+    descricao: "Otimização de inputs",
+    texto: "Reimagine o formulário de [finalidade] aplicando: 1) Agrupamento lógico, 2) Labels flutuantes, 3) Validação em tempo real, 4) Progresso visível, 5) Exemplos contextuais, 6) Redução de campos. Mostre antes/depois.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 22,
+    titulo: "Design de Cartão de Visita",
+    descricao: "Identidade em formato físico",
+    texto: "Crie 3 conceitos de cartão de visita para [profissão/empresa] com: 1) Informações essenciais, 2) Elementos de marca, 3) Opções de acabamento, 4) Versão digital scannable, 5) Alinhamento com identidade visual existente.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 23,
+    titulo: "UI para Smartwatch",
+    descricao: "Design para telas pequenas",
+    texto: "Projete a interface de um app para smartwatch que [função principal] considerando: 1) Gestos principais, 2) Informação glanceable, 3) Notificações, 4) Integração com smartphone, 5) Modo sempre visível. Mostre fluxos principais.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 24,
+    titulo: "Design de Merchandising",
+    descricao: "Produtos de marca",
+    texto: "Desenvolva uma linha de merchandising para [marca] incluindo: 1) 5 itens coerentes, 2) Aplicação da identidade visual, 3) Materiais sustentáveis, 4) Versões premium e acessíveis, 5) Embalagem apresentável. Mostre em mockups 3D.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 25,
+    titulo: "Microcopy Eficaz",
+    descricao: "Textos de interface",
+    texto: "Escreva microcopy para um [tipo de aplicativo] que: 1) Guie o usuário naturalmente, 2) Reduza ansiedade em erros, 3) Use tom de voz adequado, 4) Seja inclusivo, 5) Otimize conversões. Forneça alternativas para diferentes cenários.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 26,
+    titulo: "Design de Capa de Livro",
+    descricao: "Atração visual para publicações",
+    texto: "Crie 3 conceitos de capa para o livro [título/gênero] com: 1) Tipografia expressiva, 2) Elementos visuais simbólicos, 3) Versões para ebook e físico, 4) Adequação ao público-alvo, 5) Destaque em thumbnails. Justifique as escolhas.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 27,
+    titulo: "UI para Kiosques",
+    descricao: "Interfaces de autoatendimento",
+    texto: "Projete a interface de um kiosque para [finalidade] considerando: 1) Toque preciso, 2) Visibilidade em ambientes públicos, 3) Fluxos simplificados, 4) Acessibilidade, 5) Integração com dispositivos pessoais. Mostre telas principais.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 28,
+    titulo: "Design de Exposição",
+    descricao: "Ambientes físicos imersivos",
+    texto: "Desenvolva um conceito de exposição sobre [tema] com: 1) Fluxo de visita, 2) Elementos interativos, 3) Sinalização, 4) Iluminação, 5) Integração digital-física. Inclua plantas e visualizações 3D.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 29,
+    titulo: "Gamificação em UI",
+    descricao: "Elementos lúdicos em interfaces",
+    texto: "Proponha mecânicas de gamificação para um app de [tipo] incluindo: 1) Sistema de progresso, 2) Recompensas visuais, 3) Feedback positivo, 4) Elementos de competição colaborativa, 5) Personalização de avatar. Mostre componentes UI.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 30,
+    titulo: "Design de Filtros AR",
+    descricao: "Efeitos para redes sociais",
+    texto: "Crie conceitos para 5 filtros AR no estilo [estética] com: 1) Temática coerente, 2) Interatividade facial, 3) Elementos 3D/2D, 4) Personalização, 5) Marcas d'água discretas. Descreva a experiência de uso.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 31,
+    titulo: "UI para Carros",
+    descricao: "Interfaces para veículos",
+    texto: "Projete a interface de um sistema de infoentretenimento considerando: 1) Distração mínima, 2) Controle por voz/gestos, 3) Integração com apps mobile, 4) Personalização, 5) Modo noturno. Mostre fluxos principais.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 32,
+    titulo: "Design de Selo",
+    descricao: "Emblemas e certificações visuais",
+    texto: "Crie um selo de qualidade/aprovação para [indústria] com: 1) Significado claro, 2) Escalabilidade, 3) Versões coloridas e monocromáticas, 4) Diretrizes de aplicação, 5) Elementos anti-fraude. Mostre em contextos reais.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 33,
+    titulo: "Naming Visual",
+    descricao: "Representação gráfica de nomes",
+    texto: "Desenvolva 3 conceitos visuais para o nome [nome] como identidade pessoal/marca, usando: 1) Tipografia customizada, 2) Monograma, 3) Símbolo abstrato, 4) Combinações cor+forma, 5) Aplicações em diferentes mídias.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 34,
+    titulo: "Design para Idosos",
+    descricao: "UX para terceira idade",
+    texto: "Proponha melhorias de UX para um app de [tipo] focado em usuários idosos, abordando: 1) Tamanho de toque, 2) Contraste visual, 3) Simplificação de fluxos, 4) Feedback claro, 5) Suporte contextual. Mostre telas redesenhadas.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 35,
+    titulo: "Sinalização Wayfinding",
+    descricao: "Navegação em espaços físicos",
+    texto: "Desenvolva um sistema de sinalização para [local] incluindo: 1) Tipografia legível à distância, 2) Ícones universais, 3) Hierarquia informacional, 4) Materiais duráveis, 5) Integração com mapas digitais. Mostre planta com posicionamento.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 36,
+    titulo: "Design de Etiqueta",
+    descricao: "Informação de produto físico",
+    texto: "Crie o design de etiqueta para [produto] contendo: 1) Informações obrigatórias, 2) Hierarquia visual, 3) Códigos de barras/QR, 4) Variantes de tamanho, 5) Elementos de branding. Considere regulamentações do setor.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 37,
+    titulo: "UI para TV",
+    descricao: "Design para telas grandes",
+    texto: "Projete a interface de um app de streaming para TV com: 1) Navegação por controle remoto, 2) Grade de conteúdo, 3) Player de vídeo, 4) Busca por voz, 5) Perfis de usuário. Foque em legibilidade à distância.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 38,
+    titulo: "Design de Timbre",
+    descricao: "Identidade para correspondência",
+    texto: "Desenvolva um timbre profissional para [empresa/instituição] incluindo: 1) Layout para papel carta, 2) Versão digital, 3) Informações essenciais, 4) Integração com logo, 5) Variantes para diferentes departamentos.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 39,
+    titulo: "UI para Saúde",
+    descricao: "Design para aplicativos médicos",
+    texto: "Projete telas para um app de saúde que gerencia [condição] considerando: 1) Clareza de informações, 2) Emergências, 3) Privacidade de dados, 4) Acompanhamento de progresso, 5) Comunicação com profissionais. Use cores apropriadas.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 40,
+    titulo: "Design de Filtro Fotográfico",
+    descricao: "Presets de edição visual",
+    texto: "Crie 5 filtros fotográficos com estilos distintos para [tipo de conteúdo], definindo: 1) Ajustes de cor, 2) Tratamento de pele, 3) Efeitos de luz, 4) Opções personalizáveis, 5) Aplicação em diferentes cenários. Mostre antes/depois.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 41,
+    titulo: "UI para Educação",
+    descricao: "Interfaces para e-learning",
+    texto: "Desenvolva o design de uma plataforma de ensino sobre [matéria] com: 1) Progresso visual, 2) Interatividade em lições, 3) Gamificação, 4) Acessibilidade, 5) Ferramentas de colaboração. Mostre fluxo completo.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 42,
+    titulo: "Design de Adesivo",
+    descricao: "Vinhetas visuais adesiváveis",
+    texto: "Crie uma coleção de 10 adesivos no estilo [estilo] para [público-alvo] com: 1) Temas variados, 2) Frases impactantes, 3) Formas criativas, 4) Aplicação em diferentes superfícies, 5) Kit para redes sociais.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 43,
+    titulo: "UI para IoT",
+    descricao: "Interfaces para dispositivos conectados",
+    texto: "Projete o painel de controle de um dispositivo IoT de [função] com: 1) Status claro, 2) Controles intuitivos, 3) Alertas, 4) Integração com ecossistema, 5) Modo offline. Mostre app + interface física se aplicável.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 44,
+    titulo: "Design de Capa de Disco",
+    descricao: "Identidade visual para álbuns",
+    texto: "Desenvolva 3 conceitos de capa para o álbum [nome/gênero] refletindo: 1) Temática musical, 2) Estética do artista, 3) Versões física/digital, 4) Elementos de colecionador, 5) Continuidade com singles anteriores.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 45,
+    titulo: "UI para Finanças",
+    descricao: "Design para apps bancários",
+    texto: "Redesenhe a experiência de um app bancário focando em: 1) Segurança visível, 2) Operações frequentes, 3) Visualização de gastos, 4) Atendimento digital, 5) Educação financeira. Otimize fluxos complexos.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 46,
+    titulo: "Design de Uniforme",
+    descricao: "Identidade vestível",
+    texto: "Crie uma linha de uniformes para [empresa/equipe] incluindo: 1) Variantes por função, 2) Aplicação de marca, 3) Tecidos adequados, 4) Personalização individual, 5) Itens complementares (jaquetas, acessórios).",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 47,
+    titulo: "UI para Eventos",
+    descricao: "Aplicativos para conferências",
+    texto: "Projete o app para o evento [tipo] com: 1) Agenda personalizável, 2) Mapa interativo, 3) Networking facilitado, 4) Notificações relevantes, 5) Materiais pós-evento. Destaque features únicas.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 48,
+    titulo: "Design de Emoji",
+    descricao: "Criação de ícones emocionais",
+    texto: "Desenvolva um conjunto de 15 emojis temáticos sobre [tema] com: 1) Expressividade clara, 2) Estilo consistente, 3) Variações de skin tone, 4) Detalhes em alta resolução, 5) Versões estáticas e animadas.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 49,
+    titulo: "UI para Realidade Virtual",
+    descricao: "Interfaces imersivas",
+    texto: "Projete a UI para uma experiência VR de [tipo] considerando: 1) Comfort visual, 2) Navegação 3D, 3) Interação natural, 4) Feedback imediato, 5) Acessibilidade em movimento. Mostre elementos flutuantes.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 50,
+    titulo: "Design de Tatuagem",
+    descricao: "Arte corporal personalizada",
+    texto: "Crie 3 conceitos de tatuagem baseados em [elementos inspiradores] para [parte do corpo] com: 1) Significado pessoal, 2) Estilo definido, 3) Escala adequada, 4) Versões simplificadas, 5) Longevidade do design.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 51,
+    titulo: "UI para Restaurantes",
+    descricao: "Experiência digital gastronômica",
+    texto: "Desenvolva o design de um app para [tipo de restaurante] com: 1) Menu visual, 2) Reservas integradas, 3) Recomendações personalizadas, 4) Pagamento rápido, 5) Fidelidade digital. Mostre jornada completa.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 52,
+    titulo: "Design de Papelaria",
+    descricao: "Kits de identidade corporativa",
+    texto: "Crie uma linha de papelaria para [empresa] incluindo: 1) Cartão de visita, 2) Papel carta, 3) Envelope, 4) Nota fiscal, 5) Apresentação digital. Mantenha consistência de marca.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 53,
+    titulo: "UI para Moda",
+    descricao: "E-commerce de vestuário",
+    texto: "Redesenhe a experiência de um app de moda focando em: 1) Descoberta visual, 2) Fitting virtual, 3) Combinações, 4) Reviews com fotos reais, 5) Sustentabilidade dos produtos. Inove na navegação.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 54,
+    titulo: "Design de Selo Postal",
+    descricao: "Arte para correspondência",
+    texto: "Proponha um design de selo postal comemorativo sobre [tema] considerando: 1) Restrições técnicas, 2) Elementos nacionais, 3) Valor facial visível, 4) Versões colecionáveis, 5) Série temática.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 55,
+    titulo: "UI para Música",
+    descricao: "Players e descoberta musical",
+    texto: "Projete um player de música inovador com: 1) Visualização de letras, 2) Modos de escuta, 3) Descoberta por humor, 4) Listas colaborativas, 5) Integração com artistas. Reinvente elementos clássicos.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 56,
+    titulo: "Design de Quebra-Cabeça",
+    descricao: "Jogos físicos ilustrados",
+    texto: "Crie a arte para um quebra-cabeça de [número] peças sobre [tema] com: 1) Ilustração detalhada, 2) Dificuldade balanceada, 3) Elementos de borda identificáveis, 4) Referência visual, 5) Embalagem atraente.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 57,
+    titulo: "UI para Beleza",
+    descricao: "Tecnologia para cosméticos",
+    texto: "Desenvolva a interface de um app de beleza que: 1) Teste produtos virtualmente, 2) Recomende rotinas, 3) Acompanhe progresso, 4) Conecte com profissionais, 5) Eduque sobre ingredientes. Mostre AR integrado.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 58,
+    titulo: "Design de Queima de Arquivo",
+    descricao: "Identidade para eventos efêmeros",
+    texto: "Crie a identidade visual para o evento [nome] com duração de [tempo] incluindo: 1) Logo temporário, 2) Materiais descartáveis, 3) Sinalização removível, 4) Documentação pós-evento, 5) Elementos de legacy.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 59,
+    titulo: "UI para Pets",
+    descricao: "Experiência para tutores",
+    texto: "Projete um app completo para tutores de [animal] com: 1) Saúde monitorada, 2) Lembretes, 3) Rede social pet, 4) Encontros, 5) Emergências veterinárias. Use tom de voz adequado.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 60,
+    titulo: "Design de Queijaria",
+    descricao: "Embalagem para alimentos premium",
+    texto: "Desenvolva a identidade visual para uma linha de queijos artesanais com: 1) Tipografia rústica, 2) Elementos regionais, 3) Informações regulatórias, 4) Variantes por tipo, 5) Experiência de desembalar.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 61,
+    titulo: "UI para Agricultura",
+    descricao: "Tecnologia para o campo",
+    texto: "Crie a interface de um app agrícola que auxilie em: 1) Monitoramento de plantio, 2) Controle de pragas, 3) Previsão climática, 4) Gestão de recursos, 5) Conexão com especialistas. Considere uso offline.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 62,
+    titulo: "Design de Jogo de Tabuleiro",
+    descricao: "Arte para boardgames",
+    texto: "Desenvolva os componentes visuais para um jogo sobre [tema] incluindo: 1) Tabuleiro, 2) Cartas, 3) Peças, 4) Embalagem, 5) Manual ilustrado. Mantenha coerência temática.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 63,
+    titulo: "UI para Seguros",
+    descricao: "Experiência digital em seguros",
+    texto: "Redesenhe o app de uma seguradora focando em: 1) Simulação intuitiva, 2) Gestão de apólices, 3) Sinistros digitais, 4) Prevenção de riscos, 5) Atendimento humanizado digital.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 64,
+    titulo: "Design de Vinil",
+    descricao: "Arte para discos de vinil",
+    texto: "Crie a arte completa para um lançamento em vinil incluindo: 1) Capa frontal/traseira, 2) Encarte, 3) Rótulo central, 4) Variantes especiais, 5) Elementos de colecionador. Considere formato circular.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 65,
+    titulo: "UI para Bibliotecas",
+    descricao: "Digitalização de acervos",
+    texto: "Projete a interface de um app de biblioteca com: 1) Busca avançada, 2) Reservas, 3) Recomendações, 4) Clubes de leitura, 5) Integração com e-readers. Valorize descoberta literária.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 66,
+    titulo: "Design de Tarô",
+    descricao: "Baralhos ilustrados",
+    texto: "Desenvolva um conjunto de 5 cartas de tarô no estilo [estilo] com: 1) Simbolismo tradicional, 2) Interpretação visual, 3) Cores significativas, 4) Reversos diferenciados, 5) Embalagem temática.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 67,
+    titulo: "UI para Recrutamento",
+    descricao: "Experiência candidato-empresa",
+    texto: "Crie o design de uma plataforma de recrutamento com: 1) Perfil visual, 2) Match inteligente, 3) Processos transparentes, 4) Feedback construtivo, 5) Preparação para entrevistas. Humanize a jornada.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 68,
+    titulo: "Design de Caligrafia",
+    descricao: "Tipografia manuscrita",
+    texto: "Desenvolva um alfabeto caligráfico no estilo [estilo] com: 1) Maiúsculas/minúsculas, 2) Números, 3) Pontuação, 4) Ligaturas, 5) Variações contextuais. Inclua guia de aplicação.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 69,
+    titulo: "UI para Cidades Inteligentes",
+    descricao: "Serviços urbanos digitais",
+    texto: "Projete o app de uma smart city integrando: 1) Transporte, 2) Eventos locais, 3) Serviços públicos, 4) Comércio, 5) Participação cidadã. Priorize inclusão digital.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 70,
+    titulo: "Design de Azulejaria",
+    descricao: "Padrões para revestimento",
+    texto: "Crie uma coleção de padrões para azulejos com: 1) Motivos históricos modernizados, 2) Cores coordenadas, 3) Aplicações contextuais, 4) Combinações possíveis, 5) Inspiração cultural.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 71,
+    titulo: "UI para Psicologia",
+    descricao: "Saúde mental digital",
+    texto: "Desenvolva uma interface sensível para app de terapia com: 1) Diário emocional, 2) Exercícios guiados, 3) Conexão com profissionais, 4) Progresso visual, 5) Recursos de crise. Use psicologia das cores.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 72,
+    titulo: "Design de Vitrine",
+    descricao: "Montagens comerciais atraentes",
+    texto: "Proponha 3 conceitos de vitrine para [tipo de loja] com temas: 1) Sazonal, 2) Promocional, 3) Conceitual. Inclua: disposição de produtos, iluminação, elementos interativos e call-to-action.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 73,
+    titulo: "UI para Artistas",
+    descricao: "Portfólios digitais",
+    texto: "Crie um template de portfólio digital para [tipo de artista] com: 1) Galeria imersiva, 2) Biografia visual, 3) Processo criativo, 4) Contato integrado, 5) Loja de obras. Destaque a arte.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 74,
+    titulo: "Design de Queimador",
+    descricao: "Estampas para produtos pirotécnicos",
+    texto: "Desenvolva estampas para uma linha de fogos de artifício com: 1) Temas festivos, 2) Nomes criativos, 3) Informações de segurança, 4) Sistema de cores por efeito, 5) Embalagem coletável.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 75,
+    titulo: "UI para ONGs",
+    descricao: "Experiência para causas sociais",
+    texto: "Projete o site/app de uma ONG focando em: 1) Transparência, 2) Storytelling impactante, 3) Doações simplificadas, 4) Voluntariado, 5) Resultados mensuráveis. Conecte emocionalmente.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 76,
+    titulo: "Design de Livro Infantil",
+    descricao: "Ilustração e tipografia para crianças",
+    texto: "Crie o layout completo para um livro infantil sobre [tema] com: 1) Ilustrações página-a-página, 2) Tipografia lúdica, 3) Interatividade, 4) Guia para pais, 5) Capa atraente. Considere faixa etária.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 77,
+    titulo: "UI para Esportes",
+    descricao: "Tecnologia para atletas",
+    texto: "Desenvolva a interface de um app esportivo para [modalidade] com: 1) Tracking de performance, 2) Análise de movimentos, 3) Treinos personalizados, 4) Comunidade, 5) Competições. Use dinamismo visual.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 78,
+    titulo: "Design de Enciclopédia",
+    descricao: "Organização visual de conhecimento",
+    texto: "Proponha um sistema de design para uma enciclopédia digital sobre [área] com: 1) Hierarquia de informação, 2) Elementos gráficos explicativos, 3) Navegação temática, 4) Linha do tempo interativa, 5) Referências cruzadas.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 79,
+    titulo: "UI para Varejo",
+    descricao: "Experiência omnicanal",
+    texto: "Integre a jornada digital-física para uma loja de [segmento] com: 1) Check-in no app, 2) Navegação na loja, 3) Informações de produto ampliadas, 4) Pagamento sem filas, 5) Fidelidade conectada.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 80,
+    titulo: "Design de Instrumento Musical",
+    descricao: "Estética de ferramentas sonoras",
+    texto: "Reimagine o design visual de um [instrumento] com: 1) Ergonomia melhorada, 2) Elementos personalizáveis, 3) Materiais inovadores, 4) Identidade visual forte, 5) Versões para diferentes níveis.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 81,
+    titulo: "UI para Jardinagem",
+    descricao: "Tecnologia para jardineiros",
+    texto: "Crie um app que auxilie em: 1) Identificação de plantas, 2) Cronograma de cuidados, 3) Solução de problemas, 4) Design de jardins, 5) Compartilhamento com comunidade. Use referências naturais.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 82,
+    titulo: "Design de Gibi",
+    descricao: "Arte sequencial estilizada",
+    texto: "Desenvolva o estilo visual para uma HQ sobre [tema] com: 1) Personagens marcantes, 2) Narrativa visual clara, 3) Balões expressivos, 4) Onomatopeias integradas, 5) Capa impactante.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 83,
+    titulo: "UI para Imóveis",
+    descricao: "Tecnologia para o mercado imobiliário",
+    texto: "Projete uma plataforma imobiliária com: 1) Buscas avançadas, 2) Tours virtuais, 3) Comparação lado-a-lado, 4) Documentação digital, 5) Simulação financiamento. Humanize a experiência.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 84,
+    titulo: "Design de Brinquedo",
+    descricao: "Produtos lúdicos inovadores",
+    texto: "Crie o conceito visual para um brinquedo educativo sobre [tema] com: 1) Segurança visível, 2) Elementos interativos, 3) Escalabilidade, 4) Embalagem atraente, 5) Versões por faixa etária.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 85,
+    titulo: "UI para Logística",
+    descricao: "Rastreamento e gestão",
+    texto: "Desenvolva um painel de logística que mostre: 1) Status em tempo real, 2) Rotas otimizadas, 3) Alertas proativos, 4) Documentação digital, 5) Comunicação integrada. Priorize clareza.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 86,
+    titulo: "Design de Mosaico",
+    descricao: "Arte com peças modulares",
+    texto: "Proponha um padrão de mosaico para [espaço] usando: 1) Cores coordenadas, 2) Texturas variadas, 3) Transições graduais, 4) Elementos simbólicos, 5) Integração arquitetônica. Mostre detalhes.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 87,
+    titulo: "UI para Podcasts",
+    descricao: "Descoberta e consumo de áudio",
+    texto: "Redesenhe a experiência de um app de podcasts com: 1) Recomendações contextuais, 2) Playlists inteligentes, 3) Transcrições sincronizadas, 4) Controles de velocidade, 5) Comunidade de ouvintes.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 88,
+    titulo: "Design de Instrumental Cirúrgico",
+    descricao: "Ergonomia médica",
+    texto: "Reimagine o design de um [instrumento médico] focando em: 1) Segurança, 2) Feedback tátil, 3) Esterilização, 4) Armazenamento, 5) Identificação rápida. Consulte profissionais.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 89,
+    titulo: "UI para Energia",
+    descricao: "Monitoramento de consumo",
+    texto: "Crie um painel de energia residencial/comercial mostrando: 1) Dados em tempo real, 2) Histórico, 3) Comparativos, 4) Metas, 5) Dicas personalizadas. Traduza dados complexos.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 90,
+    titulo: "Design de Aquário",
+    descricao: "Ambientes aquáticos imersivos",
+    texto: "Projete um aquário público/privado com: 1) Sinalização educativa, 2) Iluminação cenográfica, 3) Fluxo de visitantes, 4) Tanques temáticos, 5) Interatividade. Balanceie beleza e funcionalidade.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 91,
+    titulo: "UI para Culinária",
+    descricao: "Assistente de cozinha digital",
+    texto: "Desenvolva um app que: 1) Converta medidas, 2) Ajuste receitas por porções, 3) Cronometre etapas, 4) Sugira substituições, 5) Organize lista de compras. Integre com assistentes de voz.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 92,
+    titulo: "Design de Relógio",
+    descricao: "Mostradores e interfaces temporais",
+    texto: "Crie 5 conceitos de mostrador para smartwatch/relógio analógico com temas: 1) Minimalista, 2) Retro, 3) Futurista, 4) Baseado em dados, 5) Artístico. Considere legibilidade em vários tamanhos.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 93,
+    titulo: "UI para Astronomia",
+    descricao: "Exploração estelar digital",
+    texto: "Projete um app de observação astronômica com: 1) Mapa celeste em tempo real, 2) Identificação de corpos, 3) Notificações de eventos, 4) Fotografia integrada, 5) Comunidade de entusiastas.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 94,
+    titulo: "Design de Ferramenta",
+    descricao: "Ergonomia e segurança visual",
+    texto: "Redesenhe uma [ferramenta comum] melhorando: 1) Pegada ergonômica, 2) Indicadores de uso, 3) Armazenamento, 4) Segurança, 5) Sistema de cores para diferentes tamanhos. Mostre em contexto.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 95,
+    titulo: "UI para Meditação",
+    descricao: "Experiência de mindfulness digital",
+    texto: "Crie uma interface calmante para app de meditação com: 1) Sessões guiadas, 2) Acompanhamento de progresso, 3) Sons ambientais, 4) Lembretes gentis, 5) Modo desconexão. Use psicologia das cores.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 96,
+    titulo: "Design de Brinquedo Inflável",
+    descricao: "Produtos recreativos temporários",
+    texto: "Desenvolva conceitos para brinquedos infláveis de [contexto] com: 1) Formas inovadoras, 2) Segurança visível, 3) Padrões de cores, 4) Embalagem compacta, 5) Instruções pictóricas.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 97,
+    titulo: "UI para Criptomoedas",
+    descricao: "Gestão de ativos digitais",
+    texto: "Projete um wallet de criptomoedas com: 1) Segurança visível, 2) Transações simplificadas, 3) Gráficos claros, 4) Educação, 5) Integração com exchanges. Traduza complexidade técnica.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 98,
+    titulo: "Design de Queijo",
+    descricao: "Identidade visual para laticínios",
+    texto: "Crie a identidade para uma linha de queijos artesanais com: 1) Nomenclatura criativa, 2) Rótulos diferenciados, 3) Elementos regionais, 4) Informações de maturação, 5) Experiência de desembalar.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 99,
+    titulo: "UI para Voluntariado",
+    descricao: "Conexão entre causas e voluntários",
+    texto: "Desenvolva uma plataforma que: 1) Match por habilidades, 2) Mostre impacto, 3) Facilite agendamento, 4) Reconheça contribuições, 5) Crie comunidade. Humanize a experiência digital.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 100,
+    titulo: "Design de Queimador de Incenso",
+    descricao: "Objetos ritualísticos contemporâneos",
+    texto: "Reimagine um queimador de incenso para uso moderno com: 1) Segurança, 2) Facilidade de limpeza, 3) Estética minimalista, 4) Personalização, 5) Experiência sensorial ampliada. Mostre em uso.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 101,
+    titulo: "UI para Colecionadores",
+    descricao: "Gestão de acervos pessoais",
+    texto: "Projete um app para catalogar coleções de [item] com: 1) Banco de dados visual, 2) Valor de mercado, 3) Troca/comunidade, 4) Exposição virtual, 5) Alertas de eventos. Celebre a paixão colecionista.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 102,
+    titulo: "Design de Ferramentas Agrícolas",
+    descricao: "Ergonomia para o campo",
+    texto: "Redesenhe uma [ferramenta agrícola] melhorando: 1) Ajuste para diferentes usuários, 2) Redução de esforço, 3) Indicadores de desgaste, 4) Armazenamento, 5) Segurança. Consulte trabalhadores rurais.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 103,
+    titulo: "UI para Plantas",
+    descricao: "Identificação e cuidados",
+    texto: "Crie um app que: 1) Identifique plantas por foto, 2) Monitore rega, 3) Diagnostique problemas, 4) Sugira companheiras, 5) Conecte com jardineiros. Use referências naturais na interface.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 104,
+    titulo: "Design de Instrumentos Científicos",
+    descricao: "Precisão visual",
+    texto: "Reimagine o design de um [instrumento de laboratório] focando em: 1) Legibilidade, 2) Prevenção de erros, 3) Limpeza, 4) Armazenamento, 5) Identificação rápida. Consulte profissionais.",
+    categoria: "design",
+    favorito: false
+  },
+  {
+    id: 105,
+    titulo: "UI para Artesanato",
+    descricao: "Tecnologia para makers",
+    texto: "Desenvolva uma plataforma para artesãos venderem obras com: 1) Histórias por trás das peças, 2) Processo criativo, 3) Encomendas, 4) Oficinas, 5) Comunidade. Celebre o trabalho manual.",
+    categoria: "design",
+    favorito: false
+  }
+],
   programação: [
     {
       id: 12,
@@ -2368,6 +3860,784 @@ export const prompts = {
       favorito: false
     }
   ],
+  programação: [
+  {
+    id: 1,
+    titulo: "Refatoração de Código",
+    descricao: "Sugira melhorias para limpeza de código",
+    texto: "Analise o seguinte trecho de código e sugira: 1) Melhores nomes para variáveis/funções, 2) Extração de métodos quando aplicável, 3) Simplificação de estruturas condicionais, 4) Padrões de design que poderiam ser aplicados. Mantenha a mesma funcionalidade.\n\n[cole o código aqui]",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 2,
+    titulo: "Geração de Casos de Teste",
+    descricao: "Crie testes unitários abrangentes",
+    texto: "Para a seguinte função/classe, gere: 1) Casos de teste para caminhos felizes, 2) Casos de teste para valores extremos, 3) Testes de erro/exceção esperados, 4) Dados mock quando necessário. Use [Jest/Mocha/JUnit/etc.] como framework.\n\n[cole a assinatura da função/classe]",
+    categoria: "programação",
+    favorito: true
+  },
+  {
+    id: 3,
+    titulo: "Migração de Versão",
+    descricao: "Planeje atualização de framework/linguagem",
+    texto: "Para um projeto usando [versão antiga] de [tecnologia], liste: 1) Mudanças críticas na nova versão, 2) Passo a passo para migração segura, 3) Ferramentas de automação disponíveis, 4) Estimativa de esforço para um projeto de [tamanho].",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 4,
+    titulo: "Análise de Complexidade",
+    descricao: "Calcule Big-O de algoritmos",
+    texto: "Para o seguinte algoritmo, determine: 1) Complexidade temporal no pior caso, 2) Complexidade espacial, 3) Possíveis otimizações, 4) Compare com abordagens alternativas conhecidas.\n\n[cole o pseudocódigo ou código]",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 5,
+    titulo: "Conversão entre Linguagens",
+    descricao: "Traduza código entre linguagens",
+    texto: "Converta o seguinte código de [linguagem origem] para [linguagem destino]: 1) Mantenha a mesma lógica, 2) Aproveite idiomas da nova linguagem, 3) Trate diferenças de biblioteca padrão, 4) Comente sobre trade-offs na implementação.\n\n[cole o código original]",
+    categoria: "programação",
+    favorito: true
+  },
+  {
+    id: 6,
+    titulo: "Debug Remoto",
+    descricao: "Diagnostique problemas em ambiente produtivo",
+    texto: "Para o seguinte erro em produção: [descreva sintomas/logs], sugira: 1) Possíveis causas raiz, 2) Comandos para coletar mais dados, 3) Workaround imediato, 4) Solução definitiva com monitoramento preventivo.",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 7,
+    titulo: "Design de API REST",
+    descricao: "Crie endpoints bem estruturados",
+    texto: "Para o recurso [nome do recurso], projete: 1) Modelo de dados completo, 2) Endpoints RESTful (GET/POST/PUT/DELETE), 3) Códigos de status HTTP apropriados, 4) Esquemas de request/response em JSON.",
+    categoria: "programação",
+    favorito: true
+  },
+  {
+    id: 8,
+    titulo: "Configuração de CI/CD",
+    descricao: "Configure pipeline de entrega contínua",
+    texto: "Para um projeto [stack tecnológica], crie: 1) Arquivo de configuração YAML para [GitHub Actions/GitLab CI], 2) Passos para teste, build e deploy, 3) Gatilhos apropriados, 4) Tratamento de ambientes múltiplos.",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 9,
+    titulo: "Protótipo Rápido",
+    descricao: "Gere código inicial para funcionalidade",
+    texto: "Crie um protótipo para [funcionalidade] usando [tecnologia]: 1) Estrutura básica de arquivos, 2) Implementação mínima viável, 3) Configurações essenciais, 4) Dependências necessárias.",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 10,
+    titulo: "Análise de Segurança",
+    descricao: "Identifique vulnerabilidades em código",
+    texto: "Revise o seguinte código procurando: 1) Vulnerabilidades OWASP Top 10, 2) Problemas de sanitização de input, 3) Más práticas de segurança, 4) Sugestões de hardening.\n\n[cole o código suspeito]",
+    categoria: "programação",
+    favorito: true
+  },
+  {
+    id: 11,
+    titulo: "Normalização de Banco de Dados",
+    descricao: "Otimize estrutura de tabelas",
+    texto: "Para o seguinte esquema relacional: [descreva tabelas], avalie: 1) Forma normal atual, 2) Possibilidade de normalização adicional, 3) Trade-offs de desempenho, 4) Sugestões de índices.",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 14,
+    titulo: "Diagrama de Sequência",
+    descricao: "Gere representação visual de fluxo",
+    texto: "Crie um diagrama de sequência para: 1) Interação entre componentes [lista], 2) Mensagens trocadas, 3) Retornos esperados, 4) Tratamento de erros. Use sintaxe Mermaid ou PlantUML.",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 15,
+    titulo: "Benchmark de Algoritmos",
+    descricao: "Compare desempenho de implementações",
+    texto: "Para resolver [problema], implemente: 1) Versão ingênua, 2) Versão otimizada, 3) Script para medir tempo de execução, 4) Análise de resultados com diferentes tamanhos de entrada.",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 16,
+    titulo: "Padronização de Commit",
+    descricao: "Melhore mensagens de versionamento",
+    texto: "Revise estas mensagens de commit: [lista] e: 1) Aplique Conventional Commits, 2) Separe sujeito do corpo, 3) Adicione contexto relevante, 4) Relacione com issues quando existir.",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 17,
+    titulo: "Configuração de Linter",
+    descricao: "Crie regras de análise estática",
+    texto: "Para um projeto [linguagem], configure: 1) Arquivo de regras para [ESLint/RuboCop], 2) Padrão de código baseado em [Airbnb/Google Style], 3) Regras customizadas para [requisitos], 4) Integração com pre-commit.",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 18,
+    titulo: "Tradução de Erros",
+    descricao: "Converta mensagens técnicas para usuários",
+    texto: "Transforme estes erros técnicos em mensagens amigáveis: [lista], mantendo: 1) Clareza do problema, 2) Ações corretivas possíveis, 3) Tom apropriado, 4) Localização para [idioma].",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 19,
+    titulo: "Sugestão de Bibliotecas",
+    descricao: "Recomende pacotes para resolver problema",
+    texto: "Para [necessidade específica] em [linguagem/ecossistema], sugira: 1) Bibliotecas maduras, 2) Comparativo de features, 3) Estatísticas de manutenção, 4) Exemplo mínimo de uso.",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 20,
+    titulo: "Modelagem de Dados NoSQL",
+    descricao: "Desenhe estrutura para banco não-relacional",
+    texto: "Para uma aplicação de [domínio], modele: 1) Documentos/coleções para MongoDB, 2) Chaves/valores para Redis, 3) Estratégia de sharding, 4) Padrões de consulta frequente.",
+    categoria: "programação",
+    favorito: true
+  },
+  {
+    id: 22,
+    titulo: "Geração de Changelog",
+    descricao: "Crie registro de mudanças entre versões",
+    texto: "Com base nestes commits [intervalo/versões], gere: 1) Changelog organizado por tipo de mudança, 2) Destaque breaking changes, 3) Inclua referências a issues, 4) Formato para Markdown.",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 23,
+    titulo: "Automação de Deploy",
+    descricao: "Script para implantação em servidor",
+    texto: "Crie um script [Bash/Python] para: 1) Parar serviço, 2) Fazer backup, 3) Atualizar arquivos, 4) Reiniciar dependências, 5) Validar instalação. Considere [ambiente específico].",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 24,
+    titulo: "Análise de Cobertura",
+    descricao: "Identifique código não testado",
+    texto: "Com base neste relatório de cobertura: [dados], aponte: 1) Arquivos com baixa cobertura, 2) Métodos críticos não testados, 3) Sugestões de testes adicionais, 4) Meta de cobertura ideal.",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 25,
+    titulo: "Configuração de Load Balancer",
+    descricao: "Otimize distribuição de tráfego",
+    texto: "Para uma aplicação [tipo] com [N] instâncias, configure: 1) Regras de balanceamento, 2) Health checks apropriados, 3) Estratégia de session persistence, 4) Failover automático.",
+    categoria: "programação",
+    favorito: true
+  },
+  {
+    id: 26,
+    titulo: "Migração Cloud",
+    descricao: "Planeje transição para nuvem",
+    texto: "Para uma infraestrutura on-premise com [características], proponha: 1) Estratégia lift-and-shift vs. nativo, 2) Serviços cloud equivalentes, 3) Estimativa de custos, 4) Roteiro de migração em fases.",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 27,
+    titulo: "Monitoramento de Aplicação",
+    descricao: "Configure alertas e métricas",
+    texto: "Para um serviço [tipo], defina: 1) KPIs essenciais, 2) Limites para alertas, 3) Dashboard inicial, 4) Integração com [Prometheus/New Relic]. Considere [SLA requerido].",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 28,
+    titulo: "Solução de Problemas Concorrentes",
+    descricao: "Lide com race conditions",
+    texto: "Para o seguinte cenário concorrente: [descrição], proponha: 1) Padrão de sincronização adequado, 2) Implementação thread-safe, 3) Testes de estresse, 4) Alternativas lock-free se aplicável.",
+    categoria: "programação",
+    favorito: true
+  },
+  {
+    id: 29,
+    titulo: "Compilação Cross-Platform",
+    descricao: "Configure build para múltiplas plataformas",
+    texto: "Para um projeto [linguagem], configure: 1) Build para Windows/Linux/macOS, 2) Tratamento de dependências específicas, 3) Geração de executáveis, 4) Inclusão de assets.",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 30,
+    titulo: "Análise de Logs",
+    descricao: "Extraia insights de arquivos de log",
+    texto: "Para estes logs [amostra], identifique: 1) Padrões de erro, 2) Métricas de desempenho, 3) Sugestões de otimização, 4) Script para análise automatizada usando [AWK/Grep].",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 31,
+    titulo: "Design de CLI",
+    descricao: "Crie interface de linha de comando",
+    texto: "Para uma ferramenta que [propósito], projete: 1) Estrutura de comandos/subcomandos, 2) Opções e flags, 3) Mensagens de ajuda, 4) Output formatado. Use [biblioteca CLI].",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 32,
+    titulo: "Versionamento de API",
+    descricao: "Estruture evolução de endpoints",
+    texto: "Para uma API [tipo], planeje: 1) Estratégia de versionamento (URL/header), 2) Depreciação de versões, 3) Documentação paralela, 4) Comunicação de breaking changes.",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 33,
+    titulo: "Cache Estratégico",
+    descricao: "Implemente camada de cache eficiente",
+    texto: "Para uma aplicação com [padrão de acesso], sugira: 1) Estratégia de cache (LRU/TTL), 2) Níveis apropriados (CDN/backend/browser), 3) Invalidação eficiente, 4) Monitoramento de hit rate.",
+    categoria: "programação",
+    favorito: true
+  },
+  {
+    id: 34,
+    titulo: "Compressão de Dados",
+    descricao: "Otimize tamanho de payloads",
+    texto: "Para dados do tipo [tipo], avalie: 1) Algoritmos de compressão adequados, 2) Trade-off CPU/tamanho, 3) Configuração de servidor web, 4) Tratamento no cliente.",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 35,
+    titulo: "Deploy Blue-Green",
+    descricao: "Implemente atualização sem downtime",
+    texto: "Para um serviço [tipo], descreva: 1) Configuração de ambiente paralelo, 2) Troca de tráfego, 3) Rollback automático, 4) Testes pós-implantação. Considere [restrições].",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 36,
+    titulo: "Feature Flags",
+    descricao: "Gerencie lançamento progressivo",
+    texto: "Para a feature [nome], implemente: 1) Sistema de toggle, 2) Controle por usuário/percentual, 3) Monitoramento de impacto, 4) Remoção limpa do código legacy.",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 37,
+    titulo: "Serialização Eficiente",
+    descricao: "Escolha formato de transferência",
+    texto: "Para dados com [características], compare: 1) JSON vs. Protocol Buffers vs. MessagePack, 2) Tamanho serializado, 3) Velocidade de processamento, 4) Suporte a esquemas.",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 38,
+    titulo: "Autenticação Segura",
+    descricao: "Implemente fluxo de login robusto",
+    texto: "Para um sistema [tipo], projete: 1) Fluxo OAuth2/JWT, 2) Armazenamento de tokens, 3) Rotação de credenciais, 4) Proteção contra ataques comuns.",
+    categoria: "programação",
+    favorito: true
+  },
+  {
+    id: 39,
+    titulo: "Processamento Assíncrono",
+    descricao: "Desenhe arquitetura baseada em eventos",
+    texto: "Para a operação [descrição], implemente: 1) Filas com [RabbitMQ/Kafka], 2) Workers escaláveis, 3) Retry com backoff, 4) Monitoramento de dead letter queue.",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 40,
+    titulo: "Análise de Dependências",
+    descricao: "Identifique pacotes problemáticos",
+    texto: "Para o arquivo [package.json/pom.xml], analise: 1) Dependências não utilizadas, 2) Versões desatualizadas, 3) Possíveis conflitos, 4) Sugestões de atualização segura.",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 41,
+    titulo: "Configuração de Proxy Reverso",
+    descricao: "Otimize roteamento de requisições",
+    texto: "Configure [Nginx/Apache] para: 1) Balanceamento de carga, 2) Terminação SSL, 3) Cache de conteúdo estático, 4) Redirecionamentos condicionais.",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 42,
+    titulo: "Testes de Integração",
+    descricao: "Automatize cenários end-to-end",
+    texto: "Para o fluxo [descrição], crie: 1) Ambiente isolado com containers, 2) Cenários críticos de negócio, 3) Dados de teste realistas, 4) Assertivas completas.",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 43,
+    titulo: "Padrões de Microserviços",
+    descricao: "Aplique soluções comuns",
+    texto: "Para o problema [descrição], sugira: 1) Padrão adequado (Circuit Breaker, Saga), 2) Implementação de referência, 3) Bibliotecas suportadas, 4) Configuração de resiliência.",
+    categoria: "programação",
+    favorito: true
+  },
+  {
+    id: 44,
+    titulo: "Gerenciamento de Secrets",
+    descricao: "Armazene credenciais com segurança",
+    texto: "Para um ambiente [tipo], configure: 1) Vault/Parameter Store, 2) Rotação automática, 3) Controle de acesso, 4) Integração com aplicações.",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 45,
+    titulo: "Autoscaling Configurável",
+    descricao: "Ajuste escala baseado em métricas",
+    texto: "Para um serviço em [nuvem], defina: 1) Métricas de scaling (CPU/request count), 2) Limites mínimos/máximos, 3) Períodos de cooldown, 4) Notificações de eventos.",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 46,
+    titulo: "Conversão de Protocolos",
+    descricao: "Ponte entre sistemas heterogêneos",
+    texto: "Crie um adaptador para converter: 1) REST para gRPC, 2) SOAP para GraphQL, 3) Formato de mensagens, 4) Tratamento de erros equivalentes.",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 47,
+    titulo: "Análise de Código Legado",
+    descricao: "Documente sistema herdado",
+    texto: "Para o código [linguagem/versão], gere: 1) Diagrama de dependências, 2) Fluxos principais, 3) Pontos de extensão, 4) Riscos conhecidos.",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 48,
+    titulo: "Sincronização de Dados Offline",
+    descricao: "Implemente funcionalidade offline-first",
+    texto: "Para um app móvel, projete: 1) Armazenamento local, 2) Detecção de conectividade, 3) Resolução de conflitos, 4) Sincronização incremental.",
+    categoria: "programação",
+    favorito: true
+  },
+  {
+    id: 49,
+    titulo: "Canary Release",
+    descricao: "Implante versões para subconjunto",
+    texto: "Planeje um canary release para: 1) Seleção de usuários, 2) Coleta de métricas, 3) Critérios de rollback, 4) Expansão progressiva.",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 50,
+    titulo: "Query GraphQL Otimizada",
+    descricao: "Melhore desempenho de consultas",
+    texto: "Para o schema GraphQL [descrição], otimize: 1) N+1 queries, 2) Depth limiting, 3) Caching de respostas, 4) Persisted queries.",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 51,
+    titulo: "Configuração de WebSockets",
+    descricao: "Implemente comunicação bidirecional",
+    texto: "Para um chat em tempo real, configure: 1) Handshake inicial, 2) Broadcast de mensagens, 3) Tratamento de desconexão, 4) Escalabilidade horizontal.",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 52,
+    titulo: "Análise de Código Estático",
+    descricao: "Identifique problemas sem execução",
+    texto: "Execute análise estática em [projeto] para: 1) Código morto, 2) Complexidade ciclomática alta, 3) Violações de padrões, 4) Sugestões de simplificação.",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 53,
+    titulo: "Gerenciamento de Estado Global",
+    descricao: "Centralize dados da aplicação",
+    texto: "Para um app [framework], implemente: 1) Store centralizada, 2) Ações e mutações, 3) Integração com componentes, 4) Persistência local.",
+    categoria: "programação",
+    favorito: true
+  },
+  {
+    id: 54,
+    titulo: "Testes de Carga",
+    descricao: "Avalie limites do sistema",
+    texto: "Para a URL/endpoint [detalhes], crie: 1) Plano de teste com [Locust/JMeter], 2) Cenários de carga crescente, 3) Coleta de métricas, 4) Relatório de gargalos.",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 55,
+    titulo: "Configuração de VPN",
+    descricao: "Conecte redes privadas com segurança",
+    texto: "Para conectar [local1] e [local2], configure: 1) Túnel IPSec/WireGuard, 2) Autenticação mútua, 3) Rotas específicas, 4) Monitoramento de conexão.",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 56,
+    titulo: "Padronização de Microfrontends",
+    descricao: "Integre aplicações frontend independentes",
+    texto: "Para os módulos [lista], defina: 1) API de comunicação, 2) Shared dependencies, 3) Estilo visual consistente, 4) Estratégia de deploy independente.",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 57,
+    titulo: "Gerenciamento de Sessão Distribuída",
+    descricao: "Compartilhe estado entre instâncias",
+    texto: "Implemente armazenamento de sessão usando: 1) Redis cluster, 2) Serialização eficiente, 3) Timeout configurável, 4) Invalidação explícita.",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 58,
+    titulo: "Análise de Qualidade de Código",
+    descricao: "Avalie métricas de manutenibilidade",
+    texto: "Execute SonarQube/Codacy no projeto: 1) Identifique code smells, 2) Sugira refatorações, 3) Acompanhe débito técnico, 4) Defina padrões de qualidade.",
+    categoria: "programação",
+    favorito: true
+  },
+  {
+    id: 59,
+    titulo: "Configuração de CDN",
+    descricao: "Otimize entrega de conteúdo estático",
+    texto: "Para o domínio [exemplo.com], configure: 1) Cache headers apropriados, 2) Purge seletivo, 3) Fallback para origem, 4) Otimização de imagens sob demanda.",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 60,
+    titulo: "Implementação de Webhooks",
+    descricao: "Notifique sistemas externos",
+    texto: "Para o evento [tipo], crie: 1) Assinatura segura, 2) Retry com backoff, 3) Dashboard de status, 4) Logging completo de payloads.",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 61,
+    titulo: "Tuning de JVM",
+    descricao: "Otimize aplicação Java",
+    texto: "Para a aplicação [descrição], ajuste: 1) Heap size inicial/máximo, 2) Garbage collector, 3) JIT compiler, 4) Opções de runtime baseado em [carga].",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 62,
+    titulo: "Modelagem de Eventos",
+    descricao: "Desenhe estrutura de eventos",
+    texto: "Para o domínio [nome], modele: 1) Eventos significativos, 2) Schema de payloads, 3) Versionamento de eventos, 4) Consumidores típicos.",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 63,
+    titulo: "Automatização de Pull Requests",
+    descricao: "Padronize revisões de código",
+    texto: "Configure templates para: 1) Descrição de mudanças, 2) Checklist de requisitos, 3) Revisores automáticos, 4) Gates de qualidade.",
+    categoria: "programação",
+    favorito: true
+  },
+  {
+    id: 64,
+    titulo: "Conversão de Schema",
+    descricao: "Transforme modelos de dados",
+    texto: "Converta o schema de [formato origem] para [formato destino]: 1) Mapeamento de tipos, 2) Tratamento de constraints, 3) Valores default, 4) Documentação embutida.",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 65,
+    titulo: "Configuração de Firewall",
+    descricao: "Proteja rede com regras precisas",
+    texto: "Para o serviço [tipo], defina: 1) Regras de entrada/saída, 2) Zoneamento lógico, 3) Logging de tentativas, 4) Atualização automatizada de IPs confiáveis.",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 66,
+    titulo: "Geração de Mock Data",
+    descricao: "Crie dados realistas para testes",
+    texto: "Para o modelo [descrição], gere: 1) Dataset variado, 2) Relacionamentos válidos, 3) Valores edge case, 4) Formatos para [ferramenta de teste].",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 67,
+    titulo: "Implementação de Circuit Breaker",
+    descricao: "Aumente resiliência em chamadas remotas",
+    texto: "Para a integração com [serviço], configure: 1) Limiar de falhas, 2) Timeout adequado, 3) Fallback behavior, 4) Métricas de saúde.",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 68,
+    titulo: "Otimização de Dockerfile",
+    descricao: "Crie imagens eficientes",
+    texto: "Analise o Dockerfile: 1) Reduza tamanho final, 2) Organize camadas, 3) Segurança (non-root user), 4) Build multi-stage se aplicável.",
+    categoria: "programação",
+    favorito: true
+  },
+  {
+    id: 69,
+    titulo: "Configuração de Rate Limiting",
+    descricao: "Controle acesso a API",
+    texto: "Implemente: 1) Limites por cliente/endpoint, 2) Headers de informação, 3) Estratégia de throttling, 4) Integração com autenticação.",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 70,
+    titulo: "Migração de Monolito para Microserviços",
+    descricao: "Estratre módulos progressivamente",
+    texto: "Para o monolito [descrição], identifique: 1) Candidatos a extração, 2) APIs de fronteira, 3) Estratégia de decomposição, 4) Coordenação de transações.",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 71,
+    titulo: "Implementação de Full-Text Search",
+    descricao: "Adicione busca eficiente",
+    texto: "Para dados [tipo], configure: 1) Elasticsearch/Solr, 2) Schema de índices, 3) Analisadores customizados, 4) Query DSL para casos comuns.",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 72,
+    titulo: "Automatização de Tarefas DevOps",
+    descricao: "Script para operações comuns",
+    texto: "Crie script para: 1) Rotação de logs, 2) Backup de banco, 3) Deploy canário, 4) Rollback emergencial. Use [linguagem] e tratamento de erros robusto.",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 73,
+    titulo: "Configuração de High Availability",
+    descricao: "Garanta uptime elevado",
+    texto: "Para o serviço [tipo], implemente: 1) Failover automático, 2) Load balancing, 3) Health checks, 4) Recuperação de desastres em [tempo].",
+    categoria: "programação",
+    favorito: true
+  },
+  {
+    id: 74,
+    titulo: "Análise de Ameaças",
+    descricao: "Identifique riscos de segurança",
+    texto: "Para a arquitetura [descrição], documente: 1) Vetores de ataque possíveis, 2) Superfície de exposição, 3) Contramedidas recomendadas, 4) Priorização por risco.",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 75,
+    titulo: "Gerenciamento de Feature Branches",
+    descricao: "Organize fluxo Git complexo",
+    texto: "Para o time com [N] desenvolvedores, defina: 1) Estratégia de branching, 2) Convenção de nomes, 3) Política de rebase/merge, 4) Integração contínua.",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 76,
+    titulo: "Implementação de Dark Mode",
+    descricao: "Adicione tema escuro à aplicação",
+    texto: "Para o app [framework], implemente: 1) CSS variables/theming, 2) Toggle persistente, 3) Ícones/assets alternativos, 4) Detecção de preferência do sistema.",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 77,
+    titulo: "Configuração de Service Worker",
+    descricao: "Habilite funcionalidades offline",
+    texto: "Implemente: 1) Cache estratégico, 2) Atualização em background, 3) Push notifications, 4) Fallback para conexão lenta.",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 78,
+    titulo: "Análise de Dados de Logs",
+    descricao: "Extraia métricas de arquivos de log",
+    texto: "Para logs [tipo], crie: 1) Pipeline de processamento, 2) Agregações relevantes, 3) Visualizações temporais, 4) Alertas anômalos.",
+    categoria: "programação",
+    favorito: true
+  },
+  {
+    id: 79,
+    titulo: "Implementação de Blockchain Básico",
+    descricao: "Crie cadeia de blocos simplificada",
+    texto: "Implemente: 1) Estrutura de blocos, 2) Proof-of-work, 3) Validação de cadeia, 4) API para transações. Use [linguagem] para fins educacionais.",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 80,
+    titulo: "Configuração de Zero-Downtime Deploys",
+    descricao: "Atualize sem interrupção",
+    texto: "Para [tecnologia], configure: 1) Health checks, 2) Drain de conexões, 3) Deploy rolling, 4) Verificação pós-implantação.",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 81,
+    titulo: "Otimização de Webpack",
+    descricao: "Reduza bundle size",
+    texto: "Analise configuração: 1) Code splitting, 2) Tree shaking, 3) Minificação, 4) Cache busting. Gere relatório de análise de bundle.",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 82,
+    titulo: "Implementação de Chatbot",
+    descricao: "Crie assistente virtual",
+    texto: "Para o domínio [área], desenvolva: 1) Intents básicos, 2) Fluxo de diálogo, 3) Integração com backend, 4) Fallback para humano.",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 83,
+    titulo: "Configuração de Multi-Tenancy",
+    descricao: "Suporte a múltiplos clientes",
+    texto: "Implemente: 1) Isolamento de dados, 2) Customização por tenant, 3) Onboarding automatizado, 4) Modelo de cobrança.",
+    categoria: "programação",
+    favorito: true
+  },
+  {
+    id: 84,
+    titulo: "Geração de PDF Dinâmico",
+    descricao: "Crie documentos programaticamente",
+    texto: "Para dados [tipo], gere: 1) Template com placeholders, 2) Estilo consistente, 3) Metadados, 4) Versão para impressão/digital.",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 85,
+    titulo: "Implementação de Real-Time Updates",
+    descricao: "Atualize interface sem refresh",
+    texto: "Use [Socket.io/GraphQL Subscriptions] para: 1) Notificar mudanças, 2) Sincronizar estado, 3) Tratar conflitos, 4) Otimizar desempenho.",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 86,
+    titulo: "Configuração de A/B Testing",
+    descricao: "Compare variações de features",
+    texto: "Implemente: 1) Divisão de tráfego, 2) Coleta de métricas, 3) Significância estatística, 4) Rollout progressivo.",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 87,
+    titulo: "Análise de Custo Cloud",
+    descricao: "Otimize gastos com infraestrutura",
+    texto: "Para a conta [provedor], identifique: 1) Serviços subutilizados, 2) Opções de reserva, 3) Right-sizing, 4) Alertas de orçamento.",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 88,
+    titulo: "Implementação de Payment Gateway",
+    descricao: "Integre processamento de pagamentos",
+    texto: "Para [Stripe/PayPal], configure: 1) Checkout seguro, 2) Webhooks, 3) Reconciliação, 4) Fallback para outros métodos.",
+    categoria: "programação",
+    favorito: true
+  },
+  {
+    id: 89,
+    titulo: "Configuração de Serverless Functions",
+    descricao: "Implante lógica sem servidor",
+    texto: "Para [AWS Lambda/Cloud Functions], implemente: 1) Handler eficiente, 2) Variáveis de ambiente, 3) Logging, 4) Versionamento.",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 90,
+    titulo: "Conversão de Excel para Aplicação",
+    descricao: "Migre planilhas para sistema",
+    texto: "Para a planilha [descrição], crie: 1) Modelo de dados, 2) Interface equivalente, 3) Import/export, 4) Validação de negócio.",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 91,
+    titulo: "Implementação de Geolocalização",
+    descricao: "Adicione features baseadas em local",
+    texto: "Use [Google Maps/Mapbox] para: 1) Exibir pontos, 2) Calcular rotas, 3) Geofencing, 4) Otimizar offline usage.",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 92,
+    titulo: "Configuração de Disaster Recovery",
+    descricao: "Prepare para falhas catastróficas",
+    texto: "Documente: 1) RPO/RTO, 2) Backup strategy, 3) Procedimentos de restauração, 4) Testes regulares.",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 93,
+    titulo: "Análise de Adoção de Framework",
+    descricao: "Avalie novo framework para projeto",
+    texto: "Compare [opção1] e [opção2] em: 1) Curva de aprendizado, 2) Ecossistema, 3) Performance, 4) Suporte a longo prazo.",
+    categoria: "programação",
+    favorito: true
+  },
+  {
+    id: 94,
+    titulo: "Implementação de Two-Factor Auth",
+    descricao: "Adicione camada extra de segurança",
+    texto: "Integre [Authy/Google Authenticator] com: 1) Geração de QR code, 2) Validação de tokens, 3) Recovery codes, 4) Controle de dispositivos.",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 95,
+    titulo: "Configuração de Data Warehouse",
+    descricao: "Prepare ambiente analítico",
+    texto: "Para dados [fonte], configure: 1) ETL pipeline, 2) Modelo dimensional, 3) Agregações, 4) Ferramenta de BI.",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 96,
+    titulo: "Implementação de Voice Interface",
+    descricao: "Adicione controle por voz",
+    texto: "Use [Web Speech API/Amazon Lex] para: 1) Comandos básicos, 2) Processamento de NLU, 3) Feedback auditivo, 4) Fallback para UI.",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 97,
+    titulo: "Configuração de Feature Store",
+    descricao: "Centralize features para ML",
+    texto: "Implemente: 1) Versionamento, 2) Metadados, 3) Acesso cross-team, 4) Monitoring de data drift.",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 98,
+    titulo: "Análise de Tech Debt",
+    descricao: "Documente e priorize débito",
+    texto: "Para o projeto [nome], liste: 1) Itens de dívida, 2) Impacto, 3) Esforço de correção, 4) Plano de pagamento.",
+    categoria: "programação",
+    favorito: true
+  },
+  {
+    id: 99,
+    titulo: "Implementação de AR Filters",
+    descricao: "Crie efeitos de realidade aumentada",
+    texto: "Use [SparkAR/ARCore] para: 1) Face tracking, 2) Overlays interativos, 3) Animação, 4) Compartilhamento.",
+    categoria: "programação",
+    favorito: false
+  },
+  {
+    id: 100,
+    titulo: "Configuração de IoT Hub",
+    descricao: "Conecte dispositivos inteligentes",
+    texto: "Para dispositivos [tipo], implemente: 1) Autenticação, 2) Telemetria, 3) Comandos remotos, 4) Atualização OTA.",
+    categoria: "programação",
+    favorito: false
+  }
+],
   educação: [
     {
       id: 14,
