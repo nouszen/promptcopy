@@ -12,10 +12,6 @@ export function criarCard(prompt, copiarCallback) {
           </span>
           <h3 class="text-xl font-bold text-gray-800 mb-2">${prompt.titulo}</h3>
         </div>
-        <button class="favorite-btn p-2 text-gray-400 hover:text-yellow-500 transition"
-                data-id="${prompt.id}">
-          <i class="${prompt.favorito ? 'fas' : 'far'} fa-star"></i>
-        </button>
       </div>
       
       <p class="text-gray-600 mb-4">${prompt.descricao}</p>
@@ -33,12 +29,7 @@ export function criarCard(prompt, copiarCallback) {
     </div>
   `;
 
-  // Configura funcionalidade de cópia
   configurarBotaoCopiar(card, prompt, copiarCallback);
-  
-  // Configura funcionalidade de favorito
-  configurarBotaoFavorito(card, prompt);
-
   return card;
 }
 
@@ -46,21 +37,6 @@ function configurarBotaoCopiar(card, prompt, callback) {
   const copyBtn = card.querySelector('.copy-btn');
   copyBtn.addEventListener('click', () => {
     callback(prompt.texto, copyBtn);
-  });
-}
-
-function configurarBotaoFavorito(card, prompt) {
-  const favBtn = card.querySelector('.favorite-btn');
-  favBtn.addEventListener('click', (e) => {
-    e.stopPropagation();
-    const icon = favBtn.querySelector('i');
-    prompt.favorito = !prompt.favorito;
-    icon.classList.toggle('far');
-    icon.classList.toggle('fas');
-    favBtn.classList.toggle('text-yellow-500');
-    
-    // Em uma aplicação real, você salvaria isso no localStorage ou backend
-    console.log(`Prompt ${prompt.id} favorited: ${prompt.favorito}`);
   });
 }
 
