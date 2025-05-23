@@ -6328,4 +6328,5 @@ export const prompts = {
     favorito: false
   }
   ]
+
 };
