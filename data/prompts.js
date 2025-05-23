@@ -5773,5 +5773,560 @@ export const prompts = {
       categoria: "tecnologia",
       favorito: false
     }
+  ],
+  tecnologia: [
+  {
+    id: 1,
+    titulo: "Evolução Histórica",
+    descricao: "Linha do tempo de desenvolvimento tecnológico",
+    texto: "Descreva a evolução histórica de [tecnologia/área] desde seu surgimento até os dias atuais. Destaque: 1) Marcos importantes, 2) Principais inovações, 3) Impacto na sociedade, 4) Tendências futuras. Compare com tecnologias concorrentes/sucessoras.",
+    categoria: "tecnologia",
+    favorito: false
+  },
+  {
+    id: 2,
+    titulo: "Guia de Implementação",
+    descricao: "Como adotar uma nova tecnologia",
+    texto: "Crie um plano detalhado para implementar [tecnologia] em uma empresa de [porte/segmento]. Inclua: 1) Análise de viabilidade, 2) Requisitos técnicos, 3) Fases de implantação, 4) Treinamento de equipe, 5) Métricas de sucesso. Considere os desafios específicos de [indústria].",
+    categoria: "tecnologia",
+    favorito: false
+  },
+  {
+    id: 3,
+    titulo: "Análise de Impacto",
+    descricao: "Efeitos sociais de inovações tecnológicas",
+    texto: "Analise o impacto social de [tecnologia] em [área/segmento]. Explore: 1) Mudanças no mercado de trabalho, 2) Implicações éticas, 3) Vantagens para grupos específicos, 4) Riscos potenciais, 5) Regulamentações necessárias. Proponha soluções para minimizar efeitos negativos.",
+    categoria: "tecnologia",
+    favorito: false
+  },
+  {
+    id: 4,
+    titulo: "Guia de Segurança",
+    descricao: "Proteção em ambientes digitais",
+    texto: "Elabore um manual completo de segurança digital para [público-alvo]. Aborde: 1) Principais ameaças atuais, 2) Ferramentas essenciais, 3) Boas práticas, 4) Protocolos de emergência, 5) Atualizações necessárias. Adapte para necessidades específicas de [setor/uso].",
+    categoria: "tecnologia",
+    favorito: false
+  },
+  {
+    id: 5,
+    titulo: "Futuro da Tecnologia",
+    descricao: "Previsões e tendências emergentes",
+    texto: "Descreva as principais tendências tecnológicas para [área/indústria] nos próximos [X] anos. Inclua: 1) Tecnologias promissoras, 2) Investimentos esperados, 3) Mudanças no comportamento do usuário, 4) Desafios de adoção, 5) Impacto potencial no mercado. Baseie-se em dados recentes de [fonte confiável].",
+    categoria: "tecnologia",
+    favorito: false
+  },
+  {
+    id: 6,
+    titulo: "Otimização de Performance",
+    descricao: "Melhorando eficiência tecnológica",
+    texto: "Apresente estratégias para otimizar o desempenho de [sistema/aplicação]. Detalhe: 1) Métricas-chave a monitorar, 2) Ferramentas de análise, 3) Técnicas de ajuste, 4) Casos de sucesso, 5) Armadilhas comuns. Adapte para ambiente [cloud/on-premise/híbrido].",
+    categoria: "tecnologia",
+    favorito: false
+  },
+  {
+    id: 7,
+    titulo: "Migração de Sistemas",
+    descricao: "Transição entre tecnologias",
+    texto: "Elabore um plano de migração de [sistema antigo] para [novo sistema]. Considere: 1) Compatibilidade, 2) Tempo de inatividade aceitável, 3) Transferência de dados, 4) Treinamento, 5) Rollback em caso de falha. Especifique para ambiente [específico].",
+    categoria: "tecnologia",
+    favorito: false
+  },
+  {
+    id: 8,
+    titulo: "Análise de Arquitetura",
+    descricao: "Estruturas de sistemas tecnológicos",
+    texto: "Compare arquiteturas de [sistema A] versus [sistema B] para [tipo de aplicação]. Avalie: 1) Escalabilidade, 2) Tolerância a falhas, 3) Complexidade, 4) Custos operacionais, 5) Casos de uso ideais. Recomende a melhor opção para [cenário específico].",
+    categoria: "tecnologia",
+    favorito: false
+  },
+  {
+    id: 9,
+    titulo: "Guia de Integração",
+    descricao: "Conectando sistemas diferentes",
+    texto: "Explique como integrar [sistema A] com [sistema B] usando [tecnologia/metodologia]. Descreva: 1) Pré-requisitos, 2) Protocolos compatíveis, 3) Fluxo de dados, 4) Tratamento de erros, 5) Monitoramento pós-integração. Inclua exemplos para [caso de uso].",
+    categoria: "tecnologia",
+    favorito: false
+  },
+  {
+    id: 10,
+    titulo: "Benchmarking Tecnológico",
+    descricao: "Comparação de desempenho",
+    texto: "Realize um benchmarking entre [X] soluções para [problema específico]. Teste: 1) Velocidade/eficiência, 2) Consumo de recursos, 3) Facilidade de uso, 4) Custo-benefício, 5) Suporte. Apresente resultados em tabelas comparativas e recomende a melhor opção para [tipo de usuário].",
+    categoria: "tecnologia",
+    favorito: false
+  },
+  {
+    id: 11,
+    titulo: "Guia de Privacidade",
+    descricao: "Proteção de dados pessoais",
+    texto: "Crie um manual completo sobre privacidade digital para [público-alvo]. Aborde: 1) Configurações essenciais, 2) Ferramentas de anonimato, 3) Gerenciamento de cookies, 4) Proteção contra tracking, 5) Direitos legais conforme [lei específica]. Adapte para dispositivos [mobile/desktop].",
+    categoria: "tecnologia",
+    favorito: false
+  },
+  {
+    id: 12,
+    titulo: "Análise de ROI",
+    descricao: "Retorno sobre investimento tecnológico",
+    texto: "Calcule o ROI potencial da implementação de [tecnologia] em [tipo de negócio]. Considere: 1) Custos iniciais, 2) Economias operacionais, 3) Ganhos de produtividade, 4) Horizonte temporal, 5) Riscos. Apresente em diferentes cenários [otimista/conservador].",
+    categoria: "tecnologia",
+    favorito: false
+  },
+  {
+    id: 13,
+    titulo: "Guia de Acessibilidade",
+    descricao: "Tecnologia inclusiva",
+    texto: "Desenvolva diretrizes para criar soluções tecnológicas acessíveis em [área]. Inclua: 1) Padrões WCAG, 2) Ferramentas de teste, 3) Adaptações para [deficiência específica], 4) Casos de sucesso, 5) Recursos para desenvolvedores. Foque em [plataforma específica].",
+    categoria: "tecnologia",
+    favorito: false
+  },
+  {
+    id: 14,
+    titulo: "Transformação Digital",
+    descricao: "Modernização de negócios",
+    texto: "Elabore um roteiro de transformação digital para [tipo de empresa]. Aborde: 1) Diagnóstico inicial, 2) Tecnologias-chave, 3) Mudança cultural, 4) Fases de implementação, 5) Indicadores de sucesso. Adapte para empresas com [característica específica].",
+    categoria: "tecnologia",
+    favorito: false
+  },
+  {
+    id: 15,
+    titulo: "Análise de Vulnerabilidades",
+    descricao: "Riscos em sistemas tecnológicos",
+    texto: "Conduza uma avaliação de vulnerabilidades para [sistema/aplicação]. Identifique: 1) Pontos fracos comuns, 2) Ferramentas de varredura, 3) Classificação de riscos, 4) Mitigação, 5) Monitoramento contínuo. Foque em ameaças específicas de [ambiente/setor].",
+    categoria: "tecnologia",
+    favorito: false
+  },
+  {
+    id: 16,
+    titulo: "Guia de Cloud Computing",
+    descricao: "Adoção de serviços na nuvem",
+    texto: "Compare modelos de cloud computing (IaaS, PaaS, SaaS) para [tipo de negócio]. Analise: 1) Custos comparativos, 2) Flexibilidade, 3) Requisitos técnicos, 4) Segurança, 5) Provedores líderes. Recomende a melhor abordagem para [caso de uso específico].",
+    categoria: "tecnologia",
+    favorito: false
+  },
+  {
+    id: 17,
+    titulo: "Automação de Processos",
+    descricao: "Tecnologias RPA e similares",
+    texto: "Descreva como automatizar [processo específico] usando [tecnologia]. Detalhe: 1) Pré-requisitos, 2) Fluxo de trabalho, 3) Integrações necessárias, 4) Ferramentas recomendadas, 5) ROI esperado. Adapte para setor [específico].",
+    categoria: "tecnologia",
+    favorito: false
+  },
+  {
+    id: 18,
+    titulo: "Análise de UX/UI",
+    descricao: "Experiência do usuário em tecnologia",
+    texto: "Avalie a interface de [aplicativo/site] sob a perspectiva de UX/UI. Considere: 1) Princípios de design, 2) Navegabilidade, 3) Acessibilidade, 4) Performance, 5) Feedback de usuários. Sugerir melhorias específicas para [público-alvo].",
+    categoria: "tecnologia",
+    favorito: false
+  },
+  {
+    id: 19,
+    titulo: "Guia de IoT",
+    descricao: "Internet das Coisas aplicada",
+    texto: "Explique como implementar solução IoT para [problema específico]. Descreva: 1) Arquitetura necessária, 2) Sensores/dispositivos, 3) Plataformas de análise, 4) Segurança, 5) Casos reais similares. Adapte para ambiente [industrial/doméstico].",
+    categoria: "tecnologia",
+    favorito: false
+  },
+  {
+    id: 20,
+    titulo: "Tendências em DevOps",
+    descricao: "Práticas modernas de desenvolvimento",
+    texto: "Descreva as principais tendências em DevOps para [ano]. Aborde: 1) Novas ferramentas, 2) Mudanças culturais, 3) Integração com outras metodologias, 4) Impacto na entrega contínua, 5) Estudos de caso relevantes. Foque em aplicações para [tipo de empresa].",
+    categoria: "tecnologia",
+    favorito: false
+  },
+  {
+    id: 21,
+    titulo: "Guia de Blockchain",
+    descricao: "Aplicações além de criptomoedas",
+    texto: "Explore usos práticos de blockchain em [indústria]. Detalhe: 1) Problemas resolvidos, 2) Implementação técnica, 3) Custos, 4) Limitações atuais, 5) Projetos pioneiros. Compare com soluções tradicionais.",
+    categoria: "tecnologia",
+    favorito: false
+  },
+  {
+    id: 22,
+    titulo: "Análise de Dados",
+    descricao: "Técnicas de data science aplicadas",
+    texto: "Descreva uma metodologia para analisar [tipo de dados] visando [objetivo]. Inclua: 1) Coleta/preparação, 2) Ferramentas, 3) Algoritmos relevantes, 4) Visualização, 5) Interpretação de resultados. Adapte para contexto [específico].",
+    categoria: "tecnologia",
+    favorito: false
+  },
+  {
+    id: 23,
+    titulo: "Guia de 5G",
+    descricao: "Aplicações da nova geração móvel",
+    texto: "Explique o impacto do 5G em [setor]. Aborde: 1) Vantagens técnicas, 2) Casos de uso inovadores, 3) Requisitos de infraestrutura, 4) Linha do tempo de adoção, 5) Comparação com gerações anteriores.",
+    categoria: "tecnologia",
+    favorito: false
+  },
+  {
+    id: 24,
+    titulo: "Computação Quântica",
+    descricao: "Fundamentos e aplicações práticas",
+    texto: "Introduza computação quântica para [público-alvo]. Explique: 1) Princípios básicos, 2) Diferenças para computação clássica, 3) Aplicações promissoras, 4) Limitações atuais, 5) Principais players no campo.",
+    categoria: "tecnologia",
+    favorito: false
+  },
+  {
+    id: 27,
+    titulo: "Realidade Aumentada",
+    descricao: "Tecnologias AR aplicadas",
+    texto: "Descreva a implementação de solução AR para [finalidade]. Detalhe: 1) Hardware necessário, 2) Plataformas de desenvolvimento, 3) Desafios técnicos, 4) Experiência do usuário, 5) Exemplos bem-sucedidos.",
+    categoria: "tecnologia",
+    favorito: false
+  },
+  {
+    id: 28,
+    titulo: "Gestão de TI",
+    descricao: "Administração de departamentos tecnológicos",
+    texto: "Apresente melhores práticas para gerenciar um departamento de TI em [tipo de empresa]. Aborde: 1) Estrutura de equipe, 2) Orçamento, 3) KPIs, 4) Relacionamento com outros departamentos, 5) Inovação contínua.",
+    categoria: "tecnologia",
+    favorito: false
+  },
+  {
+    id: 29,
+    titulo: "Cibersegurança",
+    descricao: "Proteção contra ameaças digitais",
+    texto: "Elabore um plano de defesa cibernética para [tipo de organização]. Inclua: 1) Avaliação de riscos, 2) Camadas de proteção, 3) Treinamento de pessoal, 4) Resposta a incidentes, 5) Conformidade com [lei/regulamento].",
+    categoria: "tecnologia",
+    favorito: false
+  },
+  {
+    id: 30,
+    titulo: "Inteligência Artificial",
+    descricao: "Aplicações práticas de IA",
+    texto: "Descreva como implementar solução de IA para [problema específico]. Detalhe: 1) Coleta de dados, 2) Modelos adequados, 3) Treinamento, 4) Integração, 5) Monitoramento. Adapte para recursos de [pequena/grande] escala.",
+    categoria: "tecnologia",
+    favorito: false
+  },
+  {
+    id: 31,
+    titulo: "Desenvolvimento Mobile",
+    descricao: "Criação de aplicativos modernos",
+    texto: "Compare abordagens para desenvolvimento mobile (nativo, híbrido, PWA) para [tipo de aplicativo]. Analise: 1) Performance, 2) Custo, 3) Manutenção, 4) Distribuição, 5) Experiência do usuário. Recomende baseado em [critérios específicos].",
+    categoria: "tecnologia",
+    favorito: false
+  },
+  {
+    id: 32,
+    titulo: "Computação em Edge",
+    descricao: "Processamento descentralizado",
+    texto: "Explique aplicações de edge computing em [setor]. Aborde: 1) Vantagens sobre cloud tradicional, 2) Casos de uso ideais, 3) Requisitos de infraestrutura, 4) Desafios, 5) Tendências futuras.",
+    categoria: "tecnologia",
+    favorito: false
+  },
+  {
+    id: 33,
+    titulo: "Chatbots",
+    descricao: "Implementação de assistentes virtuais",
+    texto: "Guie na criação de chatbot para [finalidade]. Descreva: 1) Plataformas disponíveis, 2) Design de conversação, 3) Integrações, 4) Treinamento com IA, 5) Métricas de desempenho. Adapte para [canal específico].",
+    categoria: "tecnologia",
+    favorito: false
+  },
+  {
+    id: 34,
+    titulo: "Tokenizaçao",
+    descricao: "Ativos digitais e NFTs",
+    texto: "Explique o processo de tokenização de [ativo] usando blockchain. Detalhe: 1) Benefícios, 2) Plataformas adequadas, 3) Aspectos legais, 4) Custos, 5) Exemplos práticos. Considere regulamentações em [país/região].",
+    categoria: "tecnologia",
+    favorito: false
+  },
+  {
+    id: 35,
+    titulo: "Gestão de Dados",
+    descricao: "Estratégias modernas de data governance",
+    texto: "Desenvolva um framework para gestão de dados em [tipo de empresa]. Inclua: 1) Coleta e armazenamento, 2) Qualidade, 3) Segurança, 4) Análise, 5) Conformidade com [LGPD/GDPR]. Adapte para volume [pequeno/grande].",
+    categoria: "tecnologia",
+    favorito: false
+  },
+  {
+    id: 36,
+    titulo: "Computação Sem Servidor",
+    descricao: "Arquiteturas serverless",
+    texto: "Compare plataformas serverless (AWS Lambda, Azure Functions) para [tipo de aplicação]. Avalie: 1) Custos, 2) Performance, 3) Limitações, 4) Casos de uso ideais, 5) Curva de aprendizagem.",
+    categoria: "tecnologia",
+    favorito: false
+  },
+  {
+    id: 37,
+    titulo: "Contêineres",
+    descricao: "Tecnologias de virtualização",
+    texto: "Elabore um guia para adoção de containers em [ambiente]. Aborde: 1) Docker vs alternativas, 2) Orquestração, 3) Segurança, 4) Monitoramento, 5) Migração de aplicações legadas.",
+    categoria: "tecnologia",
+    favorito: false
+  },
+  {
+    id: 38,
+    titulo: "Monitoramento",
+    descricao: "Observabilidade de sistemas",
+    texto: "Descreva uma estratégia de monitoramento para [tipo de infraestrutura]. Inclua: 1) Métricas essenciais, 2) Ferramentas, 3) Alertas, 4) Logs, 5) Ações corretivas. Adapte para escala [pequena/grande].",
+    categoria: "tecnologia",
+    favorito: false
+  },
+  {
+    id: 39,
+    titulo: "Backup",
+    descricao: "Estratégias de recuperação de dados",
+    texto: "Proponha um plano de backup para [tipo de dados]. Considere: 1) Frequência, 2) Localização, 3) Criptografia, 4) Testes, 5) RTO/RPO. Adapte para requisitos de [setor regulamentado].",
+    categoria: "tecnologia",
+    favorito: false
+  },
+  {
+    id: 40,
+    titulo: "APIs",
+    descricao: "Desenvolvimento e consumo",
+    texto: "Guie na criação de API para [finalidade]. Detalhe: 1) Design REST/GraphQL, 2) Documentação, 3) Autenticação, 4) Versionamento, 5) Monitoramento. Inclua exemplos para [linguagem específica].",
+    categoria: "tecnologia",
+    favorito: false
+  },
+  {
+    id: 41,
+    titulo: "Microserviços",
+    descricao: "Arquitetura distribuída",
+    texto: "Compare arquitetura monolítica vs microserviços para [tipo de aplicação]. Analise: 1) Complexidade, 2) Escalabilidade, 3) Custos, 4) Time-to-market, 5) Manutenção. Recomende baseado em [critérios].",
+    categoria: "tecnologia",
+    favorito: false
+  },
+  {
+    id: 42,
+    titulo: "QA Automatizado",
+    descricao: "Testes de software modernos",
+    texto: "Descreva uma estratégia de testes automatizados para [tipo de aplicação]. Inclua: 1) Tipos de testes, 2) Ferramentas, 3) Integração contínua, 4) Métricas, 5) Manutenção. Adapte para equipe de [tamanho].",
+    categoria: "tecnologia",
+    favorito: false
+  },
+  {
+    id: 43,
+    titulo: "Low-Code",
+    descricao: "Desenvolvimento com pouca programação",
+    texto: "Avalie plataformas low-code para [tipo de solução]. Compare: 1) Flexibilidade, 2) Custos, 3) Integrações, 4) Performance, 5) Casos de uso adequados. Recomende para [perfil de usuário].",
+    categoria: "tecnologia",
+    favorito: false
+  },
+  {
+    id: 44,
+    titulo: "Web Semântica",
+    descricao: "Tecnologias e aplicações",
+    texto: "Explique como implementar princípios da web semântica em [projeto]. Detalhe: 1) Schema.org, 2) RDF, 3) SEO, 4) Ferramentas, 5) Benefícios para [tipo de negócio].",
+    categoria: "tecnologia",
+    favorito: false
+  },
+  {
+    id: 45,
+    titulo: "VR Corporativo",
+    descricao: "Realidade virtual nos negócios",
+    texto: "Descreva aplicações de VR em [setor]. Aborde: 1) Hardware necessário, 2) Casos de uso, 3) ROI, 4) Desafios, 5) Tendências. Inclua exemplos reais.",
+    categoria: "tecnologia",
+    favorito: false
+  },
+  {
+    id: 46,
+    titulo: "Tecnologia Financeira",
+    descricao: "Inovações em fintech",
+    texto: "Analise o impacto de [tecnologia] no setor financeiro. Considere: 1) Regulamentação, 2) Adoção, 3) Segurança, 4) Experiência do cliente, 5) Futuro. Compare com soluções tradicionais.",
+    categoria: "tecnologia",
+    favorito: false
+  },
+  {
+    id: 47,
+    titulo: "HealthTech",
+    descricao: "Tecnologia na saúde",
+    texto: "Explore aplicações de [tecnologia] em saúde. Detalhe: 1) Benefícios clínicos, 2) Privacidade, 3) Adoção, 4) Regulamentação, 5) Estudos de caso. Foque em [área médica específica].",
+    categoria: "tecnologia",
+    favorito: false
+  },
+  {
+    id: 48,
+    titulo: "EdTech",
+    descricao: "Inovações em educação",
+    texto: "Descreva como [tecnologia] está transformando a educação. Aborde: 1) Implementação, 2) Resultados, 3) Acessibilidade, 4) Desafios, 5) Tendências. Adapte para [nível educacional].",
+    categoria: "tecnologia",
+    favorito: false
+  },
+  {
+    id: 49,
+    titulo: "CleanTech",
+    descricao: "Tecnologia sustentável",
+    texto: "Analise o papel de [tecnologia] na sustentabilidade. Considere: 1) Impacto ambiental, 2) Viabilidade econômica, 3) Adoção, 4) Políticas públicas, 5) Inovações futuras.",
+    categoria: "tecnologia",
+    favorito: false
+  },
+  {
+    id: 50,
+    titulo: "AgriTech",
+    descricao: "Tecnologia agrícola",
+    texto: "Explique aplicações de [tecnologia] na agricultura. Detalhe: 1) Aumento de produtividade, 2) Monitoramento, 3) Automação, 4) Desafios rurais, 5) Casos de sucesso.",
+    categoria: "tecnologia",
+    favorito: false
+  },
+  {
+    id: 51,
+    titulo: "Smart Cities",
+    descricao: "Tecnologia urbana",
+    texto: "Descreva soluções inteligentes para [problema urbano]. Inclua: 1) Tecnologias envolvidas, 2) Implementação, 3) Benefícios, 4) Privacidade, 5) Exemplos globais.",
+    categoria: "tecnologia",
+    favorito: false
+  },
+  {
+    id: 52,
+    titulo: "Wearables",
+    descricao: "Tecnologia vestível",
+    texto: "Analise o mercado de wearables para [aplicação]. Considere: 1) Dispositivos líderes, 2) Sensores, 3) Integrações, 4) Privacidade, 5) Tendências futuras.",
+    categoria: "tecnologia",
+    favorito: false
+  },
+  {
+    id: 53,
+    titulo: "Voice Tech",
+    descricao: "Interfaces por voz",
+    texto: "Explore desenvolvimento para assistentes de voz. Aborde: 1) Plataformas, 2) Design de diálogo, 3) NLP, 4) Casos de uso, 5) Acessibilidade.",
+    categoria: "tecnologia",
+    favorito: false
+  },
+  {
+    id: 54,
+    titulo: "Biometria",
+    descricao: "Tecnologias de identificação",
+    texto: "Compare métodos biométricos para [aplicação]. Avalie: 1) Precisão, 2) Custo, 3) Aceitação, 4) Segurança, 5) Regulamentação.",
+    categoria: "tecnologia",
+    favorito: false
+  },
+  {
+    id: 55,
+    titulo: "Robótica",
+    descricao: "Aplicações práticas",
+    texto: "Descreva usos de robótica em [setor]. Inclua: 1) Tipos de robôs, 2) Integração, 3) ROI, 4) Impacto laboral, 5) Tendências.",
+    categoria: "tecnologia",
+    favorito: false
+  },
+  {
+    id: 56,
+    titulo: "Drones",
+    descricao: "Aplicações comerciais",
+    texto: "Explore usos de drones para [finalidade]. Detalhe: 1) Regulamentação, 2) Modelos adequados, 3) Custo-benefício, 4) Limitações, 5) Casos reais.",
+    categoria: "tecnologia",
+    favorito: false
+  },
+  {
+    id: 57,
+    titulo: "3D Printing",
+    descricao: "Manufatura aditiva",
+    texto: "Analise aplicações de impressão 3D em [indústria]. Considere: 1) Tecnologias, 2) Materiais, 3) Economia, 4) Sustentabilidade, 5) Inovações.",
+    categoria: "tecnologia",
+    favorito: false
+  },
+  {
+    id: 58,
+    titulo: "Digital Twins",
+    descricao: "Modelos virtuais",
+    texto: "Explique implementação de digital twins para [aplicação]. Aborde: 1) Benefícios, 2) Plataformas, 3) Integração IoT, 4) Casos de uso, 5) Futuro.",
+    categoria: "tecnologia",
+    favorito: false
+  },
+  {
+    id: 59,
+    titulo: "Redes 6G",
+    descricao: "Próxima geração",
+    texto: "Descreva o potencial do 6G comparado ao 5G. Considere: 1) Tecnologias, 2) Linha do tempo, 3) Aplicações, 4) Investimentos, 5) Desafios.",
+    categoria: "tecnologia",
+    favorito: false
+  },
+  {
+    id: 60,
+    titulo: "Neuromórfica",
+    descricao: "Computação inspirada no cérebro",
+    texto: "Explique conceitos de computação neuromórfica. Aborde: 1) Princípios, 2) Hardware, 3) Vantagens, 4) Aplicações, 5) Limitações.",
+    categoria: "tecnologia",
+    favorito: false
+  },
+  {
+    id: 61,
+    titulo: "Swarm",
+    descricao: "Inteligência de enxame",
+    texto: "Descreva aplicações de swarm intelligence em [área]. Inclua: 1) Algoritmos, 2) Casos de uso, 3) Vantagens, 4) Implementação, 5) Exemplos.",
+    categoria: "tecnologia",
+    favorito: false
+  },
+  {
+    id: 62,
+    titulo: "Exascale",
+    descricao: "Supercomputação",
+    texto: "Analise o impacto da computação exascale em [campo]. Considere: 1) Aplicações, 2) Desafios, 3) Projetos globais, 4) Arquitetura, 5) Futuro.",
+    categoria: "tecnologia",
+    favorito: false
+  },
+  {
+    id: 63,
+    titulo: "Memristores",
+    descricao: "Futuro da computação",
+    texto: "Explique o potencial dos memristores para substituir [tecnologia atual]. Aborde: 1) Princípios, 2) Vantagens, 3) Desafios, 4) Pesquisa atual, 5) Aplicações.",
+    categoria: "tecnologia",
+    favorito: false
+  },
+  {
+    id: 64,
+    titulo: "Fotônica",
+    descricao: "Computação com luz",
+    texto: "Descreva o estado atual da computação fotônica. Inclua: 1) Benefícios, 2) Aplicações, 3) Desafios técnicos, 4) Players, 5) Perspectivas.",
+    categoria: "tecnologia",
+    favorito: false
+  },
+  {
+    id: 65,
+    titulo: "Nanotecnologia",
+    descricao: "Aplicações computacionais",
+    texto: "Explore usos da nanotecnologia em [área tecnológica]. Detalhe: 1) Inovações, 2) Pesquisa, 3) Limitações, 4) Segurança, 5) Futuro.",
+    categoria: "tecnologia",
+    favorito: false
+  },
+  {
+    id: 66,
+    titulo: "Biocomputação",
+    descricao: "Sistemas biológicos",
+    texto: "Analise o potencial da computação usando DNA/biologia. Considere: 1) Princípios, 2) Vantagens, 3) Aplicações, 4) Desafios, 5) Projetos atuais.",
+    categoria: "tecnologia",
+    favorito: false
+  },
+  {
+    id: 67,
+    titulo: "HPC",
+    descricao: "Computação de alto desempenho",
+    texto: "Compare arquiteturas HPC para [aplicação]. Avalie: 1) Performance, 2) Custo, 3) Escalabilidade, 4) Casos de uso, 5) Tendências.",
+    categoria: "tecnologia",
+    favorito: false
+  },
+  {
+    id: 68,
+    titulo: "Grid Computing",
+    descricao: "Computação distribuída",
+    texto: "Explique aplicações de grid computing em [campo]. Aborde: 1) Arquitetura, 2) Vantagens, 3) Projetos notáveis, 4) Comparação com cloud, 5) Futuro.",
+    categoria: "tecnologia",
+    favorito: false
+  },
+  {
+    id: 69,
+    titulo: "Fog Computing",
+    descricao: "Processamento intermediário",
+    texto: "Descreva o papel do fog computing em ecossistema IoT. Inclua: 1) Benefícios, 2) Casos de uso, 3) Arquitetura, 4) Segurança, 5) Implementação.",
+    categoria: "tecnologia",
+    favorito: false
+  },
+  {
+    id: 70,
+    titulo: "Green IT",
+    descricao: "Tecnologia sustentável",
+    texto: "Apresente estratégias para data centers sustentáveis. Considere: 1) Eficiência energética, 2) Resfriamento, 3) Hardware, 4) Métricas, 5) Casos de sucesso.",
+    categoria: "tecnologia",
+    favorito: false
+  },
+  {
+    id: 71,
+    titulo: "Ethical Hacking",
+    descricao: "Segurança ofensiva",
+    texto: "Descreva metodologia de teste de penetração para [sistema]. Inclua: 1) Fases, 2) Ferramentas, 3) Relatórios, 4) Mitigação, 5) Certificações.",
+    categoria: "tecnologia",
+    favorito: false
+  }
   ]
+
 };
