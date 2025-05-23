@@ -4662,8 +4662,16 @@ export const prompts = {
       texto: "Projete um jogo educativo para ensinar [conceito] para [faixa etária]. Inclua: 1) Mecânicas principais, 2) Sistema de progressão, 3) Elementos de feedback, 4) Adaptação para diferentes níveis, 5) Métricas de aprendizagem. Descreva 3 fases do jogo como exemplo.",
       categoria: "educação",
       favorito: false
-    }
-  ],
+    },
+    {
+     id: 1,
+     titulo: "Roteiro de Aula Invertida",
+     descricao: "Estrutura para metodologia flipped classroom",
+     texto: "Desenvolva um roteiro de aula invertida sobre [tema] para [nível de ensino]. Inclua: 1) Materiais pré-aula (vídeos, textos), 2) Atividades de verificação de compreensão, 3) Dinâmicas para aula presencial, 4) Mecanismos de acompanhamento.",
+     categoria: "educação",
+     favorito: false
+   }
+],
   saúde: [
     {
       id: 23,
