@@ -4670,8 +4670,560 @@ export const prompts = {
      texto: "Desenvolva um roteiro de aula invertida sobre [tema] para [nível de ensino]. Inclua: 1) Materiais pré-aula (vídeos, textos), 2) Atividades de verificação de compreensão, 3) Dinâmicas para aula presencial, 4) Mecanismos de acompanhamento.",
      categoria: "educação",
      favorito: false
-   }
-],
+   },
+   {
+    id: 1,
+    titulo: "Mapa Mental Educativo",
+    descricao: "Estrutura visual para organizar conceitos",
+    texto: "Crie um mapa mental detalhado sobre [tema] para [nível de ensino]. Inclua: 1) Conceito central, 2) Subtópicos principais, 3) Conexões entre ideias, 4) Exemplos práticos, 5) Elementos visuais para melhor compreensão.",
+    categoria: "educação",
+    favorito: false
+  },
+  {
+    id: 2,
+    titulo: "Rubrica de Avaliação",
+    descricao: "Critérios claros para avaliação de trabalhos",
+    texto: "Desenvolva uma rubrica de avaliação para [tipo de trabalho] com: 1) 4 critérios de avaliação, 2) Escala de desempenho (0-5), 3) Descrição de cada nível, 4) Espaço para feedback qualitativo. Adapte para [disciplina/área].",
+    categoria: "educação",
+    favorito: false
+  },
+  {
+    id: 3,
+    titulo: "Projeto Interdisciplinar",
+    descricao: "Integração de múltiplas disciplinas",
+    texto: "Elabore um projeto interdisciplinar conectando [disciplina 1] e [disciplina 2] sobre [tema]. Inclua: 1) Objetivos, 2) Atividades para cada disciplina, 3) Produto final, 4) Critérios de avaliação, 5) Duração estimada.",
+    categoria: "educação",
+    favorito: false
+  },
+  {
+    id: 4,
+    titulo: "Contrato de Aprendizagem",
+    descricao: "Acordo entre professor e aluno",
+    texto: "Crie um modelo de contrato de aprendizagem para [nível de ensino] com: 1) Metas do aluno, 2) Compromissos do professor, 3) Prazos, 4) Critérios de sucesso, 5) Espaço para assinaturas.",
+    categoria: "educação",
+    favorito: false
+  },
+  {
+    id: 5,
+    titulo: "Portfólio Digital",
+    descricao: "Estrutura para avaliação contínua",
+    texto: "Projete um modelo de portfólio digital para [disciplina] incluindo: 1) Seções essenciais, 2) Tipos de evidências, 3) Critérios de seleção, 4) Reflexões do aluno, 5) Ferramentas digitais recomendadas.",
+    categoria: "educação",
+    favorito: false
+  },
+  {
+    id: 6,
+    titulo: "Estudo de Caso Educacional",
+    descricao: "Análise de situações reais",
+    texto: "Desenvolva um estudo de caso sobre [tema educacional] com: 1) Contexto, 2) Problema central, 3) Dados relevantes, 4) Questões para discussão, 5) Possíveis soluções.",
+    categoria: "educação",
+    favorito: false
+  },
+  {
+    id: 7,
+    titulo: "Template de Diário de Aprendizagem",
+    descricao: "Registro reflexivo do aluno",
+    texto: "Crie um template de diário de aprendizagem com: 1) Data, 2) Tópicos estudados, 3) Dificuldades encontradas, 4) Conquistas, 5) Metas para próxima sessão. Adapte para [idade/nível].",
+    categoria: "educação",
+    favorito: false
+  },
+  {
+    id: 8,
+    titulo: "Atividade de Aprendizagem Baseada em Problemas",
+    descricao: "Metodologia PBL",
+    texto: "Elabore uma atividade PBL sobre [tema] para [número] alunos. Inclua: 1) Cenário realista, 2) Questões norteadoras, 3) Etapas de investigação, 4) Produto final esperado, 5) Critérios de avaliação.",
+    categoria: "educação",
+    favorito: false
+  },
+  {
+    id: 9,
+    titulo: "Template de Plano de AEE",
+    descricao: "Atendimento Educacional Especializado",
+    texto: "Desenvolva um template de plano de AEE para [tipo de necessidade] incluindo: 1) Dados do aluno, 2) Objetivos específicos, 3) Recursos necessários, 4) Adaptações curriculares, 5) Avaliação do processo.",
+    categoria: "educação",
+    favorito: false
+  },
+  {
+    id: 10,
+    titulo: "Jornada de Aprendizagem Personalizada",
+    descricao: "Roteiro individualizado",
+    texto: "Crie uma jornada de aprendizagem personalizada para [área do conhecimento] com: 1) Diagnóstico inicial, 2) Módulos adaptáveis, 3) Checkpoints, 4) Recursos complementares, 5) Avaliação formativa.",
+    categoria: "educação",
+    favorito: false
+  },
+  {
+    id: 11,
+    titulo: "Guia de Metodologias Ativas",
+    descricao: "Técnicas inovadoras de ensino",
+    texto: "Elabore um guia comparativo de 5 metodologias ativas incluindo: 1) Descrição, 2) Quando usar, 3) Vantagens, 4) Desafios, 5) Exemplo de aplicação em [disciplina].",
+    categoria: "educação",
+    favorito: false
+  },
+  {
+    id: 12,
+    titulo: "Template de Plano de Aula STEAM",
+    descricao: "Abordagem integrada",
+    texto: "Desenvolva um template de plano de aula STEAM sobre [tema] com: 1) Conexões entre as disciplinas, 2) Atividades mão na massa, 3) Materiais necessários, 4) Avaliação por competências, 5) Extensões possíveis.",
+    categoria: "educação",
+    favorito: false
+  },
+  {
+    id: 13,
+    titulo: "Checklist de Acessibilidade em Materiais Didáticos",
+    descricao: "Inclusão na educação",
+    texto: "Crie uma checklist para avaliar acessibilidade em materiais didáticos considerando: 1) Visão, 2) Audição, 3) Mobilidade, 4) Cognição, 5) Adaptações específicas para [tipo de conteúdo].",
+    categoria: "educação",
+    favorito: false
+  },
+  {
+    id: 14,
+    titulo: "Roteiro de Debate Acadêmico",
+    descricao: "Estrutura para discussões formais",
+    texto: "Elabore um roteiro para debate sobre [tema polêmico] incluindo: 1) Regras, 2) Papéis dos participantes, 3) Critérios de avaliação, 4) Tempos de fala, 5) Fontes para pesquisa prévia.",
+    categoria: "educação",
+    favorito: false
+  },
+  {
+    id: 15,
+    titulo: "Template de Plano de Aula para EAD",
+    descricao: "Educação a Distância",
+    texto: "Desenvolva um template de plano de aula para EAD com: 1) Objetivos claros, 2) Recursos digitais, 3) Interações síncronas/assíncronas, 4) Atividades interativas, 5) Formas de acompanhamento.",
+    categoria: "educação",
+    favorito: false
+  },
+  {
+    id: 16,
+    titulo: "Manual de Boas Práticas em Sala de Aula",
+    descricao: "Gestão do ambiente educacional",
+    texto: "Crie um manual de boas práticas para [nível de ensino] incluindo: 1) Rotinas, 2) Gestão de conflitos, 3) Estratégias de engajamento, 4) Comunicação com famílias, 5) Adaptações para diferentes contextos.",
+    categoria: "educação",
+    favorito: false
+  },
+  {
+    id: 17,
+    titulo: "Template de Projeto de Pesquisa Escolar",
+    descricao: "Estrutura para trabalhos científicos",
+    texto: "Desenvolva um template para projetos de pesquisa escolar com: 1) Tema e problema, 2) Hipóteses, 3) Metodologia, 4) Cronograma, 5) Formas de apresentação. Adapte para [nível de ensino].",
+    categoria: "educação",
+    favorito: false
+  },
+  {
+    id: 18,
+    titulo: "Guia de Ferramentas Digitais para Educação",
+    descricao: "Tecnologias educacionais",
+    texto: "Elabore um guia comparativo de 10 ferramentas digitais para [objetivo educacional] incluindo: 1) Descrição, 2) Vantagens, 3) Limitações, 4) Casos de uso, 5) Nível de dificuldade.",
+    categoria: "educação",
+    favorito: false
+  },
+  {
+    id: 19,
+    titulo: "Roteiro de Aula Experimental",
+    descricao: "Atividades práticas em laboratório",
+    texto: "Crie um roteiro detalhado para aula experimental sobre [tema científico] com: 1) Objetivos, 2) Materiais, 3) Procedimentos passo-a-passo, 4) Questões para observação, 5) Formas de registro.",
+    categoria: "educação",
+    favorito: false
+  },
+  {
+    id: 20,
+    titulo: "Template de Plano de Aula para Educação Infantil",
+    descricao: "Abordagem lúdica",
+    texto: "Desenvolva um template de plano de aula para educação infantil com: 1) Objetivos desenvolvimentais, 2) Atividades sensoriais, 3) Rotina flexível, 4) Materiais não estruturados, 5) Avaliação observacional.",
+    categoria: "educação",
+    favorito: false
+  },
+  {
+    id: 21,
+    titulo: "Guia de Avaliação por Competências",
+    descricao: "Abordagem contemporânea",
+    texto: "Crie um guia para avaliação por competências em [área] incluindo: 1) Matriz de competências, 2) Indicadores de desempenho, 3) Instrumentos de avaliação, 4) Registro de progresso, 5) Feedback eficaz.",
+    categoria: "educação",
+    favorito: false
+  },
+  {
+    id: 22,
+    titulo: "Template de Plano de Intervenção Pedagógica",
+    descricao: "Apoio a dificuldades específicas",
+    texto: "Elabore um template de plano de intervenção para [dificuldade de aprendizagem] com: 1) Diagnóstico, 2) Objetivos, 3) Estratégias, 4) Prazos, 5) Indicadores de progresso.",
+    categoria: "educação",
+    favorito: false
+  },
+  {
+    id: 23,
+    titulo: "Kit de Atividades para Alfabetização",
+    descricao: "Recursos para ensino fundamental",
+    texto: "Desenvolva um kit com 10 atividades para alfabetização em [língua] incluindo: 1) Objetivos, 2) Materiais, 3) Instruções, 4) Adaptações, 5) Formas de avaliação.",
+    categoria: "educação",
+    favorito: false
+  },
+  {
+    id: 24,
+    titulo: "Manual de Mediação de Conflitos Escolares",
+    descricao: "Gestão de relacionamentos",
+    texto: "Crie um manual para mediação de conflitos em [nível escolar] com: 1) Técnicas de comunicação, 2) Etapas do processo, 3) Papel do mediador, 4) Registro de casos, 5) Acompanhamento pós-conflito.",
+    categoria: "educação",
+    favorito: false
+  },
+  {
+    id: 25,
+    titulo: "Template de Plano de Aula para Educação Especial",
+    descricao: "Abordagem inclusiva",
+    texto: "Desenvolva um template de plano de aula inclusivo com: 1) Adaptações universais, 2) Diferenciações, 3) Recursos de acessibilidade, 4) Parcerias com outros profissionais, 5) Avaliação adaptada.",
+    categoria: "educação",
+    favorito: false
+  },
+  {
+    id: 26,
+    titulo: "Guia de Aprendizagem Baseada em Projetos",
+    descricao: "Metodologia PjBL",
+    texto: "Elabore um guia passo-a-passo para implementar PjBL sobre [tema] incluindo: 1) Definição do problema, 2) Pesquisa, 3) Prototipagem, 4) Apresentação, 5) Avaliação do processo.",
+    categoria: "educação",
+    favorito: false
+  },
+  {
+    id: 27,
+    titulo: "Template de Plano de Aula Maker",
+    descricao: "Cultura 'faça você mesmo'",
+    texto: "Crie um template de plano de aula maker com: 1) Desafio central, 2) Materiais disponíveis, 3) Tempo para prototipagem, 4) Compartilhamento de soluções, 5) Reflexão sobre o processo.",
+    categoria: "educação",
+    favorito: false
+  },
+  {
+    id: 28,
+    titulo: "Kit de Jogos Matemáticos",
+    descricao: "Aprendizagem lúdica",
+    texto: "Desenvolva um kit com 5 jogos para ensinar [conceito matemático] para [faixa etária] incluindo: 1) Regras, 2) Materiais, 3) Variações de dificuldade, 4) Conexão curricular, 5) Formas de avaliação.",
+    categoria: "educação",
+    favorito: false
+  },
+  {
+    id: 29,
+    titulo: "Manual de Implementação de Sala de Aula Invertida",
+    descricao: "Flipped classroom",
+    texto: "Crie um manual para implementar sala de aula invertida em [disciplina] com: 1) Seleção de materiais pré-aula, 2) Estratégias de engajamento, 3) Atividades presenciais, 4) Avaliação contínua, 5) Solução de problemas comuns.",
+    categoria: "educação",
+    favorito: false
+  },
+  {
+    id: 30,
+    titulo: "Template de Plano de Aula para Ensino Híbrido",
+    descricao: "Combinação de presencial e online",
+    texto: "Desenvolva um template de plano de aula híbrido com: 1) Componentes online e offline, 2) Rotações de estações, 3) Atividades síncronas e assíncronas, 4) Ferramentas digitais, 5) Avaliação integrada.",
+    categoria: "educação",
+    favorito: false
+  },
+  {
+    id: 31,
+    titulo: "Guia de Aprendizagem Socioemocional",
+    descricao: "Desenvolvimento de habilidades não-cognitivas",
+    texto: "Elabore um guia para implementar SEL (Social-Emotional Learning) em [nível escolar] com: 1) Competências-chave, 2) Atividades por faixa etária, 3) Integração curricular, 4) Avaliação qualitativa, 5) Engajamento familiar.",
+    categoria: "educação",
+    favorito: false
+  },
+  {
+    id: 32,
+    titulo: "Template de Plano de Aula para Educação de Jovens e Adultos",
+    descricao: "Abordagem andragógica",
+    texto: "Crie um template de plano de aula para EJA considerando: 1) Experiências prévias, 2) Contextos dos alunos, 3) Aplicação prática, 4) Flexibilidade, 5) Avaliação formativa.",
+    categoria: "educação",
+    favorito: false
+  },
+  {
+    id: 33,
+    titulo: "Kit de Atividades para Educação Ambiental",
+    descricao: "Conscientização ecológica",
+    texto: "Desenvolva um kit com 7 atividades práticas de educação ambiental sobre [tema] incluindo: 1) Objetivos, 2) Materiais, 3) Duração, 4) Adaptações, 5) Extensões comunitárias.",
+    categoria: "educação",
+    favorito: false
+  },
+  {
+    id: 34,
+    titulo: "Manual de Uso Seguro de Tecnologia na Educação",
+    descricao: "Cidadania digital",
+    texto: "Elabore um manual para uso seguro de tecnologia em [nível escolar] com: 1) Boas práticas, 2) Riscos comuns, 3) Configurações de privacidade, 4) Casos de estudo, 5) Protocolos para problemas.",
+    categoria: "educação",
+    favorito: false
+  },
+  {
+    id: 35,
+    titulo: "Template de Plano de Aula com Realidade Aumentada",
+    descricao: "Tecnologias imersivas",
+    texto: "Crie um template de plano de aula utilizando RA para ensinar [conteúdo] com: 1) Aplicativos recomendados, 2) Atividades prévias, 3) Experiência imersiva, 4) Consolidação, 5) Avaliação da experiência.",
+    categoria: "educação",
+    favorito: false
+  },
+  {
+    id: 36,
+    titulo: "Guia de Scaffolding Educacional",
+    descricao: "Apoio temporário à aprendizagem",
+    texto: "Desenvolva um guia para implementar scaffolding em [disciplina] com: 1) Diagnóstico de ZPD, 2) Estratégias de apoio, 3) Gradual release of responsibility, 4) Exemplos por nível, 5) Sinais para remoção de suportes.",
+    categoria: "educação",
+    favorito: false
+  },
+  {
+    id: 37,
+    titulo: "Template de Plano de Aula com Storytelling",
+    descricao: "Narrativas educativas",
+    texto: "Elabore um template de plano de aula usando storytelling para ensinar [conteúdo] com: 1) Estrutura narrativa, 2) Personagens relevantes, 3) Conflito/conceito central, 4) Resolução/aplicação, 5) Atividades de extensão.",
+    categoria: "educação",
+    favorito: false
+  },
+  {
+    id: 38,
+    titulo: "Kit de Experimentos Científicos para Crianças",
+    descricao: "Investigações seguras",
+    texto: "Crie um kit com 5 experimentos científicos seguros para [faixa etária] sobre [tema] incluindo: 1) Perguntas investigáveis, 2) Materiais acessíveis, 3) Passo-a-passo, 4) Explicações científicas, 5) Extensões.",
+    categoria: "educação",
+    favorito: false
+  },
+  {
+    id: 39,
+    titulo: "Manual de Educação Financeira para Escolas",
+    descricao: "Alfabetização econômica",
+    texto: "Desenvolva um manual para implementar educação financeira em [nível escolar] com: 1) Conceitos-chave por idade, 2) Atividades práticas, 3) Simulações, 4) Avaliação, 5) Recursos para famílias.",
+    categoria: "educação",
+    favorito: false
+  },
+  {
+    id: 40,
+    titulo: "Template de Plano de Aula com Aprendizagem Baseada em Jogos",
+    descricao: "Gamificação educacional",
+    texto: "Crie um template de plano de aula usando GBJ (Game-Based Learning) para [conteúdo] com: 1) Jogo selecionado/desenvolvido, 2) Objetivos de aprendizagem, 3) Regras adaptadas, 4) Reflexão pós-jogo, 5) Avaliação.",
+    categoria: "educação",
+    favorito: false
+  },
+  {
+    id: 41,
+    titulo: "Guia de Feedback Eficaz na Educação",
+    descricao: "Orientação para melhor desempenho",
+    texto: "Elabore um guia para fornecer feedback eficaz em [contexto educacional] com: 1) Tipos de feedback, 2) Estrutura (Situation-Behavior-Impact), 3) Timing, 4) Linguagem apropriada, 5) Follow-up.",
+    categoria: "educação",
+    favorito: false
+  },
+  {
+    id: 42,
+    titulo: "Template de Plano de Aula para Pensamento Computacional",
+    descricao: "Habilidades do século XXI",
+    texto: "Desenvolva um template de plano de aula para desenvolver pensamento computacional em [nível] com: 1) Desafios de decomposição, 2) Padrões e abstrações, 3) Algoritmos, 4) Atividades desplugadas, 5) Avaliação.",
+    categoria: "educação",
+    favorito: false
+  },
+  {
+    id: 43,
+    titulo: "Kit de Atividades para Educação Emocional",
+    descricao: "Inteligência emocional",
+    texto: "Crie um kit com 8 atividades para desenvolver educação emocional em [faixa etária] incluindo: 1) Identificação de emoções, 2) Regulação, 3) Empatia, 4) Habilidades sociais, 5) Diário emocional.",
+    categoria: "educação",
+    favorito: false
+  },
+  {
+    id: 44,
+    titulo: "Manual de Mediação de Leitura",
+    descricao: "Formação de leitores",
+    texto: "Elabore um manual para mediação de leitura em [nível] com: 1) Seleção de textos, 2) Estratégias pré-leitura, 3) Durante a leitura, 4) Pós-leitura, 5) Avaliação de compreensão e apreciação.",
+    categoria: "educação",
+    favorito: false
+  },
+  {
+    id: 45,
+    titulo: "Template de Plano de Aula com Design Thinking",
+    descricao: "Solução criativa de problemas",
+    texto: "Desenvolva um template de plano de aula usando Design Thinking para [desafio] com: 1) Fase de empatia, 2) Definição, 3) Ideação, 4) Prototipagem, 5) Teste e feedback.",
+    categoria: "educação",
+    favorito: false
+  },
+  {
+    id: 46,
+    titulo: "Guia de Aprendizagem Baseada em Competências",
+    descricao: "Abordagem por domínios",
+    texto: "Crie um guia para implementar ABC em [área] com: 1) Mapeamento de competências, 2) Indicadores de domínio, 3) Caminhos personalizados, 4) Avaliação contínua, 5) Certificação de competências.",
+    categoria: "educação",
+    favorito: false
+  },
+  {
+    id: 47,
+    titulo: "Template de Plano de Aula para Educação Patrimonial",
+    descricao: "Valorização cultural",
+    texto: "Elabore um template de plano de aula para educação patrimonial sobre [tema] com: 1) Contextualização, 2) Pesquisa local, 3) Documentação, 4) Ações de preservação, 5) Divulgação.",
+    categoria: "educação",
+    favorito: false
+  },
+  {
+    id: 48,
+    titulo: "Kit de Atividades para Consciência Fonológica",
+    descricao: "Base para alfabetização",
+    texto: "Desenvolva um kit com 10 atividades para desenvolver consciência fonológica em [idade] incluindo: 1) Rimas, 2) Aliteração, 3) Segmentação, 4) Manipulação de fonemas, 5) Jogos orais.",
+    categoria: "educação",
+    favorito: false
+  },
+  {
+    id: 49,
+    titulo: "Manual de Educação em Direitos Humanos",
+    descricao: "Formação cidadã",
+    texto: "Crie um manual para implementar EDH em [nível escolar] com: 1) Conceitos-chave, 2) Casos reais, 3) Atividades reflexivas, 4) Projetos de ação, 5) Avaliação de impacto.",
+    categoria: "educação",
+    favorito: false
+  },
+  {
+    id: 50,
+    titulo: "Template de Plano de Aula com Aprendizagem Serviço",
+    descricao: "Integração com comunidade",
+    texto: "Elabore um template de plano de aula usando aprendizagem serviço para [tema] com: 1) Diagnóstico comunitário, 2) Planejamento colaborativo, 3) Ação, 4) Reflexão, 5) Avaliação de impacto.",
+    categoria: "educação",
+    favorito: false
+  },
+  {
+    id: 51,
+    titulo: "Guia de Diferenciação Curricular",
+    descricao: "Atendimento à diversidade",
+    texto: "Desenvolva um guia para diferenciação curricular em [disciplina] com: 1) Diagnóstico de perfis, 2) Adaptação de conteúdo, 3) Processo, 4) Produto, 5) Ambiente de aprendizagem.",
+    categoria: "educação",
+    favorito: false
+  },
+  {
+    id: 52,
+    titulo: "Template de Plano de Aula para Educação Midática",
+    descricao: "Análise crítica de mídia",
+    texto: "Crie um template de plano de aula para educação midática com: 1) Análise de mensagens, 2) Produção midática, 3) Questões de representação, 4) Fontes e credibilidade, 5) Projetos de criação.",
+    categoria: "educação",
+    favorito: false
+  },
+  {
+    id: 53,
+    titulo: "Kit de Atividades para Geometria Concreta",
+    descricao: "Aprendizagem manipulativa",
+    texto: "Elabore um kit com 5 atividades práticas para ensinar geometria para [nível] usando: 1) Materiais concretos, 2) Representações 2D-3D, 3) Medições reais, 4) Aplicações cotidianas, 5) Registros.",
+    categoria: "educação",
+    favorito: false
+  },
+  {
+    id: 54,
+    titulo: "Manual de Educação para o Consumo Consciente",
+    descricao: "Consumo responsável",
+    texto: "Desenvolva um manual para educação consumerista com: 1) Análise de publicidade, 2) Pegada ecológica, 3) Orçamento pessoal, 4) Direitos do consumidor, 5) Projetos de intervenção.",
+    categoria: "educação",
+    favorito: false
+  },
+  {
+    id: 55,
+    titulo: "Template de Plano de Aula com Peer Instruction",
+    descricao: "Ensino entre pares",
+    texto: "Crie um template de plano de aula usando peer instruction para [tema] com: 1) Conceito-test, 2) Discussão em pares, 3) Votação, 4) Explicação do professor, 5) Aplicação.",
+    categoria: "educação",
+    favorito: false
+  },
+  {
+    id: 56,
+    titulo: "Guia de Avaliação Autêntica",
+    descricao: "Tarefas do mundo real",
+    texto: "Elabore um guia para criar avaliações autênticas em [área] com: 1) Contextos reais, 2) Critérios profissionais, 3) Rubricas, 4) Feedback formativo, 5) Portfólios.",
+    categoria: "educação",
+    favorito: false
+  },
+  {
+    id: 57,
+    titulo: "Template de Plano de Aula para Educação Alimentar",
+    descricao: "Hábitos saudáveis",
+    texto: "Desenvolva um template de plano de aula para educação alimentar com: 1) Grupos alimentares, 2) Rótulos nutricionais, 3) Culinária educativa, 4) Sustentabilidade, 5) Avaliação de hábitos.",
+    categoria: "educação",
+    favorito: false
+  },
+  {
+    id: 58,
+    titulo: "Kit de Atividades para Educação no Trânsito",
+    descricao: "Segurança viária",
+    texto: "Crie um kit com 6 atividades para educação no trânsito para [faixa etária] incluindo: 1) Sinalização, 2) Papéis (pedestre, ciclista), 3) Simulações, 4) Projetos comunitários, 5) Avaliação.",
+    categoria: "educação",
+    favorito: false
+  },
+  {
+    id: 59,
+    titulo: "Manual de Educação para a Paz",
+    descricao: "Resolução não-violenta",
+    texto: "Elabore um manual para educação para a paz com: 1) Comunicação não-violenta, 2) Mediação de conflitos, 3) Justiça restaurativa, 4) Projetos escolares, 5) Avaliação de clima escolar.",
+    categoria: "educação",
+    favorito: false
+  },
+  {
+    id: 60,
+    titulo: "Template de Plano de Aula com Estudo do Meio",
+    descricao: "Aprendizagem fora da sala",
+    texto: "Desenvolva um template de plano de aula para estudo do meio em [local] com: 1) Preparação, 2) Roteiro de observação, 3) Registros, 4) Análise pós-visita, 5) Produto final.",
+    categoria: "educação",
+    favorito: false
+  },
+  {
+    id: 61,
+    titulo: "Guia de Metacognição na Aprendizagem",
+    descricao: "Consciência do aprender",
+    texto: "Crie um guia para desenvolver metacognição em [nível] com: 1) Diários reflexivos, 2) Planejamento de estudo, 3) Autoavaliação, 4) Estratégias de aprendizagem, 5) Transferência.",
+    categoria: "educação",
+    favorito: false
+  },
+  {
+    id: 62,
+    titulo: "Template de Plano de Aula para Educação Cinematográfica",
+    descricao: "Análise fílmica",
+    texto: "Elabore um template de plano de aula usando filmes para ensinar [conteúdo] com: 1) Seleção de cenas, 2) Contextualização, 3) Elementos narrativos, 4) Análise crítica, 5) Produção estudantil.",
+    categoria: "educação",
+    favorito: false
+  },
+  {
+    id: 63,
+    titulo: "Kit de Atividades para Lógica Matemática",
+    descricao: "Raciocínio dedutivo",
+    texto: "Desenvolva um kit com 7 atividades para desenvolver lógica matemática em [nível] incluindo: 1) Sequências, 2) Classificações, 3) Padrões, 4) Problemas abertos, 5) Jogos estratégicos.",
+    categoria: "educação",
+    favorito: false
+  },
+  {
+    id: 64,
+    titulo: "Manual de Educação para Igualdade de Gênero",
+    descricao: "Equidade na escola",
+    texto: "Crie um manual para promover igualdade de gênero em [contexto] com: 1) Linguagem inclusiva, 2) Análise de materiais, 3) Dinâmicas reflexivas, 4) Projetos, 5) Avaliação de ambiente.",
+    categoria: "educação",
+    favorito: false
+  },
+  {
+    id: 65,
+    titulo: "Template de Plano de Aula com Aprendizagem Expedicionária",
+    descricao: "Exploração guiada",
+    texto: "Elabore um template de plano de aula usando aprendizagem expedicionária para [tema] com: 1) Preparação, 2) Expedição (virtual/presencial), 3) Documentação, 4) Análise, 5) Compartilhamento.",
+    categoria: "educação",
+    favorito: false
+  },
+  {
+    id: 66,
+    titulo: "Guia de Educação para o Empreendedorismo",
+    descricao: "Habilidades empreendedoras",
+    texto: "Desenvolva um guia para educação empreendedora com: 1) Identificação de oportunidades, 2) Modelos de negócio, 3) Prototipagem, 4) Pitch, 5) Avaliação de viabilidade.",
+    categoria: "educação",
+    favorito: false
+  },
+  {
+    id: 67,
+    titulo: "Template de Plano de Aula para Educação Musical",
+    descricao: "Expressão sonora",
+    texto: "Crie um template de plano de aula para educação musical com: 1) Exploração sonora, 2) Elementos musicais, 3) Criação coletiva, 4) Contextualização cultural, 5) Apresentação.",
+    categoria: "educação",
+    favorito: false
+  },
+  {
+    id: 68,
+    titulo: "Kit de Atividades para Educação Fiscal",
+    descricao: "Cidadania tributária",
+    texto: "Elabore um kit com 5 atividades para educação fiscal incluindo: 1) Orçamento público, 2) Nota fiscal, 3) Impostos e serviços, 4) Simulações, 5) Ações comunitárias.",
+    categoria: "educação",
+    favorito: false
+  },
+  {
+    id: 69,
+    titulo: "Manual de Educação para o Uso Consciente da Água",
+    descricao: "Conservação hídrica",
+    texto: "Desenvolva um manual para educação hídrica com: 1) Ciclo da água, 2) Pegada hídrica, 3) Conservação, 4) Projetos de reúso, 5) Monitoramento escolar.",
+    categoria: "educação",
+    favorito: false
+    }
+  ],
   saúde: [
     {
       id: 23,
@@ -4690,6 +5242,520 @@ export const prompts = {
       favorito: false
     }
   ],
+  saúde: [
+  {
+    id: 25,
+    titulo: "Guia de Meditação para Iniciantes",
+    descricao: "Rotina de mindfulness para redução de estresse",
+    texto: "Crie um programa de meditação de [21 dias] para iniciantes com sessões de [5-20 minutos]. Inclua: 1) Técnicas de respiração, 2) Tipos de meditação (focalizada, body scan etc), 3) Playlist sugerida, 4) Dicas para criar hábito, 5) Soluções para dificuldades comuns.",
+    categoria: "saúde",
+    favorito: false
+  },
+  {
+    id: 26,
+    titulo: "Check-up Preventivo Personalizado",
+    descricao: "Lista de exames por faixa etária e perfil",
+    texto: "Elabore um cronograma de check-ups médicos para [homem/mulher] de [idade] anos com histórico de [listar]. Inclua: 1) Exames essenciais, 2) Frequência recomendada, 3) Sinais de alerta, 4) Especialistas para consultar, 5) Cuidados pré-exames.",
+    categoria: "saúde",
+    favorito: false
+  },
+  {
+    id: 27,
+    titulo: "Desafio de Hidratação",
+    descricao: "Plano para aumentar consumo de água diário",
+    texto: "Desenvolva um desafio de [30 dias] para atingir [X] litros de água/dia. Inclua: 1) Cálculo personalizado por peso, 2) Métodos de acompanhamento, 3) Infusões saborosas, 4) Lembretes estratégicos, 5) Benefícios por semana.",
+    categoria: "saúde",
+    favorito: false
+  },
+  {
+    id: 28,
+    titulo: "Guia de Alongamento para Sedentários",
+    descricao: "Sequências para quem passa muito tempo sentado",
+    texto: "Crie uma rotina de [10-15 minutos] de alongamentos para pessoas que trabalham [X horas] sentadas. Inclua: 1) Exercícios para coluna, 2) Alívio de tensão cervical, 3) Alongamentos rápidos no escritório, 4) Frequência ideal, 5) Erros comuns a evitar.",
+    categoria: "saúde",
+    favorito: false
+  },
+  {
+    id: 29,
+    titulo: "Plano de Transição para Vegetarianos",
+    descricao: "Guia passo-a-passo para mudança alimentar",
+    texto: "Elabore um plano de [8 semanas] para transição ao vegetarianismo. Inclua: 1) Substituições proteicas, 2) Lista de nutrientes-chave, 3) Receitas semanais, 4) Como lidar com desafios sociais, 5) Suplementos recomendados.",
+    categoria: "saúde",
+    favorito: false
+  },
+  {
+    id: 30,
+    titulo: "Rotina de Skincare Científica",
+    descricao: "Protocolo de cuidados com a pele baseado em evidências",
+    texto: "Desenvolva uma rotina de skincare para pele [oleosa/seca/mista] com preocupações de [acne/envelhecimento/manchas]. Inclua: 1) Produtos essenciais, 2) Ordem de aplicação, 3) Ingredientes ativos chave, 4) Frequência de uso, 5) Quando consultar um dermatologista.",
+    categoria: "saúde",
+    favorito: false
+  },
+  {
+    id: 31,
+    titulo: "Guia de Suplementação Esportiva",
+    descricao: "Protocolo seguro para diferentes objetivos",
+    texto: "Crie um guia de suplementos para [objetivo: performance/emagrecimento/hipertrofia]. Inclua: 1) Suplementos base, 2) Dosagens, 3) Timing ideal, 4) Combinações eficazes, 5) Marcadores para avaliar eficácia.",
+    categoria: "saúde",
+    favorito: false
+  },
+  {
+    id: 32,
+    titulo: "Programa de Postura Corporal",
+    descricao: "Exercícios corretivos para melhorar alinhamento",
+    texto: "Desenvolva um programa de [6 semanas] para corrigir [má postura específica]. Inclua: 1) Exercícios diários, 2) Conscientização postural, 3) Adaptações ergonômicas, 4) Progressão de dificuldade, 5) Sinais de melhora.",
+    categoria: "saúde",
+    favorito: false
+  },
+  {
+    id: 33,
+    titulo: "Plano de Gestão do Estresse",
+    descricao: "Estratégias baseadas em evidências para ansiedade",
+    texto: "Crie um protocolo de [30 dias] para redução de estresse crônico. Inclua: 1) Técnicas de respiração, 2) Adaptações nutricionais, 3) Rotina de sono, 4) Exercícios específicos, 5) Ferramentas de monitoramento.",
+    categoria: "saúde",
+    favorito: false
+  },
+  {
+    id: 34,
+    titulo: "Guia de Saúde Intestinal",
+    descricao: "Protocolo para melhorar microbioma e digestão",
+    texto: "Elabore um plano de [4 semanas] para saúde intestinal. Inclua: 1) Alimentos prebióticos/probióticos, 2) Hábitos digestivos, 3) Sinais de desequilíbrio, 4) Suplementos úteis, 5) Métodos de avaliação progresso.",
+    categoria: "saúde",
+    favorito: false
+  },
+  {
+    id: 35,
+    titulo: "Programa de Reabilitação para Lesões",
+    descricao: "Protocolo seguro de recuperação ativa",
+    texto: "Desenvolva um plano de reabilitação para [tipo de lesão] com duração de [X semanas]. Inclua: 1) Exercícios progressivos, 2) Sinais de alerta, 3) Adaptações diárias, 4) Tempo de recuperação esperado, 5) Quando retomar atividades normais.",
+    categoria: "saúde",
+    favorito: false
+  },
+  {
+    id: 36,
+    titulo: "Guia de Saúde Ocular Digital",
+    descricao: "Proteção para usuários de telas",
+    texto: "Crie um protocolo de [7 dias] para reduzir fadiga ocular digital. Inclua: 1) Exercícios oculares, 2) Configurações ideais de tela, 3) Suplementos nutricionais, 4) Hábitos protetores, 5) Quando procurar especialista.",
+    categoria: "saúde",
+    favorito: false
+  },
+  {
+    id: 37,
+    titulo: "Plano de Desintoxicação Digital",
+    descricao: "Redução consciente do uso tecnológico",
+    texto: "Elabore um programa de [21 dias] para reduzir dependência digital. Inclua: 1) Metas progressivas, 2) Alternativas offline, 3) Gestão de notificações, 4) Benefícios esperados por fase, 5) Métricas de sucesso.",
+    categoria: "saúde",
+    favorito: false
+  },
+  {
+    id: 38,
+    titulo: "Guia de Saúde Masculina Preventiva",
+    descricao: "Checklist por faixa etária",
+    texto: "Desenvolva um guia de saúde preventiva para homens de [idade]. Inclua: 1) Exames essenciais, 2) Sinais precoces de alerta, 3) Hábitos protetores, 4) Fatores de risco modificáveis, 5) Especialistas recomendados.",
+    categoria: "saúde",
+    favorito: false
+  },
+  {
+    id: 39,
+    titulo: "Protocolo de Sono Restaurador",
+    descricao: "Otimização do ciclo circadiano",
+    texto: "Crie um plano de [14 dias] para melhorar qualidade do sono. Inclua: 1) Rotina pré-sono, 2) Ambiente ideal, 3) Alimentação noturna, 4) Técnicas de relaxamento, 5) Métodos para medir progresso.",
+    categoria: "saúde",
+    favorito: false
+  },
+  {
+    id: 40,
+    titulo: "Guia de Saúde da Mulher",
+    descricao: "Cuidados específicos por fase hormonal",
+    texto: "Elabore um guia de saúde feminina para [idade/fase]. Inclua: 1) Ciclo hormonal, 2) Necessidades nutricionais, 3) Exercícios recomendados, 4) Rastreios preventivos, 5) Sinais de desequilíbrio.",
+    categoria: "saúde",
+    favorito: false
+  },
+  {
+    id: 41,
+    titulo: "Plano de Prevenção de Doenças Crônicas",
+    descricao: "Estratégias baseadas em evidências",
+    texto: "Desenvolva um protocolo de [12 semanas] para redução de risco de [doença]. Inclua: 1) Fatores modificáveis, 2) Hábitos protetores, 3) Marcadores biológicos, 4) Acompanhamento profissional, 5) Métricas de sucesso.",
+    categoria: "saúde",
+    favorito: false
+  },
+  {
+    id: 42,
+    titulo: "Guia de Saúde Mental no Trabalho",
+    descricao: "Estratégias para equilíbrio emocional profissional",
+    texto: "Crie um programa de [30 dias] para saúde mental no ambiente de trabalho. Inclua: 1) Técnicas de gerenciamento de estresse, 2) Limites saudáveis, 3) Comunicação assertiva, 4) Prevenção de burnout, 5) Recursos de apoio.",
+    categoria: "saúde",
+    favorito: false
+  },
+  {
+    id: 43,
+    titulo: "Protocolo de Jejum Intermitente Seguro",
+    descricao: "Guias para diferentes protocolos",
+    texto: "Elabore um plano de [4 semanas] de jejum intermitente para [objetivo]. Inclua: 1) Protocolos disponíveis, 2) Adaptação progressiva, 3) Alimentação nas janelas, 4) Contraindicações, 5) Métricas de acompanhamento.",
+    categoria: "saúde",
+    favorito: false
+  },
+  {
+    id: 44,
+    titulo: "Guia de Saúde Cardiovascular",
+    descricao: "Estratégias para coração saudável",
+    texto: "Desenvolva um programa de [8 semanas] para saúde cardiovascular. Inclua: 1) Exercícios específicos, 2) Alimentos protetores, 3) Monitoramento de marcadores, 4) Redução de fatores de risco, 5) Sinais de alerta.",
+    categoria: "saúde",
+    favorito: false
+  },
+  {
+    id: 45,
+    titulo: "Plano de Controle de Alergias",
+    descricao: "Gestão de alergias sazonais/alimentares",
+    texto: "Crie um protocolo para controle de [tipo de alergia]. Inclua: 1) Evitamento de gatilhos, 2) Medicação preventiva, 3) Plano de ação para crises, 4) Alimentos/ambientes seguros, 5) Quando buscar ajuda emergencial.",
+    categoria: "saúde",
+    favorito: false
+  },
+  {
+    id: 46,
+    titulo: "Guia de Saúde Óssea",
+    descricao: "Prevenção de osteoporose e fraturas",
+    texto: "Elabore um programa de [12 semanas] para saúde óssea. Inclua: 1) Exercícios de impacto, 2) Nutrientes essenciais, 3) Fatores de risco, 4) Exames preventivos, 5) Adaptações domiciliares.",
+    categoria: "saúde",
+    favorito: false
+  },
+  {
+    id: 47,
+    titulo: "Protocolo para Parar de Fumar",
+    descricao: "Plano passo-a-passo baseado em evidências",
+    texto: "Desenvolva um programa de [8 semanas] para cessação tabágica. Inclua: 1) Estratégias comportamentais, 2) Terapias de reposição, 3) Lidando com recaídas, 4) Benefícios temporais, 5) Apoio profissional.",
+    categoria: "saúde",
+    favorito: false
+  },
+  {
+    id: 48,
+    titulo: "Guia de Saúde para Viajantes",
+    descricao: "Preparação para diferentes destinos",
+    texto: "Crie um checklist de saúde para viagem a [tipo de destino]. Inclua: 1) Vacinas necessárias, 2) Kit médico básico, 3) Precauções alimentares, 4) Seguro saúde, 5) Fontes de atendimento local.",
+    categoria: "saúde",
+    favorito: false
+  },
+  {
+    id: 49,
+    titulo: "Plano de Gestão de Dor Crônica",
+    descricao: "Abordagem multimodal para alívio",
+    texto: "Elabore um protocolo de [12 semanas] para gestão de [tipo de dor]. Inclua: 1) Abordagens não-farmacológicas, 2) Exercícios adaptados, 3) Técnicas mente-corpo, 4) Diário de dor, 5) Quando procurar especialista.",
+    categoria: "saúde",
+    favorito: false
+  },
+  {
+    id: 50,
+    titulo: "Guia de Saúde para Home Office",
+    descricao: "Equilíbrio e ergonomia no trabalho remoto",
+    texto: "Desenvolva um protocolo de [7 dias] para saúde no home office. Inclua: 1) Setup ergonômico, 2) Pausas ativas, 3) Gestão de tempo, 4) Limites trabalho-vida pessoal, 5) Check-list diário.",
+    categoria: "saúde",
+    favorito: false
+  },
+  {
+    id: 51,
+    titulo: "Plano de Prevenção de Quedas para Idosos",
+    descricao: "Exercícios e adaptações domiciliares",
+    texto: "Crie um programa de [6 semanas] para redução de risco de quedas. Inclua: 1) Exercícios de equilíbrio, 2) Adaptações na casa, 3) Calçados seguros, 4) Avaliação de medicação, 5) Plano de ação em caso de queda.",
+    categoria: "saúde",
+    favorito: false
+  },
+  {
+    id: 52,
+    titulo: "Guia de Saúde para Pessoas com Diabetes",
+    descricao: "Gestão diária da glicemia",
+    texto: "Elabore um plano de [30 dias] para controle glicêmico. Inclua: 1) Monitoramento, 2) Alimentação, 3) Atividade física, 4) Medicação, 5) Prevenção de complicações.",
+    categoria: "saúde",
+    favorito: false
+  },
+  {
+    id: 53,
+    titulo: "Protocolo de Saúde da Tireoide",
+    descricao: "Abordagem integrativa para disfunções",
+    texto: "Desenvolva um plano de [8 semanas] para saúde tireoidiana. Inclua: 1) Nutrientes essenciais, 2) Alimentos a evitar, 3) Controle de estresse, 4) Exames necessários, 5) Sinais de desequilíbrio.",
+    categoria: "saúde",
+    favorito: false
+  },
+  {
+    id: 54,
+    titulo: "Guia de Saúde Bucal Completa",
+    descricao: "Rotina além da escovação",
+    texto: "Crie um protocolo diário de saúde bucal. Inclua: 1) Técnicas de escovação, 2) Uso do fio dental, 3) Escolha de produtos, 4) Sinais de alerta, 5) Frequência de check-ups.",
+    categoria: "saúde",
+    favorito: false
+  },
+  {
+    id: 55,
+    titulo: "Plano de Recuperação Pós-Treino",
+    descricao: "Otimização da regeneração muscular",
+    texto: "Elabore um protocolo de [24-48h] para recuperação pós-exercício. Inclua: 1) Alimentação, 2) Sono, 3) Técnicas de relaxamento, 4) Suplementos, 5) Sinais de recuperação adequada.",
+    categoria: "saúde",
+    favorito: false
+  },
+  {
+    id: 56,
+    titulo: "Guia de Saúde para Gestantes",
+    descricao: "Cuidados por trimestre",
+    texto: "Desenvolva um plano de saúde para gestação de [X] semanas. Inclua: 1) Nutrição, 2) Exercícios seguros, 3) Exames por fase, 4) Preparação para parto, 5) Sinais de alerta.",
+    categoria: "saúde",
+    favorito: false
+  },
+  {
+    id: 57,
+    titulo: "Protocolo de Saúde para Menopausa",
+    descricao: "Gestão de sintomas climatéricos",
+    texto: "Crie um plano de [12 semanas] para alívio de sintomas da menopausa. Inclua: 1) Terapias hormonais/não-hormonais, 2) Adaptações nutricionais, 3) Exercícios recomendados, 4) Saúde óssea, 5) Acompanhamento médico.",
+    categoria: "saúde",
+    favorito: false
+  },
+  {
+    id: 58,
+    titulo: "Guia de Saúde para Adolescentes",
+    descricao: "Cuidados específicos para essa fase",
+    texto: "Elabore um guia de saúde para adolescentes de [idade]. Inclua: 1) Desenvolvimento físico, 2) Saúde mental, 3) Nutrição, 4) Prevenção de riscos, 5) Check-ups necessários.",
+    categoria: "saúde",
+    favorito: false
+  },
+  {
+    id: 59,
+    titulo: "Plano de Saúde para Pessoas com Hipertensão",
+    descricao: "Gestão diária da pressão arterial",
+    texto: "Desenvolva um protocolo de [4 semanas] para controle da hipertensão. Inclua: 1) Monitoramento, 2) Redução de sódio, 3) Exercícios seguros, 4) Gestão de estresse, 5) Sinais de alerta.",
+    categoria: "saúde",
+    favorito: false
+  },
+  {
+    id: 60,
+    titulo: "Guia de Saúde para Atletas Amadores",
+    descricao: "Otimização de performance e recuperação",
+    texto: "Crie um plano de [8 semanas] para atletas amadores de [esporte]. Inclua: 1) Periodização, 2) Nutrição esportiva, 3) Prevenção de lesões, 4) Recuperação, 5) Avaliação de progresso.",
+    categoria: "saúde",
+    favorito: false
+  },
+  {
+    id: 61,
+    titulo: "Protocolo de Saúde para Trabalhadores Noturnos",
+    descricao: "Adaptações para turnos noturnos",
+    texto: "Elabore um plano de [7 dias] para saúde de trabalhadores noturnos. Inclua: 1) Gestão do sono, 2) Alimentação, 3) Exposição à luz, 4) Atividade física, 5) Check-ups específicos.",
+    categoria: "saúde",
+    favorito: false
+  },
+  {
+    id: 62,
+    titulo: "Guia de Saúde para Pessoas com Ansiedade",
+    descricao: "Estratégias diárias de manejo",
+    texto: "Desenvolva um protocolo de [30 dias] para redução de sintomas ansiosos. Inclua: 1) Técnicas respiratórias, 2) Exercícios físicos, 3) Adaptações nutricionais, 4) Rotina de sono, 5) Quando buscar ajuda.",
+    categoria: "saúde",
+    favorito: false
+  },
+  {
+    id: 63,
+    titulo: "Plano de Saúde para Pessoas com Doenças Autoimunes",
+    descricao: "Gestão de sintomas e qualidade de vida",
+    texto: "Crie um protocolo de [12 semanas] para [doença autoimune]. Inclua: 1) Dieta anti-inflamatória, 2) Controle de estresse, 3) Exercícios adaptados, 4) Monitoramento de sintomas, 5) Acompanhamento médico.",
+    categoria: "saúde",
+    favorito: false
+  },
+  {
+    id: 64,
+    titulo: "Guia de Saúde para Pessoas com Insônia",
+    descricao: "Estratégias para melhorar o sono",
+    texto: "Elabore um plano de [14 dias] para tratamento da insônia. Inclua: 1) Higiene do sono, 2) Restrição de sono, 3) Técnicas de relaxamento, 4) Controle de estímulos, 5) Quando considerar medicação.",
+    categoria: "saúde",
+    favorito: false
+  },
+  {
+    id: 65,
+    titulo: "Protocolo de Saúde para Pessoas com Refluxo",
+    descricao: "Gestão diária dos sintomas",
+    texto: "Desenvolva um plano de [4 semanas] para controle do refluxo gastroesofágico. Inclua: 1) Modificações dietéticas, 2) Posicionamento, 3) Medicação, 4) Sinais de alerta, 5) Quando procurar especialista.",
+    categoria: "saúde",
+    favorito: false
+  },
+  {
+    id: 66,
+    titulo: "Guia de Saúde para Pessoas com Colesterol Alto",
+    descricao: "Redução natural de LDL",
+    texto: "Crie um protocolo de [8 semanas] para controle do colesterol. Inclua: 1) Alimentos funcionais, 2) Exercícios específicos, 3) Suplementos, 4) Monitoramento, 5) Metas realistas.",
+    categoria: "saúde",
+    favorito: false
+  },
+  {
+    id: 67,
+    titulo: "Plano de Saúde para Pessoas com Artrite",
+    descricao: "Gestão da dor e mobilidade",
+    texto: "Elabore um programa de [6 semanas] para alívio dos sintomas de artrite. Inclua: 1) Exercícios de baixo impacto, 2) Terapias de calor/frio, 3) Alimentos anti-inflamatórios, 4) Proteção articular, 5) Adaptações domiciliares.",
+    categoria: "saúde",
+    favorito: false
+  },
+  {
+    id: 68,
+    titulo: "Guia de Saúde para Pessoas com Asma",
+    descricao: "Controle de crises e prevenção",
+    texto: "Desenvolva um plano de ação para asma. Inclua: 1) Identificação de gatilhos, 2) Uso correto de medicação, 3) Exercícios respiratórios, 4) Plano para crises, 5) Quando buscar ajuda emergencial.",
+    categoria: "saúde",
+    favorito: false
+  },
+  {
+    id: 69,
+    titulo: "Protocolo de Saúde para Pessoas com Enxaqueca",
+    descricao: "Prevenção e manejo de crises",
+    texto: "Crie um plano de [30 dias] para redução de episódios de enxaqueca. Inclua: 1) Identificação de gatilhos, 2) Diário de dor, 3) Terapias não-farmacológicas, 4) Medicação preventiva, 5) Sinais de alerta.",
+    categoria: "saúde",
+    favorito: false
+  },
+  {
+    id: 70,
+    titulo: "Guia de Saúde para Pessoas com Síndrome do Intestino Irritável",
+    descricao: "Gestão dos sintomas digestivos",
+    texto: "Elabore um protocolo de [4 semanas] para SII. Inclua: 1) Dieta FODMAP, 2) Controle de estresse, 3) Probióticos, 4) Monitoramento de sintomas, 5) Quando procurar especialista.",
+    categoria: "saúde",
+    favorito: false
+  },
+  {
+    id: 71,
+    titulo: "Plano de Saúde para Pessoas com Fibromialgia",
+    descricao: "Melhora da qualidade de vida",
+    texto: "Desenvolva um programa de [12 semanas] para manejo da fibromialgia. Inclua: 1) Exercícios graduais, 2) Terapias mente-corpo, 3) Controle da dor, 4) Sono reparador, 5) Apoio psicológico.",
+    categoria: "saúde",
+    favorito: false
+  },
+  {
+    id: 72,
+    titulo: "Guia de Saúde para Pessoas com Apneia do Sono",
+    descricao: "Melhora da qualidade do sono",
+    texto: "Crie um protocolo de [30 dias] para apneia do sono. Inclua: 1) Posições para dormir, 2) Perda de peso, 3) Uso de CPAP, 4) Exercícios respiratórios, 5) Monitoramento de sintomas.",
+    categoria: "saúde",
+    favorito: false
+  },
+  {
+    id: 73,
+    titulo: "Protocolo de Saúde para Pessoas com Osteoporose",
+    descricao: "Fortalecimento ósseo e prevenção de fraturas",
+    texto: "Elabore um plano de [6 meses] para saúde óssea. Inclua: 1) Exercícios seguros, 2) Suplementação, 3) Nutrição, 4) Prevenção de quedas, 5) Monitoramento de densidade óssea.",
+    categoria: "saúde",
+    favorito: false
+  },
+  {
+    id: 74,
+    titulo: "Guia de Saúde para Pessoas com Depressão",
+    descricao: "Estratégias complementares ao tratamento",
+    texto: "Desenvolva um protocolo de [8 semanas] para apoio no tratamento da depressão. Inclua: 1) Atividade física, 2) Exposição à luz, 3) Rotina saudável, 4) Conexão social, 5) Sinais de alerta.",
+    categoria: "saúde",
+    favorito: false
+  },
+  {
+    id: 75,
+    titulo: "Plano de Saúde para Pessoas com TDAH",
+    descricao: "Estratégias para organização e foco",
+    texto: "Crie um programa de [30 dias] para adultos com TDAH. Inclua: 1) Técnicas de organização, 2) Gestão do tempo, 3) Adaptações nutricionais, 4) Exercícios específicos, 5) Quando considerar medicação.",
+    categoria: "saúde",
+    favorito: false
+  },
+  {
+    id: 76,
+    titulo: "Guia de Saúde para Pessoas com Doença de Crohn",
+    descricao: "Gestão dos sintomas e qualidade de vida",
+    texto: "Elabore um protocolo de [4 semanas] para doença de Crohn. Inclua: 1) Dieta durante remissão/crises, 2) Controle de estresse, 3) Monitoramento nutricional, 4) Sinais de alerta, 5) Acompanhamento médico.",
+    categoria: "saúde",
+    favorito: false
+  },
+  {
+    id: 77,
+    titulo: "Protocolo de Saúde para Pessoas com Psoríase",
+    descricao: "Cuidados com a pele e controle de sintomas",
+    texto: "Desenvolva um plano de [12 semanas] para psoríase. Inclua: 1) Cuidados com a pele, 2) Banhos terapêuticos, 3) Controle de gatilhos, 4) Terapias tópicas, 5) Quando procurar dermatologista.",
+    categoria: "saúde",
+    favorito: false
+  },
+  {
+    id: 78,
+    titulo: "Guia de Saúde para Pessoas com Lúpus",
+    descricao: "Gestão da doença e qualidade de vida",
+    texto: "Crie um protocolo de [30 dias] para lúpus eritematoso. Inclua: 1) Proteção solar, 2) Controle de fadiga, 3) Exercícios adaptados, 4) Dieta anti-inflamatória, 5) Monitoramento de sintomas.",
+    categoria: "saúde",
+    favorito: false
+  },
+  {
+    id: 79,
+    titulo: "Plano de Saúde para Pessoas com Esclerose Múltipla",
+    descricao: "Manutenção da função e qualidade de vida",
+    texto: "Elabore um programa de [12 semanas] para EM. Inclua: 1) Exercícios adaptados, 2) Controle da fadiga, 3) Adaptações domiciliares, 4) Suporte emocional, 5) Acompanhamento multidisciplinar.",
+    categoria: "saúde",
+    favorito: false
+  },
+  {
+    id: 80,
+    titulo: "Guia de Saúde para Pessoas com Parkinson",
+    descricao: "Manutenção da mobilidade e função",
+    texto: "Desenvolva um protocolo de [6 semanas] para doença de Parkinson. Inclua: 1) Exercícios específicos, 2) Adaptações nutricionais, 3) Segurança domiciliar, 4) Fonoaudiologia, 5) Acompanhamento neurológico.",
+    categoria: "saúde",
+    favorito: false
+  },
+  {
+    id: 81,
+    titulo: "Protocolo de Saúde para Pessoas com Alzheimer",
+    descricao: "Cuidados e estimulação cognitiva",
+    texto: "Crie um plano de [30 dias] para pacientes com Alzheimer. Inclua: 1) Atividades de estimulação, 2) Segurança domiciliar, 3) Rotina estruturada, 4) Cuidado do cuidador, 5) Apoio profissional.",
+    categoria: "saúde",
+    favorito: false
+  },
+  {
+    id: 82,
+    titulo: "Guia de Saúde para Pessoas com Doença Cardíaca",
+    descricao: "Reabilitação e prevenção secundária",
+    texto: "Elabore um programa de [12 semanas] para reabilitação cardíaca. Inclua: 1) Exercícios supervisionados, 2) Dieta cardioprotetora, 3) Controle de fatores de risco, 4) Medicação, 5) Sinais de alerta.",
+    categoria: "saúde",
+    favorito: false
+  },
+  {
+    id: 83,
+    titulo: "Plano de Saúde para Pessoas com Doença Pulmonar Obstrutiva Crônica",
+    descricao: "Melhora da capacidade respiratória",
+    texto: "Desenvolva um protocolo de [8 semanas] para DPOC. Inclua: 1) Exercícios respiratórios, 2) Conservação de energia, 3) Oxigenoterapia, 4) Prevenção de infecções, 5) Reabilitação pulmonar.",
+    categoria: "saúde",
+    favorito: false
+  },
+  {
+    id: 84,
+    titulo: "Guia de Saúde para Pessoas com Câncer",
+    descricao: "Suporte durante o tratamento",
+    texto: "Crie um plano de [X semanas] para pacientes em tratamento oncológico. Inclua: 1) Manejo de efeitos colaterais, 2) Nutrição adaptada, 3) Atividade física segura, 4) Suporte emocional, 5) Comunicação com equipe médica.",
+    categoria: "saúde",
+    favorito: false
+  },
+  {
+    id: 85,
+    titulo: "Protocolo de Saúde para Sobreviventes de Câncer",
+    descricao: "Monitoramento e qualidade de vida pós-tratamento",
+    texto: "Elabore um plano de [6 meses] para sobreviventes de câncer. Inclua: 1) Rastreamento de recidiva, 2) Reabilitação, 3) Controle de efeitos tardios, 4) Retorno às atividades, 5) Apoio psicológico.",
+    categoria: "saúde",
+    favorito: false
+  },
+  {
+    id: 86,
+    titulo: "Guia de Saúde para Pessoas com HIV",
+    descricao: "Gestão da saúde e adesão ao tratamento",
+    texto: "Desenvolva um protocolo de [12 semanas] para pessoas vivendo com HIV. Inclua: 1) Adesão à TARV, 2) Monitoramento imunológico, 3) Prevenção de comorbidades, 4) Saúde mental, 5) Direitos e apoio.",
+    categoria: "saúde",
+    favorito: false
+  },
+  {
+    id: 87,
+    titulo: "Plano de Saúde para Transplantados",
+    descricao: "Cuidados pós-transplante",
+    texto: "Crie um programa de [6 meses] para pacientes transplantados. Inclua: 1) Adesão à imunossupressão, 2) Prevenção de infecções, 3) Sinais de rejeição, 4) Retorno às atividades, 5) Acompanhamento multidisciplinar.",
+    categoria: "saúde",
+    favorito: false
+  },
+  {
+    id: 88,
+    titulo: "Guia de Saúde para Pessoas com Doenças Raras",
+    descricao: "Gestão de condições específicas",
+    texto: "Elabore um plano de cuidados para [doença rara]. Inclua: 1) Monitoramento de sintomas, 2) Rede de apoio, 3) Tratamentos disponíveis, 4) Direitos do paciente, 5) Centros de referência.",
+    categoria: "saúde",
+    favorito: false
+  },
+ ],
   tecnologia: [
     {
       id: 25,
