@@ -1,6 +1,6 @@
 // app.js
-import { prompts } from '../data/prompts.js';
-import { criarCard } from '../components/cardPrompt.js';
+import { prompts } from '../js/prompts.js';
+import { criarCard } from '../js/cardPrompt.js';
 
 // DOM Elements Manager
 const DOM = {
