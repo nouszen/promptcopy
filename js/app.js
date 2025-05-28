@@ -20,9 +20,9 @@ const DOM = {
   
   displayNoResults(message, icon = 'fa-exclamation-circle', color = 'gray') {
     this.conteudo.innerHTML = `
-      <div class="text-center py-10 col-span-full">
-        <i class="fas ${icon} text-3xl text-${color}-400 mb-2"></i>
-        <p class="text-${color}-500">${message}</p>
+      <div class="no-results">
+        <i class="fas ${icon}"></i>
+        <p>${message}</p>
       </div>
     `;
   }
@@ -43,8 +43,8 @@ const Clipboard = {
   showSuccessFeedback(botao) {
     const originalHTML = botao.innerHTML;
     
-    botao.innerHTML = '<i class="fas fa-check mr-1"></i> Copiado!';
-    botao.classList.add('bg-green-100', 'text-green-800');
+    botao.innerHTML = '<i class="fas fa-check"></i> Copiado!';
+    botao.classList.add('copy-success');
     botao.disabled = true;
     
     setTimeout(() => this.resetButton(botao, originalHTML), 2000);
@@ -58,7 +58,7 @@ const Clipboard = {
   
   resetButton(botao, originalHTML) {
     botao.innerHTML = originalHTML;
-    botao.classList.remove('bg-green-100', 'text-green-800');
+    botao.classList.remove('copy-success');
     botao.disabled = false;
   }
 };
@@ -69,10 +69,11 @@ const CategoryManager = {
     DOM.categoryButtons.forEach(btn => {
       const isActive = btn.textContent.toLowerCase().includes(activeCategory) && activeCategory !== 'todos';
       
-      btn.classList.toggle('bg-blue-600', isActive);
-      btn.classList.toggle('text-white', isActive);
-      btn.classList.toggle('hover:bg-blue-50', !isActive);
-      btn.classList.toggle('text-blue-600', !isActive);
+      if (isActive) {
+        btn.classList.add('active-category');
+      } else {
+        btn.classList.remove('active-category');
+      }
     });
   }
 };
@@ -119,7 +120,7 @@ const UIController = {
         PromptManager.displayPrompts(promptsToShow);
       } catch (error) {
         console.error('Error loading prompts:', error);
-        DOM.displayNoResults('Erro ao carregar prompts.', 'fa-times-circle', 'red');
+        DOM.displayNoResults('Erro ao carregar prompts.', 'fa-times-circle');
       } finally {
         DOM.hideLoading();
       }

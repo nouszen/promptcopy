@@ -1,30 +1,29 @@
 export function criarCard(prompt, copiarCallback) {
   const card = document.createElement('div');
-  card.className = 'bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition duration-300';
+  card.className = 'card';
   
   card.innerHTML = `
-    <div class="p-5">
-      <div class="flex justify-between items-start">
+    <div class="card-content">
+      <div class="card-header">
         <div>
-          <span class="inline-block px-2 py-1 text-xs font-semibold rounded-full 
-                      ${getCategoryColor(prompt.categoria)} mb-2">
+          <span class="category-badge ${getCategoryClass(prompt.categoria)}">
             ${formatCategory(prompt.categoria)}
           </span>
-          <h3 class="text-xl font-bold text-gray-800 mb-2">${prompt.titulo}</h3>
+          <h3 class="card-title">${prompt.titulo}</h3>
         </div>
       </div>
       
-      <p class="text-gray-600 mb-4">${prompt.descricao}</p>
+      <p class="card-description">${prompt.descricao}</p>
       
-      <div class="bg-gray-50 p-4 rounded mb-4">
-        <pre class="text-sm text-gray-700 whitespace-pre-wrap">${prompt.texto}</pre>
+      <div class="prompt-container">
+        <pre class="prompt-text">${prompt.texto}</pre>
       </div>
       
-      <div class="flex justify-between items-center">
-        <button class="copy-btn bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded transition">
-          <i class="fas fa-copy mr-2"></i>Copiar Prompt
+      <div class="card-footer">
+        <button class="copy-btn">
+          <i class="fas fa-copy"></i>Copiar Prompt
         </button>
-        <span class="text-xs text-gray-500">ID: ${prompt.id}</span>
+        <span class="prompt-id">ID: ${prompt.id}</span>
       </div>
     </div>
   `;
@@ -55,17 +54,17 @@ function formatCategory(category) {
   return categories[category] || category;
 }
 
-function getCategoryColor(category) {
-  const colors = {
-    'negócios': 'bg-blue-100 text-blue-800',
-    'marketing': 'bg-purple-100 text-purple-800',
-    'escrita': 'bg-green-100 text-green-800',
-    'roteiros': 'bg-red-100 text-red-800',
-    'design': 'bg-yellow-100 text-yellow-800',
-    'programação': 'bg-indigo-100 text-indigo-800',
-    'educação': 'bg-teal-100 text-teal-800',
-    'saúde': 'bg-pink-100 text-pink-800',
-    'tecnologia': 'bg-gray-100 text-gray-800'
+function getCategoryClass(category) {
+  const categoryClasses = {
+    'negócios': 'category-business',
+    'marketing': 'category-marketing',
+    'escrita': 'category-writing',
+    'roteiros': 'category-scripts',
+    'design': 'category-design',
+    'programação': 'category-programming',
+    'educação': 'category-education',
+    'saúde': 'category-health',
+    'tecnologia': 'category-technology'
   };
-  return colors[category] || 'bg-gray-100 text-gray-800';
+  return categoryClasses[category] || 'category-default';
 }

@@ -1,67 +1,56 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Prompt copy</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+<head>
+  <!-- ... outras meta tags ... -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="styles/global.css">
+  <link rel="stylesheet" href="styles/cards.css">
+  <link rel="stylesheet" href="styles/categories.css">
+</head>
 </head>
 
-<body class="bg-gray-100 text-gray-800">
-  <header class="bg-blue-600 text-white p-4 shadow-md">
-    <div class="max-w-4xl mx-auto flex flex-col sm:flex-row justify-between items-center">
-      <div class="text-center sm:text-left mb-2 sm:mb-0">
-        <h1 class="text-2xl font-bold">Prompt copy</h1>
-        <p class="text-sm opacity-90">Prompts prontos para copiar e usar com IA</p>
+<body>
+  <header>
+    <div class="header-container">
+      <div class="header-title">
+        <h1>Prompt copy</h1>
+        <p>Prompts prontos para copiar e usar com IA</p>
       </div>
-      <div class="flex gap-2 w-full sm:w-auto">
-        <input type="text" id="busca" placeholder="🔍 Buscar..." 
-               class="px-2 py-1 rounded text-black w-full sm:w-48 focus:outline-none focus:ring-2 focus:ring-blue-400">
+      <div class="search-container">
+        <input type="text" id="busca" placeholder="🔍 Buscar...">
       </div>
     </div>
   </header>
 
-<nav class="flex flex-wrap justify-center gap-2 sm:gap-4 bg-white py-3 shadow-md sticky top-0 z-10">
-  <button class="categoria px-3 py-1 rounded hover:bg-blue-50 text-blue-600 font-semibold transition" 
-          onclick="filtrarCategoria('todos')">Todos</button>
-  <button class="categoria px-3 py-1 rounded hover:bg-blue-50 text-blue-600 font-semibold transition" 
-          onclick="filtrarCategoria('negócios')">Negócios</button>
-  <button class="categoria px-3 py-1 rounded hover:bg-blue-50 text-blue-600 font-semibold transition" 
-          onclick="filtrarCategoria('marketing')">Marketing</button>
-  <button class="categoria px-3 py-1 rounded hover:bg-blue-50 text-blue-600 font-semibold transition" 
-          onclick="filtrarCategoria('escrita')">Escrita</button>
-  <button class="categoria px-3 py-1 rounded hover:bg-blue-50 text-blue-600 font-semibold transition" 
-          onclick="filtrarCategoria('roteiros')">Roteiros</button>
-  <button class="categoria px-3 py-1 rounded hover:bg-blue-50 text-blue-600 font-semibold transition" 
-          onclick="filtrarCategoria('design')">Design</button>
-  <button class="categoria px-3 py-1 rounded hover:bg-blue-50 text-blue-600 font-semibold transition" 
-          onclick="filtrarCategoria('programação')">Programação</button>
-  <button class="categoria px-3 py-1 rounded hover:bg-blue-50 text-blue-600 font-semibold transition" 
-          onclick="filtrarCategoria('educação')">Educação</button>
-  <button class="categoria px-3 py-1 rounded hover:bg-blue-50 text-blue-600 font-semibold transition" 
-          onclick="filtrarCategoria('saúde')">Saúde</button>
-  <button class="categoria px-3 py-1 rounded hover:bg-blue-50 text-blue-600 font-semibold transition" 
-          onclick="filtrarCategoria('tecnologia')">Tecnologia</button>
-</nav>
+  <nav>
+    <button class="categoria" onclick="filtrarCategoria('todos')">Todos</button>
+    <button class="categoria" onclick="filtrarCategoria('negócios')">Negócios</button>
+    <button class="categoria" onclick="filtrarCategoria('marketing')">Marketing</button>
+    <button class="categoria" onclick="filtrarCategoria('escrita')">Escrita</button>
+    <button class="categoria" onclick="filtrarCategoria('roteiros')">Roteiros</button>
+    <button class="categoria" onclick="filtrarCategoria('design')">Design</button>
+    <button class="categoria" onclick="filtrarCategoria('programação')">Programação</button>
+    <button class="categoria" onclick="filtrarCategoria('educação')">Educação</button>
+    <button class="categoria" onclick="filtrarCategoria('saúde')">Saúde</button>
+    <button class="categoria" onclick="filtrarCategoria('tecnologia')">Tecnologia</button>
+  </nav>
     
-
-  <main id="conteudo" class="px-4 sm:px-6 md:px-8 py-6 max-w-4xl mx-auto grid gap-6">
+  <main id="conteudo">
     <div class="text-center py-10" id="loading">
-      <i class="fas fa-spinner fa-spin text-3xl text-blue-500 mb-2"></i>
+      <i class="fas fa-spinner fa-spin"></i>
       <p>Carregando prompts...</p>
     </div>
   </main>
 
-  <footer class="bg-gray-800 text-white py-6 mt-8">
-    <div class="max-w-4xl mx-auto px-4 text-center">
+  <footer>
+    <div class="footer-container">
       <p>© 2023 Prompt copy. Todos os direitos reservados.</p>
-      <div class="flex justify-center gap-4 mt-3">
-        <a href="#" class="hover:text-blue-300"><i class="fab fa-twitter"></i></a>
-        <a href="#" class="hover:text-blue-300"><i class="fab fa-instagram"></i></a>
-        <a href="#" class="hover:text-blue-300"><i class="fab fa-github"></i></a>
-        <a href="pages/privacidade.html" class="underline hover:text-blue-300 ml-2">Política de Privacidade</a>
-
+      <div class="footer-links">
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="pages/privacidade.html" class="underline">Política de Privacidade</a>
       </div>
     </div>
   </footer>
